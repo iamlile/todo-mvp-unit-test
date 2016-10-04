@@ -18,7 +18,6 @@ public class CalculatorJunitUnitTest {
 
     @BeforeClass
     public static void beforeClassM(){
-
         //Log.d("CalculatorJunitUnitTest","BeforeClass");
 
     }

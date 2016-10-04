@@ -1,0 +1,37 @@
+apply plugin: 'jacoco'
+jacoco {
+    //version "0.7.1.201405082137"
+      version "0.7.6.201602180812"
+  }
+
+
+jacoco {
+    toolVersion = "0.7.6.201602180812"
+    //toolVersion = "0.7.1.201405082137"
+    reportsDir = file("$buildDir/customJacocoReportDir")
+}
+
+
+
+def coverageSourceDirs = [
+        '../app/src/main/java',
+]
+
+task jacocoTestReport(type: JacocoReport) {
+    group = "Reporting"
+    description = "Generate Jacoco coverage reports after running tests."
+    reports {
+        xml.enabled = false 
+        html.enabled = true 
+        html.destination "${buildDir}/report/jacocoHtml"
+    }
+
+    classDirectories = fileTree(
+            dir: './build/intermediates/classes/debug',
+            excludes: ['**/R.class',
+                       '**/R$*.class'
+            ])
+    sourceDirectories = files(coverageSourceDirs)
+    executionData = files('build/jacoco/testDebug.exec')
+}
+

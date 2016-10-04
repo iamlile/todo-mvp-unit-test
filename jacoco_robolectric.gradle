@@ -1,0 +1,86 @@
+apply plugin: 'jacoco'
+//apply plugin: 'robolectric'
+
+jacoco {
+    toolVersion = "0.7.6.201602180812"
+    //reportsDir = file("$buildDir/build/reports")
+    reportsDir = file("$buildDir/customJacocoReportDir")
+  }
+
+
+// Define coverage source.
+// If you have rs/aidl etc... add them here.
+// Define coverage source.
+// If you have rs/aidl etc... add them here.
+def coverageSourceDirs = [
+    'src/main/java',
+]
+
+
+//robolectric {
+//    // configure the set of classes for JUnit tests
+//    set('include', ['**/*UnitTest.class'])
+//
+//    // configure max heap size of the test JVM
+//    maxHeapSize = "2048m"
+//}
+
+
+
+task jacocoTestReport(type: JacocoReport, dependsOn: "test") {
+    group = "Reporting"
+
+    description = "Generate Jacoco coverage reports for Android sources"
+
+    classDirectories = fileTree(
+            dir: '../app/build/intermediates/classes/debug',
+            excludes: ['**/R.class',
+                       '**/R$*.class',
+                       '**/*$ViewInjector*.*',
+                       '**/BuildConfig.*',
+                       '**/Manifest*.*']
+    )
+
+    additionalSourceDirs = files(coverageSourceDirs)
+    sourceDirectories = files(coverageSourceDirs)
+    executionData = files('../robolectric-tests/build/jacoco/testDebug.exec')
+
+    reports {
+        html.enabled = true
+        html.destination "$buildDir/jacoco"
+    }
+
+}
+
+
+//
+//task jacocoTestReport(type: JacocoReport, dependsOn: connectedCheck) {
+//  group = "Reporting"
+//  description = "Generate Jacoco coverage reports after running tests."
+//  reports {
+//    xml.enabled true
+//    csv.enabled  true
+//    html.enabled  true
+//    //html.destination "${buildDir}/build/reports/jacoco/"
+//    html.destination "${buildDir}/reports/jacoco/jacocoHtml"
+//    xml.destination "${buildDir}/reports/jacoco/jacocoXml.xml"
+//    csv.destination "${buildDir}/reports/jacoco/jacocoCsv.csv"
+//  }
+//  classDirectories = fileTree(
+//      dir: './build/intermediates/classes/debug',
+//      excludes: ['**/R*.class',
+//                 '**/*$InjectAdapter.class',
+//                 '**/*$ModuleAdapter.class',
+//                 '**/*$ViewInjector*.class'
+//      ])
+//  sourceDirectories = files(coverageSourceDirs)
+//  executionData = files("$buildDir/jacoco/testDebug.exec")
+//  doFirst {
+//    new File("$buildDir/intermediates/classes/").eachFileRecurse { file ->
+//      if (file.name.contains('$$')) {
+//        file.renameTo(file.path.replace('$$', '$'))
+//      }
+//    }
+//  }
+//}
+

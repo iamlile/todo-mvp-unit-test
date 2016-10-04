@@ -1,0 +1,1775 @@
+20:54:36.960 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=1c4c5c2d-caaf-49b0-b63d-dbbb1b707d25,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home,daemonRegistryDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon,pid=2156,idleTimeout=120000,daemonOpts=-Xmx5120M,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+20:54:36.963 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1472388876963
+20:54:36.975 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface awdl0
+20:54:36.975 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+20:54:36.975 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+20:54:36.976 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:5880:69ff:fe82:7883%awdl0
+20:54:36.976 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface awdl0
+20:54:36.977 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface ppp0
+20:54:36.977 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+20:54:36.977 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+20:54:36.977 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /10.0.0.14
+20:54:36.978 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface ppp0
+20:54:36.978 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface vboxnet0
+20:54:36.978 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+20:54:36.978 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+20:54:36.979 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.56.1
+20:54:36.979 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface vboxnet0
+20:54:36.979 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface en0
+20:54:36.979 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+20:54:36.980 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+20:54:36.980 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:a65e:60ff:feed:4cad%en0
+20:54:36.980 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.0.7
+20:54:36.980 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface en0
+20:54:36.981 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface lo0
+20:54:36.981 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+20:54:36.981 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+20:54:36.981 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Ignoring remote address on loopback interface /fe80:0:0:0:0:0:0:1%lo0
+20:54:36.981 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1
+20:54:36.982 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+20:54:36.982 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface lo0
+20:54:36.993 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Listening on [fbae27df-c877-43c7-98fa-e327abaf660d port:56217, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]].
+20:54:36.996 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Sun Aug 28 20:54:36 CST 2016, with address: [fbae27df-c877-43c7-98fa-e327abaf660d port:56217, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+20:54:36.996 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertising the daemon address to the clients: [fbae27df-c877-43c7-98fa-e327abaf660d port:56217, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+20:54:36.997 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=1c4c5c2d-caaf-49b0-b63d-dbbb1b707d25,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home,daemonRegistryDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon,pid=2156,idleTimeout=120000,daemonOpts=-Xmx5120M,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+20:54:36.997 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [fbae27df-c877-43c7-98fa-e327abaf660d port:56217, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], context: DefaultDaemonContext[uid=1c4c5c2d-caaf-49b0-b63d-dbbb1b707d25,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home,daemonRegistryDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon,pid=2156,idleTimeout=120000,daemonOpts=-Xmx5120M,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+20:54:37.004 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+20:54:37.005 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+20:54:37.025 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+20:54:37.025 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+20:54:37.027 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+20:54:37.027 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] requestStopOnIdleTimeout(120000 MILLISECONDS) called on daemon
+20:54:37.028 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: waiting for daemon to stop or be idle for 120000ms
+20:54:37.028 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Sun Aug 28 20:56:36 CST 2016
+20:54:37.073 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:56219 to /0:0:0:0:0:0:0:1:56217.
+20:54:37.114 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.BuildAndStop
+20:54:37.114 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: BuildAndStop{id=6da3922d-ea75-43db-ae08-f70cbedaf09d.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}
+20:54:37.115 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: BuildAndStop{id=6da3922d-ea75-43db-ae08-f70cbedaf09d.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}.
+20:54:37.115 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: BuildAndStop{id=6da3922d-ea75-43db-ae08-f70cbedaf09d.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app} with connection: socket connection from /0:0:0:0:0:0:0:1:56217 to /0:0:0:0:0:0:0:1:56219.
+20:54:37.121 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = BuildAndStop{id=6da3922d-ea75-43db-ae08-f70cbedaf09d.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@44146694] after 0.0 minutes of idle
+20:54:37.122 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [fbae27df-c877-43c7-98fa-e327abaf660d port:56217, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+20:54:37.122 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [fbae27df-c877-43c7-98fa-e327abaf660d port:56217, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+20:54:37.122 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+20:54:37.123 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+20:54:37.125 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+20:54:37.125 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1472388877125
+20:54:37.125 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+20:54:37.126 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building BuildAndStop{id=6da3922d-ea75-43db-ae08-f70cbedaf09d.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}. Dispatching build started information...
+20:54:37.126 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+20:54:37.129 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Users/lee/Documents/soft/android-sdk-macosx/build-tools:/Users/lee/Documents/soft/android-sdk-macosx/tools:/Users/lee/Documents/soft/android-sdk-macosx/platform-tools:/usr/local/mysql:/bin:/Users/lee/Documents/soft/gradle-2.11/bin:/Users/lee/Documents/soft/apache-maven-3.3.9/bin:/Users/lee/Documents/soft/oclint-0.10.3/bin:/Users/lee/.rvm/bin, JAVA_MAIN_CLASS_2150=org.gradle.launcher.GradleMain, HUDSON_HOME=/Users/lee/Documents/soft/jenkins, JOB_URL=http://localhost:8080/job/todo-mvp-unit-test/, HUDSON_COOKIE=5094b83b-4018-418a-aaf2-695cbd75bfaf, APP_ICON_2150=/Users/lee/Documents/soft/gradle-2.11/media/gradle.icns, ANDROID_HOME=/Users/lee/Documents/soft/android-sdk-macosx, rvm_loaded_flag=1, MAVEN_HOME=/Users/lee/Documents/soft/apache-maven-3.3.9, JENKINS_SERVER_COOKIE=b0cca8869dd4cd49, LOGNAME=lee, rvm_version=1.26.11 (latest), PWD=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app, TERM_PROGRAM_VERSION=343.7, JENKINS_URL=http://localhost:8080/, rvm_user_install_flag=1, BUILD_TAG=jenkins-todo-mvp-unit-test-11, SHELL=/bin/bash, SECURITYSESSIONID=186a7, OLDPWD=/Users/lee/Documents/soft/gradle-2.11, JENKINS_HOME=/Users/lee/Documents/soft/jenkins, rvm_path=/Users/lee/.rvm, TMPDIR=/var/folders/pg/4jbnwcrn5k7_6dth03nswwp00000gn/T/, NODE_NAME=master, XPC_FLAGS=0x0, BUILD_DISPLAY_NAME=#11, TERM_SESSION_ID=3C6966EA-E928-4094-8F26-6B283C666161, _system_name=OSX, M2_HOME=/Users/lee/Documents/soft/apache-maven-3.3.9, __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34, Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.0OQpxSPpFG/Render, SHLVL=2, _system_arch=x86_64, rvm_bin_path=/Users/lee/.rvm/bin, APP_NAME_2150=Gradle, JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home, JAVA_MAIN_CLASS_819=org.apache.catalina.startup.Bootstrap, TERM=xterm-256color, BUILD_ID=11, rvm_prefix=/Users/lee, LANG=zh_CN.UTF-8, JOB_NAME=todo-mvp-unit-test, GRADLE_HOME=/Users/lee/Documents/soft/gradle-2.11, GRADLE_USER_HOME=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test, NODE_LABELS=master, HUDSON_URL=http://localhost:8080/, WORKSPACE=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test, XPC_SERVICE_NAME=0, ANDROID_SDK_HOME=/Users/lee/Documents/soft/android-sdk-macosx, TERM_PROGRAM=Apple_Terminal, EXECUTOR_NUMBER=1, _system_type=Darwin, HUDSON_SERVER_COOKIE=b0cca8869dd4cd49, JOB_BASE_NAME=todo-mvp-unit-test, _system_version=10.10, OCLINT_HOME=/Users/lee/Documents/soft/oclint-0.10.3, USER=lee, rvm_stored_umask=0022, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.BsO0QkSdG8/Listeners, BUILD_NUMBER=11, BUILD_URL=http://localhost:8080/job/todo-mvp-unit-test/11/, HOME=/Users/lee, ANDROID_AVD_HOME=/Users/lee/.android/avd}
+20:54:37.134 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.CloseInput
+20:54:37.134 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@8105813
+20:54:37.138 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+20:54:37.138 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 2156). The daemon log file: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon/2.11/daemon-2156.out.log
+20:54:37.140 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+20:54:37.141 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+20:54:37.141 [DEBUG] [org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon] Requesting daemon stop after processing BuildAndStop{id=6da3922d-ea75-43db-ae08-f70cbedaf09d.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}
+20:54:37.141 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop as soon as idle requested. The daemon is busy: true
+20:54:37.142 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon stop has been requested. Sleeping until state changes.
+20:54:37.143 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+20:54:37.143 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=1c4c5c2d-caaf-49b0-b63d-dbbb1b707d25,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home,daemonRegistryDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon,pid=2156,idleTimeout=120000,daemonOpts=-Xmx5120M,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+Starting Build
+Settings evaluated using settings file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/settings.gradle'.
+Projects loaded. Root project using build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/build.gradle'.
+Included projects: [root project 'todo-mvp-unit-test', project ':app']
+Evaluating root project 'todo-mvp-unit-test' using build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/build.gradle'.
+Evaluating project ':app' using build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle'.
+Creating configuration compile
+Creating configuration apk
+Creating configuration provided
+Creating configuration wearApp
+Creating configuration androidTestCompile
+Creating configuration androidTestApk
+Creating configuration androidTestProvided
+Creating configuration androidTestWearApp
+Creating configuration testCompile
+Creating configuration testApk
+Creating configuration testProvided
+Creating configuration testWearApp
+Creating configuration debugCompile
+Creating configuration debugApk
+Creating configuration debugProvided
+Creating configuration debugWearApp
+Creating configuration testDebugCompile
+Creating configuration testDebugApk
+Creating configuration testDebugProvided
+Creating configuration testDebugWearApp
+Creating configuration releaseCompile
+Creating configuration releaseApk
+Creating configuration releaseProvided
+Creating configuration releaseWearApp
+Creating configuration testReleaseCompile
+Creating configuration testReleaseApk
+Creating configuration testReleaseProvided
+Creating configuration testReleaseWearApp
+Creating configuration mockCompile
+Creating configuration mockApk
+Creating configuration mockProvided
+Creating configuration mockWearApp
+Creating configuration androidTestMockCompile
+Creating configuration androidTestMockApk
+Creating configuration androidTestMockProvided
+Creating configuration androidTestMockWearApp
+Creating configuration testMockCompile
+Creating configuration testMockApk
+Creating configuration testMockProvided
+Creating configuration testMockWearApp
+Creating configuration prodCompile
+Creating configuration prodApk
+Creating configuration prodProvided
+Creating configuration prodWearApp
+Creating configuration androidTestProdCompile
+Creating configuration androidTestProdApk
+Creating configuration androidTestProdProvided
+Creating configuration androidTestProdWearApp
+Creating configuration testProdCompile
+Creating configuration testProdApk
+Creating configuration testProdProvided
+Creating configuration testProdWearApp
+The 'sonar-runner' plugin has been deprecated and is scheduled to be removed in Gradle 3.0. please use the official plugin from SonarQube (http://docs.sonarqube.org/display/SONAR/Analyzing+with+Gradle).
+Parsing the SDK, no caching allowed
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/add-ons/addon-google_apis-google-19/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/add-ons/addon-google_apis-google-22/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/add-ons/addon-google_apis-google-23/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/17.0.0/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/19.1.0/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/20.0.0/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/21.1.2/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/22.0.1/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.1/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.3/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/docs/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/android/m2repository/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/google/auto/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/google/m2repository/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/google/simulators/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/intel/Hardware_Accelerated_Execution_Manager/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platform-tools/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-15/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-16/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-17/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-18/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-19/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-20/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-21/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-22/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-23/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-15/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-16/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-17/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-18/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-19/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-21/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-22/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-23/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-15/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-16/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-17/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-18/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-19/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-21/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-22/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-23/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-18/default/armeabi-v7a/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-18/default/x86/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-19/default/x86/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-22/default/x86/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-23/android-tv/armeabi-v7a/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-23/google_apis/x86/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/tools/package.xml
+Creating configuration prodDebugCompile
+Creating configuration prodDebugApk
+Creating configuration prodDebugProvided
+Creating configuration prodDebugWearApp
+Creating configuration testProdDebugCompile
+Creating configuration testProdDebugApk
+Creating configuration testProdDebugProvided
+Creating configuration testProdDebugWearApp
+Creating configuration prodReleaseCompile
+Creating configuration prodReleaseApk
+Creating configuration prodReleaseProvided
+Creating configuration prodReleaseWearApp
+Creating configuration testProdReleaseCompile
+Creating configuration testProdReleaseApk
+Creating configuration testProdReleaseProvided
+Creating configuration testProdReleaseWearApp
+Creating configuration mockDebugCompile
+Creating configuration mockDebugApk
+Creating configuration mockDebugProvided
+Creating configuration mockDebugWearApp
+Creating configuration testMockDebugCompile
+Creating configuration testMockDebugApk
+Creating configuration testMockDebugProvided
+Creating configuration testMockDebugWearApp
+Incremental Java compilation disabled in variant prodDebug as you are using 2 source folders : /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/java,/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/prod/java
+Not using incremental javac compilation.
+Incremental java compilation is an incubating feature.
+Removed 'com.google.guava:guava:jar:19.0' from packaging of prodDebugUnitTest: Already in tested package.
+Using incremental javac compilation.
+Incremental Java compilation disabled in variant prodRelease as you are using 2 source folders : /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/java,/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/prod/java
+Not using incremental javac compilation.
+Removed 'com.google.guava:guava:jar:19.0' from packaging of prodReleaseUnitTest: Already in tested package.
+Using incremental javac compilation.
+Removed 'com.android.support:support-annotations:jar:23.0.1' from packaging of prodDebugAndroidTest: Already in tested package.
+Removed 'com.android.support:support-v4:aar:23.0.1' from packaging of prodDebugAndroidTest: Already in tested package.
+Removed 'com.android.support.test.espresso:espresso-idling-resource:aar:2.2.1' from packaging of prodDebugAndroidTest: Already in tested package.
+Removed 'com.android.support:recyclerview-v7:aar:23.0.1' from packaging of prodDebugAndroidTest: Already in tested package.
+Using incremental javac compilation.
+Incremental Java compilation disabled in variant mockDebug as you are using 2 source folders : /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/java,/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/mock/java
+Not using incremental javac compilation.
+Removed 'com.google.guava:guava:jar:19.0' from packaging of mockDebugUnitTest: Already in tested package.
+Using incremental javac compilation.
+Removed 'com.android.support:support-annotations:jar:23.0.1' from packaging of mockDebugAndroidTest: Already in tested package.
+Removed 'com.android.support:recyclerview-v7:aar:23.0.1' from packaging of mockDebugAndroidTest: Already in tested package.
+Removed 'com.android.support:support-v4:aar:23.0.1' from packaging of mockDebugAndroidTest: Already in tested package.
+Removed 'com.android.support.test.espresso:espresso-idling-resource:aar:2.2.1' from packaging of mockDebugAndroidTest: Already in tested package.
+Incremental Java compilation disabled in variant mockDebugAndroidTest as you are using 2 source folders : /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/androidTest/java,/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/androidTestMock/java
+Not using incremental javac compilation.
+All projects evaluated.
+Selected primary task 'build' from project :app
+Selected primary task 'unitTest' from project :app
+Selected primary task 'test' from project :app
+Selected primary task 'jacocoTestReport' from project :app
+Selected primary task 'sonarRunner' from project :app
+Tasks to be executed: [task ':app:preBuild', task ':app:preMockDebugBuild', task ':app:checkMockDebugManifest', task ':app:preProdDebugBuild', task ':app:preProdReleaseBuild', task ':app:prepareComAndroidSupportAppcompatV72301Library', task ':app:prepareComAndroidSupportCardviewV72301Library', task ':app:prepareComAndroidSupportDesign2301Library', task ':app:prepareComAndroidSupportMultidex100Library', task ':app:prepareComAndroidSupportRecyclerviewV72301Library', task ':app:prepareComAndroidSupportSupportV42301Library', task ':app:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library', task ':app:prepareMockDebugDependencies', task ':app:compileMockDebugAidl', task ':app:compileMockDebugRenderscript', task ':app:generateMockDebugBuildConfig', task ':app:mergeMockDebugShaders', task ':app:compileMockDebugShaders', task ':app:generateMockDebugAssets', task ':app:mergeMockDebugAssets', task ':app:generateMockDebugResValues', task ':app:generateMockDebugResources', task ':app:mergeMockDebugResources', task ':app:processMockDebugManifest', task ':app:processMockDebugResources', task ':app:generateMockDebugSources', task ':app:incrementalMockDebugJavaCompilationSafeguard', task ':app:compileMockDebugJavaWithJavac', task ':app:compileMockDebugNdk', task ':app:compileMockDebugSources', task ':app:prePackageMarkerForMockDebug', task ':app:transformClassesWithDexForMockDebug', task ':app:mergeMockDebugJniLibFolders', task ':app:transformNative_libsWithMergeJniLibsForMockDebug', task ':app:processMockDebugJavaRes', task ':app:transformResourcesWithMergeJavaResForMockDebug', task ':app:validateDebugSigning', task ':app:packageMockDebug', task ':app:zipalignMockDebug', task ':app:assembleMockDebug', task ':app:checkProdDebugManifest', task ':app:prepareProdDebugDependencies', task ':app:compileProdDebugAidl', task ':app:compileProdDebugRenderscript', task ':app:generateProdDebugBuildConfig', task ':app:mergeProdDebugShaders', task ':app:compileProdDebugShaders', task ':app:generateProdDebugAssets', task ':app:mergeProdDebugAssets', task ':app:generateProdDebugResValues', task ':app:generateProdDebugResources', task ':app:mergeProdDebugResources', task ':app:processProdDebugManifest', task ':app:processProdDebugResources', task ':app:generateProdDebugSources', task ':app:incrementalProdDebugJavaCompilationSafeguard', task ':app:compileProdDebugJavaWithJavac', task ':app:compileProdDebugNdk', task ':app:compileProdDebugSources', task ':app:prePackageMarkerForProdDebug', task ':app:transformClassesWithDexForProdDebug', task ':app:mergeProdDebugJniLibFolders', task ':app:transformNative_libsWithMergeJniLibsForProdDebug', task ':app:processProdDebugJavaRes', task ':app:transformResourcesWithMergeJavaResForProdDebug', task ':app:packageProdDebug', task ':app:zipalignProdDebug', task ':app:assembleProdDebug', task ':app:assembleDebug', task ':app:checkProdReleaseManifest', task ':app:prepareProdReleaseDependencies', task ':app:compileProdReleaseAidl', task ':app:compileProdReleaseRenderscript', task ':app:generateProdReleaseBuildConfig', task ':app:mergeProdReleaseShaders', task ':app:compileProdReleaseShaders', task ':app:generateProdReleaseAssets', task ':app:mergeProdReleaseAssets', task ':app:generateProdReleaseResValues', task ':app:generateProdReleaseResources', task ':app:mergeProdReleaseResources', task ':app:processProdReleaseManifest', task ':app:processProdReleaseResources', task ':app:generateProdReleaseSources', task ':app:incrementalProdReleaseJavaCompilationSafeguard', task ':app:compileProdReleaseJavaWithJavac', task ':app:compileProdReleaseNdk', task ':app:compileProdReleaseSources', task ':app:prePackageMarkerForProdRelease', task ':app:unzipJacocoAgent', task ':app:transformClassesWithJacocoForProdRelease', task ':app:processProdReleaseJavaRes', task ':app:transformResourcesWithMergeJavaResForProdRelease', task ':app:transformClassesAndResourcesWithProguardForProdRelease', task ':app:transformClassesWithDexForProdRelease', task ':app:mergeProdReleaseJniLibFolders', task ':app:transformNative_libsWithMergeJniLibsForProdRelease', task ':app:packageProdRelease', task ':app:assembleProdRelease', task ':app:assembleRelease', task ':app:assemble', task ':app:compileLint', task ':app:lint', task ':app:incrementalMockDebugUnitTestJavaCompilationSafeguard', task ':app:preMockDebugUnitTestBuild', task ':app:prepareMockDebugUnitTestDependencies', task ':app:compileMockDebugUnitTestJavaWithJavac', task ':app:processMockDebugUnitTestJavaRes', task ':app:compileMockDebugUnitTestSources', task ':app:mockableAndroidJar', task ':app:assembleMockDebugUnitTest', task ':app:testMockDebugUnitTest', task ':app:incrementalProdDebugUnitTestJavaCompilationSafeguard', task ':app:preProdDebugUnitTestBuild', task ':app:prepareProdDebugUnitTestDependencies', task ':app:compileProdDebugUnitTestJavaWithJavac', task ':app:processProdDebugUnitTestJavaRes', task ':app:compileProdDebugUnitTestSources', task ':app:assembleProdDebugUnitTest', task ':app:testProdDebugUnitTest', task ':app:incrementalProdReleaseUnitTestJavaCompilationSafeguard', task ':app:preProdReleaseUnitTestBuild', task ':app:prepareProdReleaseUnitTestDependencies', task ':app:compileProdReleaseUnitTestJavaWithJavac', task ':app:processProdReleaseUnitTestJavaRes', task ':app:compileProdReleaseUnitTestSources', task ':app:assembleProdReleaseUnitTest', task ':app:testProdReleaseUnitTest', task ':app:test', task ':app:check', task ':app:build', task ':app:compileUnitTestJava', task ':app:processUnitTestResources', task ':app:unitTestClasses', task ':app:unitTest', task ':app:preMockDebugAndroidTestBuild', task ':app:preProdDebugAndroidTestBuild', task ':app:prepareComAndroidSupportTestEspressoEspressoContrib221Library', task ':app:prepareComAndroidSupportTestEspressoEspressoCore221Library', task ':app:prepareComAndroidSupportTestEspressoEspressoIntents221Library', task ':app:prepareComAndroidSupportTestExposedInstrumentationApiPublish041Library', task ':app:prepareComAndroidSupportTestRules041Library', task ':app:prepareComAndroidSupportTestRunner041Library', task ':app:prepareMockDebugAndroidTestDependencies', task ':app:compileMockDebugAndroidTestAidl', task ':app:processMockDebugAndroidTestManifest', task ':app:compileMockDebugAndroidTestRenderscript', task ':app:generateMockDebugAndroidTestBuildConfig', task ':app:mergeMockDebugAndroidTestShaders', task ':app:compileMockDebugAndroidTestShaders', task ':app:generateMockDebugAndroidTestAssets', task ':app:mergeMockDebugAndroidTestAssets', task ':app:generateMockDebugAndroidTestResValues', task ':app:generateMockDebugAndroidTestResources', task ':app:mergeMockDebugAndroidTestResources', task ':app:processMockDebugAndroidTestResources', task ':app:generateMockDebugAndroidTestSources', task ':app:incrementalMockDebugAndroidTestJavaCompilationSafeguard', task ':app:compileMockDebugAndroidTestJavaWithJavac', task ':app:compileMockDebugAndroidTestNdk', task ':app:compileMockDebugAndroidTestSources', task ':app:prePackageMarkerForMockDebugAndroidTest', task ':app:transformClassesWithDexForMockDebugAndroidTest', task ':app:mergeMockDebugAndroidTestJniLibFolders', task ':app:transformNative_libsWithMergeJniLibsForMockDebugAndroidTest', task ':app:processMockDebugAndroidTestJavaRes', task ':app:transformResourcesWithMergeJavaResForMockDebugAndroidTest', task ':app:packageMockDebugAndroidTest', task ':app:assembleMockDebugAndroidTest', task ':app:connectedMockDebugAndroidTest', task ':app:prepareProdDebugAndroidTestDependencies', task ':app:compileProdDebugAndroidTestAidl', task ':app:processProdDebugAndroidTestManifest', task ':app:compileProdDebugAndroidTestRenderscript', task ':app:generateProdDebugAndroidTestBuildConfig', task ':app:mergeProdDebugAndroidTestShaders', task ':app:compileProdDebugAndroidTestShaders', task ':app:generateProdDebugAndroidTestAssets', task ':app:mergeProdDebugAndroidTestAssets', task ':app:generateProdDebugAndroidTestResValues', task ':app:generateProdDebugAndroidTestResources', task ':app:mergeProdDebugAndroidTestResources', task ':app:processProdDebugAndroidTestResources', task ':app:generateProdDebugAndroidTestSources', task ':app:incrementalProdDebugAndroidTestJavaCompilationSafeguard', task ':app:compileProdDebugAndroidTestJavaWithJavac', task ':app:compileProdDebugAndroidTestNdk', task ':app:compileProdDebugAndroidTestSources', task ':app:prePackageMarkerForProdDebugAndroidTest', task ':app:transformClassesWithDexForProdDebugAndroidTest', task ':app:mergeProdDebugAndroidTestJniLibFolders', task ':app:transformNative_libsWithMergeJniLibsForProdDebugAndroidTest', task ':app:processProdDebugAndroidTestJavaRes', task ':app:transformResourcesWithMergeJavaResForProdDebugAndroidTest', task ':app:packageProdDebugAndroidTest', task ':app:assembleProdDebugAndroidTest', task ':app:connectedProdDebugAndroidTest', task ':app:connectedAndroidTest', task ':app:connectedCheck', task ':app:jacocoTestReport', task ':app:sonarRunner']
+Creating In-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/fileHashes.bin: MaxSize{2316300}
+Creating In-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/outputFileStates.bin: MaxSize{17300}
+Creating In-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/fileSnapshots.bin: MaxSize{57900}
+Creating In-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/taskArtifacts.bin: MaxSize{11500}
+:app:preBuild (Thread[Daemon worker,5,main]) started.
+:app:preBuild
+Skipping task ':app:preBuild' as it has no actions.
+:app:preBuild UP-TO-DATE
+:app:preBuild (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:preMockDebugBuild (Thread[Daemon worker,5,main]) started.
+:app:preMockDebugBuild
+Skipping task ':app:preMockDebugBuild' as it has no actions.
+:app:preMockDebugBuild UP-TO-DATE
+:app:preMockDebugBuild (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:checkMockDebugManifest (Thread[Daemon worker,5,main]) started.
+:app:checkMockDebugManifest
+Executing task ':app:checkMockDebugManifest' (up-to-date check took 0.001 secs) due to:
+  Task has not declared any outputs.
+:app:checkMockDebugManifest (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:preProdDebugBuild (Thread[Daemon worker,5,main]) started.
+:app:preProdDebugBuild
+Skipping task ':app:preProdDebugBuild' as it has no actions.
+:app:preProdDebugBuild UP-TO-DATE
+:app:preProdDebugBuild (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:preProdReleaseBuild (Thread[Daemon worker,5,main]) started.
+:app:preProdReleaseBuild
+Skipping task ':app:preProdReleaseBuild' as it has no actions.
+:app:preProdReleaseBuild UP-TO-DATE
+:app:preProdReleaseBuild (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareComAndroidSupportAppcompatV72301Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportAppcompatV72301Library
+Invalidating in-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/outputFileStates.bin
+Invalidating in-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/fileSnapshots.bin
+Invalidating in-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/fileHashes.bin
+Invalidating in-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/taskArtifacts.bin
+Skipping task ':app:prepareComAndroidSupportAppcompatV72301Library' as it is up-to-date (took 0.094 secs).
+:app:prepareComAndroidSupportAppcompatV72301Library UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72301Library (Thread[Daemon worker,5,main]) completed. Took 0.096 secs.
+:app:prepareComAndroidSupportCardviewV72301Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportCardviewV72301Library
+Skipping task ':app:prepareComAndroidSupportCardviewV72301Library' as it is up-to-date (took 0.002 secs).
+:app:prepareComAndroidSupportCardviewV72301Library UP-TO-DATE
+:app:prepareComAndroidSupportCardviewV72301Library (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:prepareComAndroidSupportDesign2301Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportDesign2301Library
+Skipping task ':app:prepareComAndroidSupportDesign2301Library' as it is up-to-date (took 0.004 secs).
+:app:prepareComAndroidSupportDesign2301Library UP-TO-DATE
+:app:prepareComAndroidSupportDesign2301Library (Thread[Daemon worker,5,main]) completed. Took 0.006 secs.
+:app:prepareComAndroidSupportMultidex100Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportMultidex100Library
+Skipping task ':app:prepareComAndroidSupportMultidex100Library' as it is up-to-date (took 0.002 secs).
+:app:prepareComAndroidSupportMultidex100Library UP-TO-DATE
+:app:prepareComAndroidSupportMultidex100Library (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:prepareComAndroidSupportRecyclerviewV72301Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportRecyclerviewV72301Library
+Skipping task ':app:prepareComAndroidSupportRecyclerviewV72301Library' as it is up-to-date (took 0.002 secs).
+:app:prepareComAndroidSupportRecyclerviewV72301Library UP-TO-DATE
+:app:prepareComAndroidSupportRecyclerviewV72301Library (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:prepareComAndroidSupportSupportV42301Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportSupportV42301Library
+Skipping task ':app:prepareComAndroidSupportSupportV42301Library' as it is up-to-date (took 0.002 secs).
+:app:prepareComAndroidSupportSupportV42301Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42301Library (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library
+Skipping task ':app:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library' as it is up-to-date (took 0.002 secs).
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library UP-TO-DATE
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:prepareMockDebugDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareMockDebugDependencies
+Executing task ':app:prepareMockDebugDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareMockDebugDependencies (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:compileMockDebugAidl (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugAidl
+Skipping task ':app:compileMockDebugAidl' as it is up-to-date (took 0.004 secs).
+:app:compileMockDebugAidl UP-TO-DATE
+:app:compileMockDebugAidl (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:compileMockDebugRenderscript (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugRenderscript
+Skipping task ':app:compileMockDebugRenderscript' as it is up-to-date (took 0.003 secs).
+:app:compileMockDebugRenderscript UP-TO-DATE
+:app:compileMockDebugRenderscript (Thread[Daemon worker,5,main]) completed. Took 0.01 secs.
+:app:generateMockDebugBuildConfig (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugBuildConfig
+Skipping task ':app:generateMockDebugBuildConfig' as it is up-to-date (took 0.003 secs).
+:app:generateMockDebugBuildConfig UP-TO-DATE
+:app:generateMockDebugBuildConfig (Thread[Daemon worker,5,main]) completed. Took 0.03 secs.
+:app:mergeMockDebugShaders (Thread[Daemon worker,5,main]) started.
+:app:mergeMockDebugShaders
+Skipping task ':app:mergeMockDebugShaders' as it is up-to-date (took 0.001 secs).
+:app:mergeMockDebugShaders UP-TO-DATE
+:app:mergeMockDebugShaders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:compileMockDebugShaders (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugShaders
+Skipping task ':app:compileMockDebugShaders' as it is up-to-date (took 0.004 secs).
+:app:compileMockDebugShaders UP-TO-DATE
+:app:compileMockDebugShaders (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:generateMockDebugAssets (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugAssets
+Skipping task ':app:generateMockDebugAssets' as it has no actions.
+:app:generateMockDebugAssets UP-TO-DATE
+:app:generateMockDebugAssets (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:mergeMockDebugAssets (Thread[Daemon worker,5,main]) started.
+:app:mergeMockDebugAssets
+Skipping task ':app:mergeMockDebugAssets' as it is up-to-date (took 0.003 secs).
+:app:mergeMockDebugAssets UP-TO-DATE
+:app:mergeMockDebugAssets (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:generateMockDebugResValues (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugResValues
+Skipping task ':app:generateMockDebugResValues' as it is up-to-date (took 0.0 secs).
+:app:generateMockDebugResValues UP-TO-DATE
+:app:generateMockDebugResValues (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:generateMockDebugResources (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugResources
+Skipping task ':app:generateMockDebugResources' as it has no actions.
+:app:generateMockDebugResources UP-TO-DATE
+:app:generateMockDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:mergeMockDebugResources (Thread[Daemon worker,5,main]) started.
+:app:mergeMockDebugResources
+Skipping task ':app:mergeMockDebugResources' as it is up-to-date (took 0.051 secs).
+:app:mergeMockDebugResources UP-TO-DATE
+:app:mergeMockDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.052 secs.
+:app:processMockDebugManifest (Thread[Daemon worker,5,main]) started.
+:app:processMockDebugManifest
+Skipping task ':app:processMockDebugManifest' as it is up-to-date (took 0.002 secs).
+:app:processMockDebugManifest UP-TO-DATE
+:app:processMockDebugManifest (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:processMockDebugResources (Thread[Daemon worker,5,main]) started.
+:app:processMockDebugResources
+Skipping task ':app:processMockDebugResources' as it is up-to-date (took 0.017 secs).
+:app:processMockDebugResources UP-TO-DATE
+:app:processMockDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.018 secs.
+:app:generateMockDebugSources (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugSources
+Skipping task ':app:generateMockDebugSources' as it has no actions.
+:app:generateMockDebugSources UP-TO-DATE
+:app:generateMockDebugSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:incrementalMockDebugJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalMockDebugJavaCompilationSafeguard
+Skipping task ':app:incrementalMockDebugJavaCompilationSafeguard' as it is up-to-date (took 0.002 secs).
+:app:incrementalMockDebugJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalMockDebugJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:compileMockDebugJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/debug/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/mockDebug/java', not found
+Skipping task ':app:compileMockDebugJavaWithJavac' as it is up-to-date (took 0.014 secs).
+:app:compileMockDebugJavaWithJavac UP-TO-DATE
+:app:compileMockDebugJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.016 secs.
+:app:compileMockDebugNdk (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugNdk
+Skipping task ':app:compileMockDebugNdk' as it has no source files.
+:app:compileMockDebugNdk UP-TO-DATE
+:app:compileMockDebugNdk (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileMockDebugSources (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugSources
+Skipping task ':app:compileMockDebugSources' as it has no actions.
+:app:compileMockDebugSources UP-TO-DATE
+:app:compileMockDebugSources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prePackageMarkerForMockDebug (Thread[Daemon worker,5,main]) started.
+:app:prePackageMarkerForMockDebug
+Executing task ':app:prePackageMarkerForMockDebug' (up-to-date check took 0.001 secs) due to:
+  Value of input property 'buildId' has changed for task ':app:prePackageMarkerForMockDebug'
+All input files are considered out-of-date for incremental task ':app:prePackageMarkerForMockDebug'.
+:app:prePackageMarkerForMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.014 secs.
+:app:transformClassesWithDexForMockDebug (Thread[Daemon worker,5,main]) started.
+:app:transformClassesWithDexForMockDebug
+Skipping task ':app:transformClassesWithDexForMockDebug' as it is up-to-date (took 0.006 secs).
+:app:transformClassesWithDexForMockDebug UP-TO-DATE
+:app:transformClassesWithDexForMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.007 secs.
+:app:mergeMockDebugJniLibFolders (Thread[Daemon worker,5,main]) started.
+:app:mergeMockDebugJniLibFolders
+Skipping task ':app:mergeMockDebugJniLibFolders' as it is up-to-date (took 0.002 secs).
+:app:mergeMockDebugJniLibFolders UP-TO-DATE
+:app:mergeMockDebugJniLibFolders (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:transformNative_libsWithMergeJniLibsForMockDebug (Thread[Daemon worker,5,main]) started.
+:app:transformNative_libsWithMergeJniLibsForMockDebug
+Skipping task ':app:transformNative_libsWithMergeJniLibsForMockDebug' as it is up-to-date (took 0.002 secs).
+:app:transformNative_libsWithMergeJniLibsForMockDebug UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:processMockDebugJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processMockDebugJavaRes
+Skipping task ':app:processMockDebugJavaRes' as it has no source files.
+:app:processMockDebugJavaRes UP-TO-DATE
+:app:processMockDebugJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:transformResourcesWithMergeJavaResForMockDebug (Thread[Daemon worker,5,main]) started.
+:app:transformResourcesWithMergeJavaResForMockDebug
+Skipping task ':app:transformResourcesWithMergeJavaResForMockDebug' as it is up-to-date (took 0.003 secs).
+:app:transformResourcesWithMergeJavaResForMockDebug UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:validateDebugSigning (Thread[Daemon worker,5,main]) started.
+:app:validateDebugSigning
+Executing task ':app:validateDebugSigning' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:validateDebugSigning (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:packageMockDebug (Thread[Daemon worker,5,main]) started.
+:app:packageMockDebug
+Skipping task ':app:packageMockDebug' as it is up-to-date (took 0.005 secs).
+:app:packageMockDebug UP-TO-DATE
+:app:packageMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.007 secs.
+:app:zipalignMockDebug (Thread[Daemon worker,5,main]) started.
+:app:zipalignMockDebug
+Skipping task ':app:zipalignMockDebug' as it is up-to-date (took 0.002 secs).
+:app:zipalignMockDebug UP-TO-DATE
+:app:zipalignMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:assembleMockDebug (Thread[Daemon worker,5,main]) started.
+:app:assembleMockDebug
+Skipping task ':app:assembleMockDebug' as it has no actions.
+:app:assembleMockDebug UP-TO-DATE
+:app:assembleMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:checkProdDebugManifest (Thread[Daemon worker,5,main]) started.
+:app:checkProdDebugManifest
+Executing task ':app:checkProdDebugManifest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:checkProdDebugManifest (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareProdDebugDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareProdDebugDependencies
+Executing task ':app:prepareProdDebugDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareProdDebugDependencies (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:compileProdDebugAidl (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugAidl
+Skipping task ':app:compileProdDebugAidl' as it is up-to-date (took 0.003 secs).
+:app:compileProdDebugAidl UP-TO-DATE
+:app:compileProdDebugAidl (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:compileProdDebugRenderscript (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugRenderscript
+Skipping task ':app:compileProdDebugRenderscript' as it is up-to-date (took 0.004 secs).
+:app:compileProdDebugRenderscript UP-TO-DATE
+:app:compileProdDebugRenderscript (Thread[Daemon worker,5,main]) completed. Took 0.006 secs.
+:app:generateProdDebugBuildConfig (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugBuildConfig
+Skipping task ':app:generateProdDebugBuildConfig' as it is up-to-date (took 0.003 secs).
+:app:generateProdDebugBuildConfig UP-TO-DATE
+:app:generateProdDebugBuildConfig (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:mergeProdDebugShaders (Thread[Daemon worker,5,main]) started.
+:app:mergeProdDebugShaders
+Skipping task ':app:mergeProdDebugShaders' as it is up-to-date (took 0.003 secs).
+:app:mergeProdDebugShaders UP-TO-DATE
+:app:mergeProdDebugShaders (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:compileProdDebugShaders (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugShaders
+Skipping task ':app:compileProdDebugShaders' as it is up-to-date (took 0.002 secs).
+:app:compileProdDebugShaders UP-TO-DATE
+:app:compileProdDebugShaders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:generateProdDebugAssets (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugAssets
+Skipping task ':app:generateProdDebugAssets' as it has no actions.
+:app:generateProdDebugAssets UP-TO-DATE
+:app:generateProdDebugAssets (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:mergeProdDebugAssets (Thread[Daemon worker,5,main]) started.
+:app:mergeProdDebugAssets
+Skipping task ':app:mergeProdDebugAssets' as it is up-to-date (took 0.003 secs).
+:app:mergeProdDebugAssets UP-TO-DATE
+:app:mergeProdDebugAssets (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:generateProdDebugResValues (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugResValues
+Skipping task ':app:generateProdDebugResValues' as it is up-to-date (took 0.001 secs).
+:app:generateProdDebugResValues UP-TO-DATE
+:app:generateProdDebugResValues (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:generateProdDebugResources (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugResources
+Skipping task ':app:generateProdDebugResources' as it has no actions.
+:app:generateProdDebugResources UP-TO-DATE
+:app:generateProdDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:mergeProdDebugResources (Thread[Daemon worker,5,main]) started.
+:app:mergeProdDebugResources
+Skipping task ':app:mergeProdDebugResources' as it is up-to-date (took 0.032 secs).
+:app:mergeProdDebugResources UP-TO-DATE
+:app:mergeProdDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.033 secs.
+:app:processProdDebugManifest (Thread[Daemon worker,5,main]) started.
+:app:processProdDebugManifest
+Skipping task ':app:processProdDebugManifest' as it is up-to-date (took 0.002 secs).
+:app:processProdDebugManifest UP-TO-DATE
+:app:processProdDebugManifest (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:processProdDebugResources (Thread[Daemon worker,5,main]) started.
+:app:processProdDebugResources
+Skipping task ':app:processProdDebugResources' as it is up-to-date (took 0.012 secs).
+:app:processProdDebugResources UP-TO-DATE
+:app:processProdDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.013 secs.
+:app:generateProdDebugSources (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugSources
+Skipping task ':app:generateProdDebugSources' as it has no actions.
+:app:generateProdDebugSources UP-TO-DATE
+:app:generateProdDebugSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:incrementalProdDebugJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalProdDebugJavaCompilationSafeguard
+Skipping task ':app:incrementalProdDebugJavaCompilationSafeguard' as it is up-to-date (took 0.001 secs).
+:app:incrementalProdDebugJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalProdDebugJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:compileProdDebugJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/debug/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/prodDebug/java', not found
+Skipping task ':app:compileProdDebugJavaWithJavac' as it is up-to-date (took 0.009 secs).
+:app:compileProdDebugJavaWithJavac UP-TO-DATE
+:app:compileProdDebugJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.011 secs.
+:app:compileProdDebugNdk (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugNdk
+Skipping task ':app:compileProdDebugNdk' as it has no source files.
+:app:compileProdDebugNdk UP-TO-DATE
+:app:compileProdDebugNdk (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:compileProdDebugSources (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugSources
+Skipping task ':app:compileProdDebugSources' as it has no actions.
+:app:compileProdDebugSources UP-TO-DATE
+:app:compileProdDebugSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:prePackageMarkerForProdDebug (Thread[Daemon worker,5,main]) started.
+:app:prePackageMarkerForProdDebug
+Executing task ':app:prePackageMarkerForProdDebug' (up-to-date check took 0.001 secs) due to:
+  Value of input property 'buildId' has changed for task ':app:prePackageMarkerForProdDebug'
+All input files are considered out-of-date for incremental task ':app:prePackageMarkerForProdDebug'.
+:app:prePackageMarkerForProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:transformClassesWithDexForProdDebug (Thread[Daemon worker,5,main]) started.
+:app:transformClassesWithDexForProdDebug
+Skipping task ':app:transformClassesWithDexForProdDebug' as it is up-to-date (took 0.004 secs).
+:app:transformClassesWithDexForProdDebug UP-TO-DATE
+:app:transformClassesWithDexForProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.006 secs.
+:app:mergeProdDebugJniLibFolders (Thread[Daemon worker,5,main]) started.
+:app:mergeProdDebugJniLibFolders
+Skipping task ':app:mergeProdDebugJniLibFolders' as it is up-to-date (took 0.002 secs).
+:app:mergeProdDebugJniLibFolders UP-TO-DATE
+:app:mergeProdDebugJniLibFolders (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:transformNative_libsWithMergeJniLibsForProdDebug (Thread[Daemon worker,5,main]) started.
+:app:transformNative_libsWithMergeJniLibsForProdDebug
+Skipping task ':app:transformNative_libsWithMergeJniLibsForProdDebug' as it is up-to-date (took 0.001 secs).
+:app:transformNative_libsWithMergeJniLibsForProdDebug UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:processProdDebugJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processProdDebugJavaRes
+Skipping task ':app:processProdDebugJavaRes' as it has no source files.
+:app:processProdDebugJavaRes UP-TO-DATE
+:app:processProdDebugJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:transformResourcesWithMergeJavaResForProdDebug (Thread[Daemon worker,5,main]) started.
+:app:transformResourcesWithMergeJavaResForProdDebug
+Skipping task ':app:transformResourcesWithMergeJavaResForProdDebug' as it is up-to-date (took 0.002 secs).
+:app:transformResourcesWithMergeJavaResForProdDebug UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:packageProdDebug (Thread[Daemon worker,5,main]) started.
+:app:packageProdDebug
+Skipping task ':app:packageProdDebug' as it is up-to-date (took 0.004 secs).
+:app:packageProdDebug UP-TO-DATE
+:app:packageProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:zipalignProdDebug (Thread[Daemon worker,5,main]) started.
+:app:zipalignProdDebug
+Skipping task ':app:zipalignProdDebug' as it is up-to-date (took 0.002 secs).
+:app:zipalignProdDebug UP-TO-DATE
+:app:zipalignProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:assembleProdDebug (Thread[Daemon worker,5,main]) started.
+:app:assembleProdDebug
+Skipping task ':app:assembleProdDebug' as it has no actions.
+:app:assembleProdDebug UP-TO-DATE
+:app:assembleProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:assembleDebug (Thread[Daemon worker,5,main]) started.
+:app:assembleDebug
+Skipping task ':app:assembleDebug' as it has no actions.
+:app:assembleDebug UP-TO-DATE
+:app:assembleDebug (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:checkProdReleaseManifest (Thread[Daemon worker,5,main]) started.
+:app:checkProdReleaseManifest
+Executing task ':app:checkProdReleaseManifest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:checkProdReleaseManifest (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareProdReleaseDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareProdReleaseDependencies
+Executing task ':app:prepareProdReleaseDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareProdReleaseDependencies (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileProdReleaseAidl (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseAidl
+Skipping task ':app:compileProdReleaseAidl' as it is up-to-date (took 0.002 secs).
+:app:compileProdReleaseAidl UP-TO-DATE
+:app:compileProdReleaseAidl (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:compileProdReleaseRenderscript (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseRenderscript
+Skipping task ':app:compileProdReleaseRenderscript' as it is up-to-date (took 0.002 secs).
+:app:compileProdReleaseRenderscript UP-TO-DATE
+:app:compileProdReleaseRenderscript (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:generateProdReleaseBuildConfig (Thread[Daemon worker,5,main]) started.
+:app:generateProdReleaseBuildConfig
+Skipping task ':app:generateProdReleaseBuildConfig' as it is up-to-date (took 0.002 secs).
+:app:generateProdReleaseBuildConfig UP-TO-DATE
+:app:generateProdReleaseBuildConfig (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:mergeProdReleaseShaders (Thread[Daemon worker,5,main]) started.
+:app:mergeProdReleaseShaders
+Skipping task ':app:mergeProdReleaseShaders' as it is up-to-date (took 0.001 secs).
+:app:mergeProdReleaseShaders UP-TO-DATE
+:app:mergeProdReleaseShaders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:compileProdReleaseShaders (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseShaders
+Skipping task ':app:compileProdReleaseShaders' as it is up-to-date (took 0.001 secs).
+:app:compileProdReleaseShaders UP-TO-DATE
+:app:compileProdReleaseShaders (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:generateProdReleaseAssets (Thread[Daemon worker,5,main]) started.
+:app:generateProdReleaseAssets
+Skipping task ':app:generateProdReleaseAssets' as it has no actions.
+:app:generateProdReleaseAssets UP-TO-DATE
+:app:generateProdReleaseAssets (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:mergeProdReleaseAssets (Thread[Daemon worker,5,main]) started.
+:app:mergeProdReleaseAssets
+Skipping task ':app:mergeProdReleaseAssets' as it is up-to-date (took 0.002 secs).
+:app:mergeProdReleaseAssets UP-TO-DATE
+:app:mergeProdReleaseAssets (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:generateProdReleaseResValues (Thread[Daemon worker,5,main]) started.
+:app:generateProdReleaseResValues
+Skipping task ':app:generateProdReleaseResValues' as it is up-to-date (took 0.0 secs).
+:app:generateProdReleaseResValues UP-TO-DATE
+:app:generateProdReleaseResValues (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:generateProdReleaseResources (Thread[Daemon worker,5,main]) started.
+:app:generateProdReleaseResources
+Skipping task ':app:generateProdReleaseResources' as it has no actions.
+:app:generateProdReleaseResources UP-TO-DATE
+:app:generateProdReleaseResources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:mergeProdReleaseResources (Thread[Daemon worker,5,main]) started.
+:app:mergeProdReleaseResources
+Skipping task ':app:mergeProdReleaseResources' as it is up-to-date (took 0.05 secs).
+:app:mergeProdReleaseResources UP-TO-DATE
+:app:mergeProdReleaseResources (Thread[Daemon worker,5,main]) completed. Took 0.052 secs.
+:app:processProdReleaseManifest (Thread[Daemon worker,5,main]) started.
+:app:processProdReleaseManifest
+Skipping task ':app:processProdReleaseManifest' as it is up-to-date (took 0.003 secs).
+:app:processProdReleaseManifest UP-TO-DATE
+:app:processProdReleaseManifest (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:processProdReleaseResources (Thread[Daemon worker,5,main]) started.
+:app:processProdReleaseResources
+Skipping task ':app:processProdReleaseResources' as it is up-to-date (took 0.012 secs).
+:app:processProdReleaseResources UP-TO-DATE
+:app:processProdReleaseResources (Thread[Daemon worker,5,main]) completed. Took 0.014 secs.
+:app:generateProdReleaseSources (Thread[Daemon worker,5,main]) started.
+:app:generateProdReleaseSources
+Skipping task ':app:generateProdReleaseSources' as it has no actions.
+:app:generateProdReleaseSources UP-TO-DATE
+:app:generateProdReleaseSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:incrementalProdReleaseJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalProdReleaseJavaCompilationSafeguard
+Skipping task ':app:incrementalProdReleaseJavaCompilationSafeguard' as it is up-to-date (took 0.002 secs).
+:app:incrementalProdReleaseJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalProdReleaseJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:compileProdReleaseJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/release/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/prodRelease/java', not found
+Skipping task ':app:compileProdReleaseJavaWithJavac' as it is up-to-date (took 0.012 secs).
+:app:compileProdReleaseJavaWithJavac UP-TO-DATE
+:app:compileProdReleaseJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.015 secs.
+:app:compileProdReleaseNdk (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseNdk
+Skipping task ':app:compileProdReleaseNdk' as it has no source files.
+:app:compileProdReleaseNdk UP-TO-DATE
+:app:compileProdReleaseNdk (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileProdReleaseSources (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseSources
+Skipping task ':app:compileProdReleaseSources' as it has no actions.
+:app:compileProdReleaseSources UP-TO-DATE
+:app:compileProdReleaseSources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prePackageMarkerForProdRelease (Thread[Daemon worker,5,main]) started.
+:app:prePackageMarkerForProdRelease
+Executing task ':app:prePackageMarkerForProdRelease' (up-to-date check took 0.004 secs) due to:
+  Value of input property 'buildId' has changed for task ':app:prePackageMarkerForProdRelease'
+All input files are considered out-of-date for incremental task ':app:prePackageMarkerForProdRelease'.
+:app:prePackageMarkerForProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.008 secs.
+:app:unzipJacocoAgent (Thread[Daemon worker,5,main]) started.
+:app:unzipJacocoAgent
+Skipping task ':app:unzipJacocoAgent' as it is up-to-date (took 0.001 secs).
+:app:unzipJacocoAgent UP-TO-DATE
+:app:unzipJacocoAgent (Thread[Daemon worker,5,main]) completed. Took 0.022 secs.
+:app:transformClassesWithJacocoForProdRelease (Thread[Daemon worker,5,main]) started.
+:app:transformClassesWithJacocoForProdRelease
+Skipping task ':app:transformClassesWithJacocoForProdRelease' as it is up-to-date (took 0.007 secs).
+:app:transformClassesWithJacocoForProdRelease UP-TO-DATE
+:app:transformClassesWithJacocoForProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.007 secs.
+:app:processProdReleaseJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processProdReleaseJavaRes
+Skipping task ':app:processProdReleaseJavaRes' as it has no source files.
+:app:processProdReleaseJavaRes UP-TO-DATE
+:app:processProdReleaseJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:transformResourcesWithMergeJavaResForProdRelease (Thread[Daemon worker,5,main]) started.
+:app:transformResourcesWithMergeJavaResForProdRelease
+Skipping task ':app:transformResourcesWithMergeJavaResForProdRelease' as it is up-to-date (took 0.002 secs).
+:app:transformResourcesWithMergeJavaResForProdRelease UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:transformClassesAndResourcesWithProguardForProdRelease (Thread[Daemon worker,5,main]) started.
+:app:transformClassesAndResourcesWithProguardForProdRelease
+Skipping task ':app:transformClassesAndResourcesWithProguardForProdRelease' as it is up-to-date (took 0.004 secs).
+:app:transformClassesAndResourcesWithProguardForProdRelease UP-TO-DATE
+:app:transformClassesAndResourcesWithProguardForProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:transformClassesWithDexForProdRelease (Thread[Daemon worker,5,main]) started.
+:app:transformClassesWithDexForProdRelease
+Skipping task ':app:transformClassesWithDexForProdRelease' as it is up-to-date (took 0.001 secs).
+:app:transformClassesWithDexForProdRelease UP-TO-DATE
+:app:transformClassesWithDexForProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:mergeProdReleaseJniLibFolders (Thread[Daemon worker,5,main]) started.
+:app:mergeProdReleaseJniLibFolders
+Skipping task ':app:mergeProdReleaseJniLibFolders' as it is up-to-date (took 0.001 secs).
+:app:mergeProdReleaseJniLibFolders UP-TO-DATE
+:app:mergeProdReleaseJniLibFolders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:transformNative_libsWithMergeJniLibsForProdRelease (Thread[Daemon worker,5,main]) started.
+:app:transformNative_libsWithMergeJniLibsForProdRelease
+Skipping task ':app:transformNative_libsWithMergeJniLibsForProdRelease' as it is up-to-date (took 0.002 secs).
+:app:transformNative_libsWithMergeJniLibsForProdRelease UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:packageProdRelease (Thread[Daemon worker,5,main]) started.
+:app:packageProdRelease
+Skipping task ':app:packageProdRelease' as it is up-to-date (took 0.002 secs).
+:app:packageProdRelease UP-TO-DATE
+:app:packageProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:assembleProdRelease (Thread[Daemon worker,5,main]) started.
+:app:assembleProdRelease
+Skipping task ':app:assembleProdRelease' as it has no actions.
+:app:assembleProdRelease UP-TO-DATE
+:app:assembleProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:assembleRelease (Thread[Daemon worker,5,main]) started.
+:app:assembleRelease
+Skipping task ':app:assembleRelease' as it has no actions.
+:app:assembleRelease UP-TO-DATE
+:app:assembleRelease (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:assemble (Thread[Daemon worker,5,main]) started.
+:app:assemble
+Skipping task ':app:assemble' as it has no actions.
+:app:assemble UP-TO-DATE
+:app:assemble (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:compileLint (Thread[Daemon worker,5,main]) started.
+:app:compileLint
+Executing task ':app:compileLint' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:compileLint (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:lint (Thread[Daemon worker,5,main]) started.
+:app:lint
+Executing task ':app:lint' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Ran lint on variant prodRelease: 32 issues found
+Ran lint on variant mockDebug: 32 issues found
+Ran lint on variant prodDebug: 32 issues found
+Wrote HTML report to file:///Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/outputs/lint-results-mockDebug.html
+Wrote XML report to file:///Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/outputs/lint-results-mockDebug.xml
+:app:lint (Thread[Daemon worker,5,main]) completed. Took 5.579 secs.
+:app:incrementalMockDebugUnitTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalMockDebugUnitTestJavaCompilationSafeguard
+Skipping task ':app:incrementalMockDebugUnitTestJavaCompilationSafeguard' as it has no source files.
+:app:incrementalMockDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalMockDebugUnitTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:preMockDebugUnitTestBuild (Thread[Daemon worker,5,main]) started.
+:app:preMockDebugUnitTestBuild
+Skipping task ':app:preMockDebugUnitTestBuild' as it has no actions.
+:app:preMockDebugUnitTestBuild UP-TO-DATE
+:app:preMockDebugUnitTestBuild (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareMockDebugUnitTestDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareMockDebugUnitTestDependencies
+Executing task ':app:prepareMockDebugUnitTestDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareMockDebugUnitTestDependencies (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileMockDebugUnitTestJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugUnitTestJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testMock/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testDebug/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testMockDebug/java', not found
+Skipping task ':app:compileMockDebugUnitTestJavaWithJavac' as it is up-to-date (took 0.012 secs).
+:app:compileMockDebugUnitTestJavaWithJavac UP-TO-DATE
+:app:compileMockDebugUnitTestJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.014 secs.
+:app:processMockDebugUnitTestJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processMockDebugUnitTestJavaRes
+Skipping task ':app:processMockDebugUnitTestJavaRes' as it has no source files.
+:app:processMockDebugUnitTestJavaRes UP-TO-DATE
+:app:processMockDebugUnitTestJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileMockDebugUnitTestSources (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugUnitTestSources
+Skipping task ':app:compileMockDebugUnitTestSources' as it has no actions.
+:app:compileMockDebugUnitTestSources UP-TO-DATE
+:app:compileMockDebugUnitTestSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:mockableAndroidJar (Thread[Daemon worker,5,main]) started.
+:app:mockableAndroidJar
+Skipping task ':app:mockableAndroidJar' as it is up-to-date (took 0.0 secs).
+:app:mockableAndroidJar UP-TO-DATE
+:app:mockableAndroidJar (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:assembleMockDebugUnitTest (Thread[Daemon worker,5,main]) started.
+:app:assembleMockDebugUnitTest
+Skipping task ':app:assembleMockDebugUnitTest' as it has no actions.
+:app:assembleMockDebugUnitTest UP-TO-DATE
+:app:assembleMockDebugUnitTest (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:testMockDebugUnitTest (Thread[Daemon worker,5,main]) started.
+:app:testMockDebugUnitTest
+Skipping task ':app:testMockDebugUnitTest' as it is up-to-date (took 0.018 secs).
+:app:testMockDebugUnitTest UP-TO-DATE
+:app:testMockDebugUnitTest (Thread[Daemon worker,5,main]) completed. Took 0.027 secs.
+:app:incrementalProdDebugUnitTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalProdDebugUnitTestJavaCompilationSafeguard
+Skipping task ':app:incrementalProdDebugUnitTestJavaCompilationSafeguard' as it has no source files.
+:app:incrementalProdDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalProdDebugUnitTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:preProdDebugUnitTestBuild (Thread[Daemon worker,5,main]) started.
+:app:preProdDebugUnitTestBuild
+Skipping task ':app:preProdDebugUnitTestBuild' as it has no actions.
+:app:preProdDebugUnitTestBuild UP-TO-DATE
+:app:preProdDebugUnitTestBuild (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareProdDebugUnitTestDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareProdDebugUnitTestDependencies
+Executing task ':app:prepareProdDebugUnitTestDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareProdDebugUnitTestDependencies (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileProdDebugUnitTestJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugUnitTestJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testProd/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testDebug/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testProdDebug/java', not found
+Skipping task ':app:compileProdDebugUnitTestJavaWithJavac' as it is up-to-date (took 0.006 secs).
+:app:compileProdDebugUnitTestJavaWithJavac UP-TO-DATE
+:app:compileProdDebugUnitTestJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.008 secs.
+:app:processProdDebugUnitTestJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processProdDebugUnitTestJavaRes
+Skipping task ':app:processProdDebugUnitTestJavaRes' as it has no source files.
+:app:processProdDebugUnitTestJavaRes UP-TO-DATE
+:app:processProdDebugUnitTestJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileProdDebugUnitTestSources (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugUnitTestSources
+Skipping task ':app:compileProdDebugUnitTestSources' as it has no actions.
+:app:compileProdDebugUnitTestSources UP-TO-DATE
+:app:compileProdDebugUnitTestSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:assembleProdDebugUnitTest (Thread[Daemon worker,5,main]) started.
+:app:assembleProdDebugUnitTest
+Skipping task ':app:assembleProdDebugUnitTest' as it has no actions.
+:app:assembleProdDebugUnitTest UP-TO-DATE
+:app:assembleProdDebugUnitTest (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:testProdDebugUnitTest (Thread[Daemon worker,5,main]) started.
+:app:testProdDebugUnitTest
+Skipping task ':app:testProdDebugUnitTest' as it is up-to-date (took 0.009 secs).
+:app:testProdDebugUnitTest UP-TO-DATE
+:app:testProdDebugUnitTest (Thread[Daemon worker,5,main]) completed. Took 0.011 secs.
+:app:incrementalProdReleaseUnitTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalProdReleaseUnitTestJavaCompilationSafeguard
+Skipping task ':app:incrementalProdReleaseUnitTestJavaCompilationSafeguard' as it has no source files.
+:app:incrementalProdReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalProdReleaseUnitTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:preProdReleaseUnitTestBuild (Thread[Daemon worker,5,main]) started.
+:app:preProdReleaseUnitTestBuild
+Skipping task ':app:preProdReleaseUnitTestBuild' as it has no actions.
+:app:preProdReleaseUnitTestBuild UP-TO-DATE
+:app:preProdReleaseUnitTestBuild (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:prepareProdReleaseUnitTestDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareProdReleaseUnitTestDependencies
+Executing task ':app:prepareProdReleaseUnitTestDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareProdReleaseUnitTestDependencies (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:compileProdReleaseUnitTestJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseUnitTestJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testProd/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testRelease/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testProdRelease/java', not found
+Skipping task ':app:compileProdReleaseUnitTestJavaWithJavac' as it is up-to-date (took 0.005 secs).
+:app:compileProdReleaseUnitTestJavaWithJavac UP-TO-DATE
+:app:compileProdReleaseUnitTestJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.007 secs.
+:app:processProdReleaseUnitTestJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processProdReleaseUnitTestJavaRes
+Skipping task ':app:processProdReleaseUnitTestJavaRes' as it has no source files.
+:app:processProdReleaseUnitTestJavaRes UP-TO-DATE
+:app:processProdReleaseUnitTestJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:compileProdReleaseUnitTestSources (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseUnitTestSources
+Skipping task ':app:compileProdReleaseUnitTestSources' as it has no actions.
+:app:compileProdReleaseUnitTestSources UP-TO-DATE
+:app:compileProdReleaseUnitTestSources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:assembleProdReleaseUnitTest (Thread[Daemon worker,5,main]) started.
+:app:assembleProdReleaseUnitTest
+Skipping task ':app:assembleProdReleaseUnitTest' as it has no actions.
+:app:assembleProdReleaseUnitTest UP-TO-DATE
+:app:assembleProdReleaseUnitTest (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:testProdReleaseUnitTest (Thread[Daemon worker,5,main]) started.
+:app:testProdReleaseUnitTest
+Skipping task ':app:testProdReleaseUnitTest' as it is up-to-date (took 0.009 secs).
+:app:testProdReleaseUnitTest UP-TO-DATE
+:app:testProdReleaseUnitTest (Thread[Daemon worker,5,main]) completed. Took 0.01 secs.
+:app:test (Thread[Daemon worker,5,main]) started.
+:app:test
+Skipping task ':app:test' as it has no actions.
+:app:test UP-TO-DATE
+:app:test (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:check (Thread[Daemon worker,5,main]) started.
+:app:check
+Skipping task ':app:check' as it has no actions.
+:app:check (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:build (Thread[Daemon worker,5,main]) started.
+:app:build
+Skipping task ':app:build' as it has no actions.
+:app:build (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileUnitTestJava (Thread[Daemon worker,5,main]) started.
+:app:compileUnitTestJava
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/unitTest/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/test', not found
+Skipping task ':app:compileUnitTestJava' as it has no source files.
+:app:compileUnitTestJava UP-TO-DATE
+:app:compileUnitTestJava (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:processUnitTestResources (Thread[Daemon worker,5,main]) started.
+:app:processUnitTestResources
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/unitTest/resources', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/test/resources', not found
+Skipping task ':app:processUnitTestResources' as it has no source files.
+:app:processUnitTestResources UP-TO-DATE
+:app:processUnitTestResources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:unitTestClasses (Thread[Daemon worker,5,main]) started.
+:app:unitTestClasses
+Skipping task ':app:unitTestClasses' as it has no actions.
+:app:unitTestClasses UP-TO-DATE
+:app:unitTestClasses (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:unitTest (Thread[Daemon worker,5,main]) started.
+:app:unitTest
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/classes/unitTest', not found
+Skipping task ':app:unitTest' as it has no source files.
+:app:unitTest UP-TO-DATE
+:app:unitTest (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:preMockDebugAndroidTestBuild (Thread[Daemon worker,5,main]) started.
+:app:preMockDebugAndroidTestBuild
+Skipping task ':app:preMockDebugAndroidTestBuild' as it has no actions.
+:app:preMockDebugAndroidTestBuild UP-TO-DATE
+:app:preMockDebugAndroidTestBuild (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:preProdDebugAndroidTestBuild (Thread[Daemon worker,5,main]) started.
+:app:preProdDebugAndroidTestBuild
+Skipping task ':app:preProdDebugAndroidTestBuild' as it has no actions.
+:app:preProdDebugAndroidTestBuild UP-TO-DATE
+:app:preProdDebugAndroidTestBuild (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareComAndroidSupportTestEspressoEspressoContrib221Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportTestEspressoEspressoContrib221Library
+Skipping task ':app:prepareComAndroidSupportTestEspressoEspressoContrib221Library' as it is up-to-date (took 0.001 secs).
+:app:prepareComAndroidSupportTestEspressoEspressoContrib221Library UP-TO-DATE
+:app:prepareComAndroidSupportTestEspressoEspressoContrib221Library (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareComAndroidSupportTestEspressoEspressoCore221Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportTestEspressoEspressoCore221Library
+Skipping task ':app:prepareComAndroidSupportTestEspressoEspressoCore221Library' as it is up-to-date (took 0.0 secs).
+:app:prepareComAndroidSupportTestEspressoEspressoCore221Library UP-TO-DATE
+:app:prepareComAndroidSupportTestEspressoEspressoCore221Library (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:prepareComAndroidSupportTestEspressoEspressoIntents221Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportTestEspressoEspressoIntents221Library
+Skipping task ':app:prepareComAndroidSupportTestEspressoEspressoIntents221Library' as it is up-to-date (took 0.001 secs).
+:app:prepareComAndroidSupportTestEspressoEspressoIntents221Library UP-TO-DATE
+:app:prepareComAndroidSupportTestEspressoEspressoIntents221Library (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareComAndroidSupportTestExposedInstrumentationApiPublish041Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportTestExposedInstrumentationApiPublish041Library
+Skipping task ':app:prepareComAndroidSupportTestExposedInstrumentationApiPublish041Library' as it is up-to-date (took 0.001 secs).
+:app:prepareComAndroidSupportTestExposedInstrumentationApiPublish041Library UP-TO-DATE
+:app:prepareComAndroidSupportTestExposedInstrumentationApiPublish041Library (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareComAndroidSupportTestRules041Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportTestRules041Library
+Skipping task ':app:prepareComAndroidSupportTestRules041Library' as it is up-to-date (took 0.0 secs).
+:app:prepareComAndroidSupportTestRules041Library UP-TO-DATE
+:app:prepareComAndroidSupportTestRules041Library (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareComAndroidSupportTestRunner041Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportTestRunner041Library
+Skipping task ':app:prepareComAndroidSupportTestRunner041Library' as it is up-to-date (took 0.001 secs).
+:app:prepareComAndroidSupportTestRunner041Library UP-TO-DATE
+:app:prepareComAndroidSupportTestRunner041Library (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareMockDebugAndroidTestDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareMockDebugAndroidTestDependencies
+Executing task ':app:prepareMockDebugAndroidTestDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareMockDebugAndroidTestDependencies (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileMockDebugAndroidTestAidl (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugAndroidTestAidl
+Skipping task ':app:compileMockDebugAndroidTestAidl' as it is up-to-date (took 0.001 secs).
+:app:compileMockDebugAndroidTestAidl UP-TO-DATE
+:app:compileMockDebugAndroidTestAidl (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:processMockDebugAndroidTestManifest (Thread[Daemon worker,5,main]) started.
+:app:processMockDebugAndroidTestManifest
+Skipping task ':app:processMockDebugAndroidTestManifest' as it is up-to-date (took 0.002 secs).
+:app:processMockDebugAndroidTestManifest UP-TO-DATE
+:app:processMockDebugAndroidTestManifest (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:compileMockDebugAndroidTestRenderscript (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugAndroidTestRenderscript
+Skipping task ':app:compileMockDebugAndroidTestRenderscript' as it is up-to-date (took 0.003 secs).
+:app:compileMockDebugAndroidTestRenderscript UP-TO-DATE
+:app:compileMockDebugAndroidTestRenderscript (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:generateMockDebugAndroidTestBuildConfig (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugAndroidTestBuildConfig
+Skipping task ':app:generateMockDebugAndroidTestBuildConfig' as it is up-to-date (took 0.002 secs).
+:app:generateMockDebugAndroidTestBuildConfig UP-TO-DATE
+:app:generateMockDebugAndroidTestBuildConfig (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:mergeMockDebugAndroidTestShaders (Thread[Daemon worker,5,main]) started.
+:app:mergeMockDebugAndroidTestShaders
+Skipping task ':app:mergeMockDebugAndroidTestShaders' as it is up-to-date (took 0.001 secs).
+:app:mergeMockDebugAndroidTestShaders UP-TO-DATE
+:app:mergeMockDebugAndroidTestShaders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:compileMockDebugAndroidTestShaders (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugAndroidTestShaders
+Skipping task ':app:compileMockDebugAndroidTestShaders' as it is up-to-date (took 0.001 secs).
+:app:compileMockDebugAndroidTestShaders UP-TO-DATE
+:app:compileMockDebugAndroidTestShaders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:generateMockDebugAndroidTestAssets (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugAndroidTestAssets
+Skipping task ':app:generateMockDebugAndroidTestAssets' as it has no actions.
+:app:generateMockDebugAndroidTestAssets UP-TO-DATE
+:app:generateMockDebugAndroidTestAssets (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:mergeMockDebugAndroidTestAssets (Thread[Daemon worker,5,main]) started.
+:app:mergeMockDebugAndroidTestAssets
+Skipping task ':app:mergeMockDebugAndroidTestAssets' as it is up-to-date (took 0.002 secs).
+:app:mergeMockDebugAndroidTestAssets UP-TO-DATE
+:app:mergeMockDebugAndroidTestAssets (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:generateMockDebugAndroidTestResValues (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugAndroidTestResValues
+Skipping task ':app:generateMockDebugAndroidTestResValues' as it is up-to-date (took 0.002 secs).
+:app:generateMockDebugAndroidTestResValues UP-TO-DATE
+:app:generateMockDebugAndroidTestResValues (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:generateMockDebugAndroidTestResources (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugAndroidTestResources
+Skipping task ':app:generateMockDebugAndroidTestResources' as it has no actions.
+:app:generateMockDebugAndroidTestResources UP-TO-DATE
+:app:generateMockDebugAndroidTestResources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:mergeMockDebugAndroidTestResources (Thread[Daemon worker,5,main]) started.
+:app:mergeMockDebugAndroidTestResources
+Skipping task ':app:mergeMockDebugAndroidTestResources' as it is up-to-date (took 0.002 secs).
+:app:mergeMockDebugAndroidTestResources UP-TO-DATE
+:app:mergeMockDebugAndroidTestResources (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:processMockDebugAndroidTestResources (Thread[Daemon worker,5,main]) started.
+:app:processMockDebugAndroidTestResources
+Skipping task ':app:processMockDebugAndroidTestResources' as it is up-to-date (took 0.003 secs).
+:app:processMockDebugAndroidTestResources UP-TO-DATE
+:app:processMockDebugAndroidTestResources (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:generateMockDebugAndroidTestSources (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugAndroidTestSources
+Skipping task ':app:generateMockDebugAndroidTestSources' as it has no actions.
+:app:generateMockDebugAndroidTestSources UP-TO-DATE
+:app:generateMockDebugAndroidTestSources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:incrementalMockDebugAndroidTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalMockDebugAndroidTestJavaCompilationSafeguard
+Skipping task ':app:incrementalMockDebugAndroidTestJavaCompilationSafeguard' as it is up-to-date (took 0.002 secs).
+:app:incrementalMockDebugAndroidTestJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalMockDebugAndroidTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:compileMockDebugAndroidTestJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugAndroidTestJavaWithJavac
+Skipping task ':app:compileMockDebugAndroidTestJavaWithJavac' as it is up-to-date (took 0.007 secs).
+:app:compileMockDebugAndroidTestJavaWithJavac UP-TO-DATE
+:app:compileMockDebugAndroidTestJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.017 secs.
+:app:compileMockDebugAndroidTestNdk (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugAndroidTestNdk
+Skipping task ':app:compileMockDebugAndroidTestNdk' as it has no source files.
+:app:compileMockDebugAndroidTestNdk UP-TO-DATE
+:app:compileMockDebugAndroidTestNdk (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:compileMockDebugAndroidTestSources (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugAndroidTestSources
+Skipping task ':app:compileMockDebugAndroidTestSources' as it has no actions.
+:app:compileMockDebugAndroidTestSources UP-TO-DATE
+:app:compileMockDebugAndroidTestSources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prePackageMarkerForMockDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:prePackageMarkerForMockDebugAndroidTest
+Executing task ':app:prePackageMarkerForMockDebugAndroidTest' (up-to-date check took 0.001 secs) due to:
+  Value of input property 'buildId' has changed for task ':app:prePackageMarkerForMockDebugAndroidTest'
+All input files are considered out-of-date for incremental task ':app:prePackageMarkerForMockDebugAndroidTest'.
+:app:prePackageMarkerForMockDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:transformClassesWithDexForMockDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:transformClassesWithDexForMockDebugAndroidTest
+Skipping task ':app:transformClassesWithDexForMockDebugAndroidTest' as it is up-to-date (took 0.004 secs).
+:app:transformClassesWithDexForMockDebugAndroidTest UP-TO-DATE
+:app:transformClassesWithDexForMockDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:mergeMockDebugAndroidTestJniLibFolders (Thread[Daemon worker,5,main]) started.
+:app:mergeMockDebugAndroidTestJniLibFolders
+Skipping task ':app:mergeMockDebugAndroidTestJniLibFolders' as it is up-to-date (took 0.001 secs).
+:app:mergeMockDebugAndroidTestJniLibFolders UP-TO-DATE
+:app:mergeMockDebugAndroidTestJniLibFolders (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:transformNative_libsWithMergeJniLibsForMockDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:transformNative_libsWithMergeJniLibsForMockDebugAndroidTest
+Skipping task ':app:transformNative_libsWithMergeJniLibsForMockDebugAndroidTest' as it is up-to-date (took 0.001 secs).
+:app:transformNative_libsWithMergeJniLibsForMockDebugAndroidTest UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForMockDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:processMockDebugAndroidTestJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processMockDebugAndroidTestJavaRes
+Skipping task ':app:processMockDebugAndroidTestJavaRes' as it has no source files.
+:app:processMockDebugAndroidTestJavaRes UP-TO-DATE
+:app:processMockDebugAndroidTestJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:transformResourcesWithMergeJavaResForMockDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:transformResourcesWithMergeJavaResForMockDebugAndroidTest
+Skipping task ':app:transformResourcesWithMergeJavaResForMockDebugAndroidTest' as it is up-to-date (took 0.003 secs).
+:app:transformResourcesWithMergeJavaResForMockDebugAndroidTest UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForMockDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:packageMockDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:packageMockDebugAndroidTest
+Skipping task ':app:packageMockDebugAndroidTest' as it is up-to-date (took 0.002 secs).
+:app:packageMockDebugAndroidTest UP-TO-DATE
+:app:packageMockDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:assembleMockDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:assembleMockDebugAndroidTest
+Skipping task ':app:assembleMockDebugAndroidTest' as it has no actions.
+:app:assembleMockDebugAndroidTest UP-TO-DATE
+:app:assembleMockDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:connectedMockDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:connectedMockDebugAndroidTest
+Executing task ':app:connectedMockDebugAndroidTest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Starting 32 tests on HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4
+
+com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskScreenTest > errorShownOnEmptyTask[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > activateTask_retrievedTaskIsActive[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > completeTask_retrievedTaskIsComplete[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > getTasks_retrieveSavedTasks[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > testPreConditions[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > saveTask_retrievesTask[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > deleteAllTasks_emptyListOfRetrievedTask[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > clearCompletedTask_taskNotRetrievable[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.statistics.StatisticsScreenTest > Tasks_ShowsNonEmptyMessage[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.taskdetail.TaskDetailScreenTest > completedTaskDetails_DisplayedInUi[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.taskdetail.TaskDetailScreenTest > activeTaskDetails_DisplayedInUi[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.taskdetail.TaskDetailScreenTest > orientationChange_menuAndTaskPersist[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.AppNavigationTest > clickOnListNavigationItem_ShowsListScreen[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.AppNavigationTest > clickOnAndroidHomeIcon_OpensNavigation[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [31mFAILED [0m
+	android.support.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with content description: is "Navigate up"
+	If the target view is not part of the view hierarchy, you may need to use Espresso.onData to load it from one of the following AdapterViews:android.support.design.internal.NavigationMenuView{528e16ac VFED.VC. ......ID 0,0-888,1845}
+
+com.example.android.architecture.blueprints.todoapp.tasks.AppNavigationTest > clickOnStatisticsNavigationItem_ShowsStatisticsScreen[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > markTaskAsActive[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > createTwoTasks_deleteOneTask[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > showCompletedTasks[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > addTaskToTasksList[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > createOneTask_deleteTask[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > markTaskAsActiveOnDetailScreen_taskIsActiveInList[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [31mFAILED [0m
+	android.support.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with content description: is "Navigate up"
+	
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > clearCompletedTasks[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > markTaskAsCompleteOnDetailScreen_taskIsCompleteInList[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [31mFAILED [0m
+	android.support.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with content description: is "Navigate up"
+	
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > markTaskAsComplete[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > markTaskAsActiveAndCompleteOnDetailScreen_taskIsCompleteInList[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [31mFAILED [0m
+	android.support.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with content description: is "Navigate up"
+	
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > clickAddTaskButton_opensAddTaskUi[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > showAllTasks[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > orientationChange_FilterCompletedPersists[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > showActiveTasks[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > markTaskAsAcompleteAndActiveOnDetailScreen_taskIsActiveInList[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [31mFAILED [0m
+	android.support.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with content description: is "Navigate up"
+	
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > editTask[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > orientationChange_FilterActivePersists[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+:app:connectedMockDebugAndroidTest FAILED
+:app:connectedMockDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 2 mins 27.197 secs.
+:app:prepareProdDebugAndroidTestDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareProdDebugAndroidTestDependencies
+Executing task ':app:prepareProdDebugAndroidTestDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareProdDebugAndroidTestDependencies (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileProdDebugAndroidTestAidl (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugAndroidTestAidl
+Skipping task ':app:compileProdDebugAndroidTestAidl' as it is up-to-date (took 0.003 secs).
+:app:compileProdDebugAndroidTestAidl UP-TO-DATE
+:app:compileProdDebugAndroidTestAidl (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:processProdDebugAndroidTestManifest (Thread[Daemon worker,5,main]) started.
+:app:processProdDebugAndroidTestManifest
+Skipping task ':app:processProdDebugAndroidTestManifest' as it is up-to-date (took 0.003 secs).
+:app:processProdDebugAndroidTestManifest UP-TO-DATE
+:app:processProdDebugAndroidTestManifest (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:compileProdDebugAndroidTestRenderscript (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugAndroidTestRenderscript
+Skipping task ':app:compileProdDebugAndroidTestRenderscript' as it is up-to-date (took 0.003 secs).
+:app:compileProdDebugAndroidTestRenderscript UP-TO-DATE
+:app:compileProdDebugAndroidTestRenderscript (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:generateProdDebugAndroidTestBuildConfig (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugAndroidTestBuildConfig
+Skipping task ':app:generateProdDebugAndroidTestBuildConfig' as it is up-to-date (took 0.003 secs).
+:app:generateProdDebugAndroidTestBuildConfig UP-TO-DATE
+:app:generateProdDebugAndroidTestBuildConfig (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:mergeProdDebugAndroidTestShaders (Thread[Daemon worker,5,main]) started.
+:app:mergeProdDebugAndroidTestShaders
+Skipping task ':app:mergeProdDebugAndroidTestShaders' as it is up-to-date (took 0.001 secs).
+:app:mergeProdDebugAndroidTestShaders UP-TO-DATE
+:app:mergeProdDebugAndroidTestShaders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:compileProdDebugAndroidTestShaders (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugAndroidTestShaders
+Skipping task ':app:compileProdDebugAndroidTestShaders' as it is up-to-date (took 0.001 secs).
+:app:compileProdDebugAndroidTestShaders UP-TO-DATE
+:app:compileProdDebugAndroidTestShaders (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:generateProdDebugAndroidTestAssets (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugAndroidTestAssets
+Skipping task ':app:generateProdDebugAndroidTestAssets' as it has no actions.
+:app:generateProdDebugAndroidTestAssets UP-TO-DATE
+:app:generateProdDebugAndroidTestAssets (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:mergeProdDebugAndroidTestAssets (Thread[Daemon worker,5,main]) started.
+:app:mergeProdDebugAndroidTestAssets
+Skipping task ':app:mergeProdDebugAndroidTestAssets' as it is up-to-date (took 0.003 secs).
+:app:mergeProdDebugAndroidTestAssets UP-TO-DATE
+:app:mergeProdDebugAndroidTestAssets (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:generateProdDebugAndroidTestResValues (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugAndroidTestResValues
+Skipping task ':app:generateProdDebugAndroidTestResValues' as it is up-to-date (took 0.0 secs).
+:app:generateProdDebugAndroidTestResValues UP-TO-DATE
+:app:generateProdDebugAndroidTestResValues (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:generateProdDebugAndroidTestResources (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugAndroidTestResources
+Skipping task ':app:generateProdDebugAndroidTestResources' as it has no actions.
+:app:generateProdDebugAndroidTestResources UP-TO-DATE
+:app:generateProdDebugAndroidTestResources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:mergeProdDebugAndroidTestResources (Thread[Daemon worker,5,main]) started.
+:app:mergeProdDebugAndroidTestResources
+Skipping task ':app:mergeProdDebugAndroidTestResources' as it is up-to-date (took 0.003 secs).
+:app:mergeProdDebugAndroidTestResources UP-TO-DATE
+:app:mergeProdDebugAndroidTestResources (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:processProdDebugAndroidTestResources (Thread[Daemon worker,5,main]) started.
+:app:processProdDebugAndroidTestResources
+Skipping task ':app:processProdDebugAndroidTestResources' as it is up-to-date (took 0.003 secs).
+:app:processProdDebugAndroidTestResources UP-TO-DATE
+:app:processProdDebugAndroidTestResources (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:generateProdDebugAndroidTestSources (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugAndroidTestSources
+Skipping task ':app:generateProdDebugAndroidTestSources' as it has no actions.
+:app:generateProdDebugAndroidTestSources UP-TO-DATE
+:app:generateProdDebugAndroidTestSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:incrementalProdDebugAndroidTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalProdDebugAndroidTestJavaCompilationSafeguard
+Skipping task ':app:incrementalProdDebugAndroidTestJavaCompilationSafeguard' as it is up-to-date (took 0.002 secs).
+:app:incrementalProdDebugAndroidTestJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalProdDebugAndroidTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:compileProdDebugAndroidTestJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugAndroidTestJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/androidTestProd/java', not found
+Skipping task ':app:compileProdDebugAndroidTestJavaWithJavac' as it is up-to-date (took 0.013 secs).
+:app:compileProdDebugAndroidTestJavaWithJavac UP-TO-DATE
+:app:compileProdDebugAndroidTestJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.015 secs.
+:app:compileProdDebugAndroidTestNdk (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugAndroidTestNdk
+Skipping task ':app:compileProdDebugAndroidTestNdk' as it has no source files.
+:app:compileProdDebugAndroidTestNdk UP-TO-DATE
+:app:compileProdDebugAndroidTestNdk (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:compileProdDebugAndroidTestSources (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugAndroidTestSources
+Skipping task ':app:compileProdDebugAndroidTestSources' as it has no actions.
+:app:compileProdDebugAndroidTestSources UP-TO-DATE
+:app:compileProdDebugAndroidTestSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:prePackageMarkerForProdDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:prePackageMarkerForProdDebugAndroidTest
+Executing task ':app:prePackageMarkerForProdDebugAndroidTest' (up-to-date check took 0.001 secs) due to:
+  Value of input property 'buildId' has changed for task ':app:prePackageMarkerForProdDebugAndroidTest'
+All input files are considered out-of-date for incremental task ':app:prePackageMarkerForProdDebugAndroidTest'.
+:app:prePackageMarkerForProdDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 0.006 secs.
+:app:transformClassesWithDexForProdDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:transformClassesWithDexForProdDebugAndroidTest
+Skipping task ':app:transformClassesWithDexForProdDebugAndroidTest' as it is up-to-date (took 0.005 secs).
+:app:transformClassesWithDexForProdDebugAndroidTest UP-TO-DATE
+:app:transformClassesWithDexForProdDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 0.006 secs.
+:app:mergeProdDebugAndroidTestJniLibFolders (Thread[Daemon worker,5,main]) started.
+:app:mergeProdDebugAndroidTestJniLibFolders
+Skipping task ':app:mergeProdDebugAndroidTestJniLibFolders' as it is up-to-date (took 0.001 secs).
+:app:mergeProdDebugAndroidTestJniLibFolders UP-TO-DATE
+:app:mergeProdDebugAndroidTestJniLibFolders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:transformNative_libsWithMergeJniLibsForProdDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:transformNative_libsWithMergeJniLibsForProdDebugAndroidTest
+Skipping task ':app:transformNative_libsWithMergeJniLibsForProdDebugAndroidTest' as it is up-to-date (took 0.002 secs).
+:app:transformNative_libsWithMergeJniLibsForProdDebugAndroidTest UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForProdDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:processProdDebugAndroidTestJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processProdDebugAndroidTestJavaRes
+Skipping task ':app:processProdDebugAndroidTestJavaRes' as it has no source files.
+:app:processProdDebugAndroidTestJavaRes UP-TO-DATE
+:app:processProdDebugAndroidTestJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:transformResourcesWithMergeJavaResForProdDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:transformResourcesWithMergeJavaResForProdDebugAndroidTest
+Skipping task ':app:transformResourcesWithMergeJavaResForProdDebugAndroidTest' as it is up-to-date (took 0.003 secs).
+:app:transformResourcesWithMergeJavaResForProdDebugAndroidTest UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForProdDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:packageProdDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:packageProdDebugAndroidTest
+Skipping task ':app:packageProdDebugAndroidTest' as it is up-to-date (took 0.003 secs).
+:app:packageProdDebugAndroidTest UP-TO-DATE
+:app:packageProdDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:assembleProdDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:assembleProdDebugAndroidTest
+Skipping task ':app:assembleProdDebugAndroidTest' as it has no actions.
+:app:assembleProdDebugAndroidTest UP-TO-DATE
+:app:assembleProdDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:connectedProdDebugAndroidTest (Thread[Daemon worker,5,main]) started.
+:app:connectedProdDebugAndroidTest
+Executing task ':app:connectedProdDebugAndroidTest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Starting 27 tests on HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > activateTask_retrievedTaskIsActive[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > completeTask_retrievedTaskIsComplete[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > getTasks_retrieveSavedTasks[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > testPreConditions[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > saveTask_retrievesTask[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > deleteAllTasks_emptyListOfRetrievedTask[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.data.TasksLocalDataSourceTest > clearCompletedTask_taskNotRetrievable[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.AppNavigationTest > clickOnListNavigationItem_ShowsListScreen[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.AppNavigationTest > clickOnAndroidHomeIcon_OpensNavigation[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [31mFAILED [0m
+	android.support.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with content description: is "Navigate up"
+	If the target view is not part of the view hierarchy, you may need to use Espresso.onData to load it from one of the following AdapterViews:android.support.design.internal.NavigationMenuView{52b01fc0 VFED.VC. ......ID 0,0-888,1845}
+
+com.example.android.architecture.blueprints.todoapp.tasks.AppNavigationTest > clickOnStatisticsNavigationItem_ShowsStatisticsScreen[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > markTaskAsActive[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [31mFAILED [0m
+	android.support.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with string from resource id: <2131099683>[nav_all] value: All
+	If the target view is not part of the view hierarchy, you may need to use Espresso.onData to load it from one of the following AdapterViews:android.support.design.internal.NavigationMenuView{52af9e50 VFED.VC. ......ID 0,0-888,1845}
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > createTwoTasks_deleteOneTask[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > showCompletedTasks[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > addTaskToTasksList[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > createOneTask_deleteTask[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > markTaskAsActiveOnDetailScreen_taskIsActiveInList[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [31mFAILED [0m
+	android.support.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with content description: is "Navigate up"
+	
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > clearCompletedTasks[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [31mFAILED [0m
+	android.support.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with string from resource id: <2131099683>[nav_all] value: All
+	If the target view is not part of the view hierarchy, you may need to use Espresso.onData to load it from one of the following AdapterViews:android.support.design.internal.NavigationMenuView{52b352e0 VFED.VC. ......ID 0,0-888,1845}
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > markTaskAsCompleteOnDetailScreen_taskIsCompleteInList[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [31mFAILED [0m
+	android.support.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with content description: is "Navigate up"
+	
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > markTaskAsComplete[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > markTaskAsActiveAndCompleteOnDetailScreen_taskIsCompleteInList[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [31mFAILED [0m
+	android.support.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with content description: is "Navigate up"
+	
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > clickAddTaskButton_opensAddTaskUi[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > showAllTasks[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > orientationChange_FilterCompletedPersists[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > showActiveTasks[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > markTaskAsAcompleteAndActiveOnDetailScreen_taskIsActiveInList[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [31mFAILED [0m
+	android.support.test.espresso.NoMatchingViewException: No views in hierarchy found matching: with content description: is "Navigate up"
+	
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > editTask[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+
+com.example.android.architecture.blueprints.todoapp.tasks.TasksScreenTest > orientationChange_FilterActivePersists[HTC One - 4.4.4 - API 19 - 1080x1920 - 4.4.4] [32mSUCCESS [0m
+:app:connectedProdDebugAndroidTest FAILED
+:app:connectedProdDebugAndroidTest (Thread[Daemon worker,5,main]) completed. Took 3 mins 35.249 secs.
+:app:sonarRunner (Thread[Daemon worker,5,main]) started.
+:app:sonarRunner
+Executing task ':app:sonarRunner' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Executing SonarQube Runner with properties:
+[sonar.projectName: todomvpunittest, sonar.projectVersion: unspecified, sonar.projectBaseDir: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app, sonar.dynamicAnalysis: reuseReports, sonar.projectKey: todo-mvp-unit-test:app, sonar.environment.information.key: Gradle, sonar.environment.information.version: 2.11, sonar.working.directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/sonar, sonar.java.source: 1.8, sonar.java.target: 1.8, sonar.sources: src/main/java, sonar.host.url: http://localhost:9000/, sonar.jdbc.url: jdbc:mysql://localhost:3306/sonar, sonar.jdbc.driverClassName: com.mysql.jdbc.Driver, sonar.jdbc.username: sonar, sonar.jdbc.password: sonar, sonar.language: java, sonar.tests: src/test/java, sonar.binaries: build, sonar.password: admin, sonar.login: admin]
+Starting process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java''. Working directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app Command: /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java -Dproject.home=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app -Dproject.settings=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/tmp/sonarRunner/sonar-project.properties -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -cp /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-test/caches/modules-2/files-2.1/org.codehaus.sonar.runner/sonar-runner-dist/2.3/48e39e521b2888a5ab775f9220666597850562/sonar-runner-dist-2.3.jar org.sonar.runner.Main
+Successfully started process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java''
+SonarQube Runner 2.3
+Java 1.8.0_71 Oracle Corporation (64-bit)
+Mac OS X 10.10.5 x86_64
+INFO: Runner configuration file: NONE
+INFO: Project configuration file: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/tmp/sonarRunner/sonar-project.properties
+INFO: Default locale: "zh_CN", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Work directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/sonar
+INFO: SonarQube Server 5.6
+21:00:51.026 INFO  - Load global repositories
+21:00:51.132 INFO  - Load global repositories (done) | time=107ms
+21:00:51.150 WARN  - Property 'sonar.jdbc.url' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+21:00:51.151 WARN  - Property 'sonar.jdbc.username' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+21:00:51.151 WARN  - Property 'sonar.jdbc.password' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+21:00:51.152 INFO  - User cache: /Users/lee/.sonar/cache
+21:00:51.341 INFO  - Load plugins index
+21:00:51.344 INFO  - Load plugins index (done) | time=3ms
+21:00:51.793 INFO  - Process project properties
+21:00:51.880 INFO  - Load project repositories
+21:00:51.946 INFO  - Load project repositories (done) | time=66ms
+21:00:52.018 INFO  - Load quality profiles
+21:00:52.038 INFO  - Load quality profiles (done) | time=20ms
+21:00:52.042 INFO  - Load active rules
+21:00:52.379 INFO  - Load active rules (done) | time=337ms
+21:00:52.386 WARN  - 'sonar.dynamicAnalysis' is deprecated since version 4.3 and should no longer be used.
+21:00:52.404 WARN  - SCM provider autodetection failed. No SCM provider claims to support this project. Please use sonar.scm.provider to define SCM of your project.
+21:00:52.404 INFO  - Publish mode
+21:00:52.405 INFO  - -------------  Scan todomvpunittest
+21:00:52.491 INFO  - Language is forced to java
+21:00:52.499 INFO  - Load server rules
+21:00:52.579 INFO  - Load server rules (done) | time=80ms
+21:00:52.656 INFO  - Base dir: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app
+21:00:52.657 INFO  - Working dir: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/sonar
+21:00:52.658 INFO  - Source paths: src/main/java
+21:00:52.658 INFO  - Test paths: src/test/java
+21:00:52.658 INFO  - Binary dirs: build
+21:00:52.658 INFO  - Source encoding: UTF-8, default locale: zh_CN
+21:00:52.659 INFO  - Index files
+21:00:52.729 INFO  - 41 files indexed
+21:00:52.740 INFO  - Quality profile for java: Sonar way
+21:00:53.508 INFO  - Sensor Lines Sensor
+21:00:53.520 INFO  - Sensor Lines Sensor (done) | time=12ms
+21:00:53.520 INFO  - Sensor JavaSquidSensor
+21:00:53.742 INFO  - Configured Java source version (sonar.java.source): 8
+21:00:53.751 INFO  - JavaClasspath initialization
+21:00:53.751 WARN  - Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+21:00:53.751 INFO  - JavaClasspath initialization (done) | time=0ms
+21:00:53.751 INFO  - JavaTestClasspath initialization
+21:00:53.751 WARN  - Bytecode of dependencies was not provided for analysis of test files, you might end up with less precise results. Bytecode can be provided using sonar.java.test.libraries property
+21:00:53.751 INFO  - JavaTestClasspath initialization (done) | time=0ms
+21:00:53.933 INFO  - Java Main Files AST scan
+21:00:53.934 INFO  - 31 source files to be analyzed
+21:00:55.377 INFO  - 31/31 source files have been analyzed
+21:00:55.377 INFO  - Java Main Files AST scan (done) | time=1444ms
+21:00:55.377 WARN  - Java bytecode has not been made available to the analyzer. The  are disabled.
+21:00:55.377 INFO  - Java Test Files AST scan
+21:00:55.377 INFO  - 10 source files to be analyzed
+21:00:55.530 INFO  - Java Test Files AST scan (done) | time=153ms
+21:00:55.531 INFO  - 10/10 source files have been analyzed
+21:00:55.531 INFO  - Sensor JavaSquidSensor (done) | time=2011ms
+21:00:55.531 INFO  - Sensor Sonar-Sonargraph-Plugin [3.5]
+21:00:55.533 INFO  - ----------------------------------------------------------------
+21:00:55.533 INFO  - Sonargraph: Skipping project todomvpunittest [todo-mvp-unit-test:app], since no Sonargraph rules are activated in current SonarQube quality profile.
+21:00:55.533 INFO  - ----------------------------------------------------------------
+21:00:55.533 INFO  - Sensor Sonar-Sonargraph-Plugin [3.5] (done) | time=2ms
+21:00:55.533 INFO  - Sensor Objective-C OCLint Sensor
+21:00:55.533 WARN  - OCLint report not found at /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/sonar-reports/oclint.xml
+21:00:55.533 INFO  - Sensor Objective-C OCLint Sensor (done) | time=0ms
+21:00:55.533 INFO  - Sensor SCM Sensor
+21:00:55.533 INFO  - No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+21:00:55.533 INFO  - Sensor SCM Sensor (done) | time=0ms
+21:00:55.533 INFO  - Sensor SurefireSensor
+21:00:55.534 INFO  - parsing /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/target/surefire-reports
+21:00:55.534 INFO  - Sensor SurefireSensor (done) | time=1ms
+21:00:55.534 INFO  - Sensor JaCoCoSensor
+21:00:55.543 INFO  - No JaCoCo analysis of project coverage can be done since there is no class files.
+21:00:55.544 INFO  - Sensor JaCoCoSensor (done) | time=10ms
+21:00:55.544 INFO  - Sensor JaCoCoItSensor
+21:00:55.544 INFO  - JaCoCoItSensor: JaCoCo IT report not found: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/jacoco/*-it*.exec
+21:00:55.544 INFO  - No JaCoCo analysis of project coverage can be done since there is no class files.
+21:00:55.544 INFO  - Sensor JaCoCoItSensor (done) | time=0ms
+21:00:55.544 INFO  - Sensor JaCoCoOverallSensor
+21:00:55.549 INFO  - Analysing /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/jacoco/testProdReleaseUnitTest.exec
+21:00:55.571 INFO  - No JaCoCo analysis of project coverage can be done since there is no class files.
+21:00:55.572 INFO  - Sensor JaCoCoOverallSensor (done) | time=28ms
+21:00:55.572 INFO  - Sensor XmlFileSensor
+21:00:55.572 INFO  - Sensor XmlFileSensor (done) | time=0ms
+21:00:55.572 INFO  - Sensor Zero Coverage Sensor
+21:00:55.604 INFO  - Sensor Zero Coverage Sensor (done) | time=32ms
+21:00:55.604 INFO  - Sensor Code Colorizer Sensor
+21:00:55.605 INFO  - Sensor Code Colorizer Sensor (done) | time=1ms
+21:00:55.605 INFO  - Sensor CPD Block Indexer
+21:00:55.606 INFO  - JavaCpdBlockIndexer is used for java
+21:00:55.672 INFO  - Sensor CPD Block Indexer (done) | time=67ms
+21:00:55.676 INFO  - Calculating CPD for 24 files
+21:00:55.695 INFO  - CPD calculation finished
+21:00:55.832 INFO  - Analysis report generated in 119ms, dir size=302 KB
+21:00:55.917 INFO  - Analysis reports compressed in 84ms, zip size=152 KB
+21:00:55.971 INFO  - Analysis report uploaded in 54ms
+21:00:55.972 INFO  - ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/todo-mvp-unit-test:app
+21:00:55.972 INFO  - Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+21:00:55.972 INFO  - More about the report processing at http://localhost:9000/api/ce/task?id=AVbRPRMXR4_4qwCFVNJS
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 5.492s
+Final Memory: 16M/539M
+INFO: ------------------------------------------------------------------------
+:app:sonarRunner (Thread[Daemon worker,5,main]) completed. Took 5.812 secs.
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:connectedMockDebugAndroidTest'.
+> There were failing tests. See the report at: file:///Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/reports/androidTests/connected/flavors/MOCK/index.html
+
+* Try:
+Run with --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:connectedMockDebugAndroidTest'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:52)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.health.DaemonHealthTracker.execute(DaemonHealthTracker.java:40)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:66)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.health.HintGCAfterBuild.execute(HintGCAfterBuild.java:41)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:246)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+Caused by: org.gradle.api.GradleException: There were failing tests. See the report at: file:///Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/reports/androidTests/connected/flavors/MOCK/index.html
+	at com.android.build.gradle.internal.tasks.DeviceProviderInstrumentTestTask.runTests(DeviceProviderInstrumentTestTask.java:148)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 68 more
+
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:connectedProdDebugAndroidTest'.
+> There were failing tests. See the report at: file:///Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/reports/androidTests/connected/flavors/PROD/index.html
+
+* Try:
+Run with --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:connectedProdDebugAndroidTest'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:52)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.health.DaemonHealthTracker.execute(DaemonHealthTracker.java:40)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:66)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.health.HintGCAfterBuild.execute(HintGCAfterBuild.java:41)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:246)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.gradle.api.GradleException: There were failing tests. See the report at: file:///Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/reports/androidTests/connected/flavors/PROD/index.html
+	at com.android.build.gradle.internal.tasks.DeviceProviderInstrumentTestTask.runTests(DeviceProviderInstrumentTestTask.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 71 more
+
+==============================================================================
+
+BUILD FAILED
+
+Total time: 6 mins 20.151 secs
+21:00:56.178 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_settings class cache for settings file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/settings.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/settings_bb79ubhtg05ptjgo3rcadxpze/cp_settings).
+21:00:56.179 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on settings class cache for settings file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/settings.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/settings_bb79ubhtg05ptjgo3rcadxpze/settings).
+21:00:56.179 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/build.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/build_aucj1haju137emwpfkjo1h74q/cp_proj).
+21:00:56.179 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/build.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/build_aucj1haju137emwpfkjo1h74q/proj).
+21:00:56.179 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/build_1iz9tm755llg2kb6u36oyecni/cp_proj).
+21:00:56.179 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/build_1iz9tm755llg2kb6u36oyecni/proj).
+21:00:56.179 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_dsl class cache for script '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/jacoco.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/jacoco_1iueoqxoyhwdn557zrghd604a/cp_dsl).
+21:00:56.180 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on dsl class cache for script '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/jacoco.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/jacoco_1iueoqxoyhwdn557zrghd604a/dsl).
+21:00:56.184 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache outputFileStates.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/outputFileStates.bin)
+21:00:56.185 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/fileSnapshots.bin)
+21:00:56.185 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/fileHashes.bin)
+21:00:56.185 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/taskArtifacts.bin)
+21:00:56.185 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts).
+21:00:56.185 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 57, cache instances: 5, modules served from cache: 451, artifacts: 147
+21:00:56.186 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/metadata-2.16/artifact-at-repository.bin)
+21:00:56.186 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/metadata-2.16/module-metadata.bin)
+21:00:56.186 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/metadata-2.16/module-versions.bin)
+21:00:56.186 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2).
+21:00:56.186 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+21:00:56.187 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 16 (avg: 0.0 secs, total: 0.011 secs)
+21:00:56.187 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.001 secs
+21:00:56.187 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/plugin-resolution) was closed 0 times.
+21:00:56.188 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+21:00:56.188 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+21:00:56.188 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+21:00:56.514 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon stop has been requested. Sleeping until state changes.
+21:00:56.515 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = BuildAndStop{id=6da3922d-ea75-43db-ae08-f70cbedaf09d.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@44146694]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@a7555af with state StopRequested
+21:00:56.515 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = BuildAndStop{id=6da3922d-ea75-43db-ae08-f70cbedaf09d.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@44146694]
+21:00:56.515 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1472389256515
+21:00:56.515 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to command completed and stop requested. The daemon is running a build: false
+21:00:56.515 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon has stopped.
+21:00:56.515 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+21:00:56.515 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Failure[value=org.gradle.initialization.ReportedException: org.gradle.execution.MultipleBuildFailures: Multiple build failures]
+21:00:56.515 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+21:00:56.515 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Failure
+21:00:56.516 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [fbae27df-c877-43c7-98fa-e327abaf660d port:56217, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+21:00:56.516 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [fbae27df-c877-43c7-98fa-e327abaf660d port:56217, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+21:00:56.517 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+21:00:56.517 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+21:00:56.518 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+21:00:56.519 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Address removed from registry.
+21:00:56.538 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: BuildAndStop{id=6da3922d-ea75-43db-ae08-f70cbedaf09d.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}
+21:00:56.564 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.Finished
+21:00:56.564 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@583c2bdd
+21:00:56.564 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@583c2bdd
+21:00:56.564 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+21:00:56.565 [DEBUG] [org.gradle.messaging.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+21:00:56.565 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received null
+21:00:56.565 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+21:00:56.565 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+21:00:56.566 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [fbae27df-c877-43c7-98fa-e327abaf660d port:56217, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+21:00:56.567 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+21:00:56.567 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+21:00:56.567 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.

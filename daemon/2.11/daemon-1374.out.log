@@ -1,0 +1,390 @@
+20:03:11.989 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=978a7e96-bcb9-4a99-9508-9edd356e5cd9,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home,daemonRegistryDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon,pid=1374,idleTimeout=120000,daemonOpts=-Xmx5120M,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+20:03:11.992 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1472385791992
+20:03:12.004 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface awdl0
+20:03:12.004 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+20:03:12.005 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+20:03:12.005 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:5880:69ff:fe82:7883%awdl0
+20:03:12.005 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface awdl0
+20:03:12.006 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface vboxnet0
+20:03:12.006 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+20:03:12.007 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+20:03:12.007 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.56.1
+20:03:12.007 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface vboxnet0
+20:03:12.007 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface en0
+20:03:12.008 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+20:03:12.008 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+20:03:12.008 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:a65e:60ff:feed:4cad%en0
+20:03:12.009 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.0.7
+20:03:12.009 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface en0
+20:03:12.009 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface lo0
+20:03:12.009 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+20:03:12.009 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+20:03:12.010 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Ignoring remote address on loopback interface /fe80:0:0:0:0:0:0:1%lo0
+20:03:12.010 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1
+20:03:12.010 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+20:03:12.010 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface lo0
+20:03:12.021 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Listening on [e0269450-f14a-4635-95a8-16f7ea7353ca port:52879, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]].
+20:03:12.023 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Sun Aug 28 20:03:12 CST 2016, with address: [e0269450-f14a-4635-95a8-16f7ea7353ca port:52879, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+20:03:12.024 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertising the daemon address to the clients: [e0269450-f14a-4635-95a8-16f7ea7353ca port:52879, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+20:03:12.024 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=978a7e96-bcb9-4a99-9508-9edd356e5cd9,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home,daemonRegistryDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon,pid=1374,idleTimeout=120000,daemonOpts=-Xmx5120M,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+20:03:12.025 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [e0269450-f14a-4635-95a8-16f7ea7353ca port:52879, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], context: DefaultDaemonContext[uid=978a7e96-bcb9-4a99-9508-9edd356e5cd9,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home,daemonRegistryDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon,pid=1374,idleTimeout=120000,daemonOpts=-Xmx5120M,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+20:03:12.031 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+20:03:12.032 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+20:03:12.050 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+20:03:12.050 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+20:03:12.052 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+20:03:12.052 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] requestStopOnIdleTimeout(120000 MILLISECONDS) called on daemon
+20:03:12.052 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: waiting for daemon to stop or be idle for 120000ms
+20:03:12.053 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Sun Aug 28 20:05:11 CST 2016
+20:03:12.096 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:52880 to /0:0:0:0:0:0:0:1:52879.
+20:03:12.137 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.BuildAndStop
+20:03:12.138 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: BuildAndStop{id=45b22f76-4d36-4930-8b2a-de0e8c6f7c77.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}
+20:03:12.138 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: BuildAndStop{id=45b22f76-4d36-4930-8b2a-de0e8c6f7c77.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}.
+20:03:12.139 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: BuildAndStop{id=45b22f76-4d36-4930-8b2a-de0e8c6f7c77.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app} with connection: socket connection from /0:0:0:0:0:0:0:1:52879 to /0:0:0:0:0:0:0:1:52880.
+20:03:12.145 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = BuildAndStop{id=45b22f76-4d36-4930-8b2a-de0e8c6f7c77.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7f738a20] after 0.0 minutes of idle
+20:03:12.145 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [e0269450-f14a-4635-95a8-16f7ea7353ca port:52879, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+20:03:12.147 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [e0269450-f14a-4635-95a8-16f7ea7353ca port:52879, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+20:03:12.147 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+20:03:12.148 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+20:03:12.150 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+20:03:12.150 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1472385792150
+20:03:12.150 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+20:03:12.151 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building BuildAndStop{id=45b22f76-4d36-4930-8b2a-de0e8c6f7c77.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}. Dispatching build started information...
+20:03:12.151 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+20:03:12.154 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Users/lee/Documents/soft/android-sdk-macosx/build-tools:/Users/lee/Documents/soft/android-sdk-macosx/tools:/Users/lee/Documents/soft/android-sdk-macosx/platform-tools:/usr/local/mysql:/bin:/Users/lee/Documents/soft/gradle-2.11/bin:/Users/lee/Documents/soft/apache-maven-3.3.9/bin:/Users/lee/Documents/soft/oclint-0.10.3/bin:/Users/lee/.rvm/bin, HUDSON_HOME=/Users/lee/Documents/soft/jenkins, JOB_URL=http://localhost:8080/job/todo-mvp-unit-test/, HUDSON_COOKIE=28a13c59-51df-478e-ba2e-87f96619b1e7, APP_NAME_1368=Gradle, ANDROID_HOME=/Users/lee/Documents/soft/android-sdk-macosx, rvm_loaded_flag=1, MAVEN_HOME=/Users/lee/Documents/soft/apache-maven-3.3.9, JENKINS_SERVER_COOKIE=b0cca8869dd4cd49, LOGNAME=lee, rvm_version=1.26.11 (latest), PWD=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app, TERM_PROGRAM_VERSION=343.7, JENKINS_URL=http://localhost:8080/, rvm_user_install_flag=1, BUILD_TAG=jenkins-todo-mvp-unit-test-6, SHELL=/bin/bash, SECURITYSESSIONID=186a7, OLDPWD=/Users/lee/Documents/soft/gradle-2.11, JENKINS_HOME=/Users/lee/Documents/soft/jenkins, rvm_path=/Users/lee/.rvm, TMPDIR=/var/folders/pg/4jbnwcrn5k7_6dth03nswwp00000gn/T/, NODE_NAME=master, XPC_FLAGS=0x0, BUILD_DISPLAY_NAME=#6, TERM_SESSION_ID=3C6966EA-E928-4094-8F26-6B283C666161, _system_name=OSX, M2_HOME=/Users/lee/Documents/soft/apache-maven-3.3.9, __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34, Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.0OQpxSPpFG/Render, SHLVL=2, _system_arch=x86_64, rvm_bin_path=/Users/lee/.rvm/bin, APP_ICON_1368=/Users/lee/Documents/soft/gradle-2.11/media/gradle.icns, JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home, JAVA_MAIN_CLASS_819=org.apache.catalina.startup.Bootstrap, TERM=xterm-256color, BUILD_ID=6, rvm_prefix=/Users/lee, LANG=zh_CN.UTF-8, JOB_NAME=todo-mvp-unit-test, GRADLE_HOME=/Users/lee/Documents/soft/gradle-2.11, GRADLE_USER_HOME=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test, NODE_LABELS=master, HUDSON_URL=http://localhost:8080/, WORKSPACE=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test, XPC_SERVICE_NAME=0, JAVA_MAIN_CLASS_1368=org.gradle.launcher.GradleMain, ANDROID_SDK_HOME=/Users/lee/Documents/soft/android-sdk-macosx, TERM_PROGRAM=Apple_Terminal, EXECUTOR_NUMBER=1, _system_type=Darwin, HUDSON_SERVER_COOKIE=b0cca8869dd4cd49, JOB_BASE_NAME=todo-mvp-unit-test, _system_version=10.10, OCLINT_HOME=/Users/lee/Documents/soft/oclint-0.10.3, USER=lee, rvm_stored_umask=0022, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.BsO0QkSdG8/Listeners, BUILD_NUMBER=6, BUILD_URL=http://localhost:8080/job/todo-mvp-unit-test/6/, HOME=/Users/lee, ANDROID_AVD_HOME=/Users/lee/.android/avd}
+20:03:12.159 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.CloseInput
+20:03:12.159 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@1b30a391
+20:03:12.163 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+20:03:12.163 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 1374). The daemon log file: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon/2.11/daemon-1374.out.log
+20:03:12.164 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+20:03:12.165 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+20:03:12.165 [DEBUG] [org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon] Requesting daemon stop after processing BuildAndStop{id=45b22f76-4d36-4930-8b2a-de0e8c6f7c77.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}
+20:03:12.166 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop as soon as idle requested. The daemon is busy: true
+20:03:12.166 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon stop has been requested. Sleeping until state changes.
+20:03:12.167 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+20:03:12.168 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=978a7e96-bcb9-4a99-9508-9edd356e5cd9,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home,daemonRegistryDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon,pid=1374,idleTimeout=120000,daemonOpts=-Xmx5120M,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+Starting Build
+Settings evaluated using settings file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/settings.gradle'.
+Projects loaded. Root project using build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/build.gradle'.
+Included projects: [root project 'todo-mvp-unit-test', project ':app']
+Evaluating root project 'todo-mvp-unit-test' using build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/build.gradle'.
+Evaluating project ':app' using build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle'.
+Compiling build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle' using SubsetScriptTransformer.
+Compiling build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle' using BuildScriptTransformer.
+Creating configuration compile
+Creating configuration apk
+Creating configuration provided
+Creating configuration wearApp
+Creating configuration androidTestCompile
+Creating configuration androidTestApk
+Creating configuration androidTestProvided
+Creating configuration androidTestWearApp
+Creating configuration testCompile
+Creating configuration testApk
+Creating configuration testProvided
+Creating configuration testWearApp
+Creating configuration debugCompile
+Creating configuration debugApk
+Creating configuration debugProvided
+Creating configuration debugWearApp
+Creating configuration testDebugCompile
+Creating configuration testDebugApk
+Creating configuration testDebugProvided
+Creating configuration testDebugWearApp
+Creating configuration releaseCompile
+Creating configuration releaseApk
+Creating configuration releaseProvided
+Creating configuration releaseWearApp
+Creating configuration testReleaseCompile
+Creating configuration testReleaseApk
+Creating configuration testReleaseProvided
+Creating configuration testReleaseWearApp
+Creating configuration mockCompile
+Creating configuration mockApk
+Creating configuration mockProvided
+Creating configuration mockWearApp
+Creating configuration androidTestMockCompile
+Creating configuration androidTestMockApk
+Creating configuration androidTestMockProvided
+Creating configuration androidTestMockWearApp
+Creating configuration testMockCompile
+Creating configuration testMockApk
+Creating configuration testMockProvided
+Creating configuration testMockWearApp
+Creating configuration prodCompile
+Creating configuration prodApk
+Creating configuration prodProvided
+Creating configuration prodWearApp
+Creating configuration androidTestProdCompile
+Creating configuration androidTestProdApk
+Creating configuration androidTestProdProvided
+Creating configuration androidTestProdWearApp
+Creating configuration testProdCompile
+Creating configuration testProdApk
+Creating configuration testProdProvided
+Creating configuration testProdWearApp
+The 'sonar-runner' plugin has been deprecated and is scheduled to be removed in Gradle 3.0. please use the official plugin from SonarQube (http://docs.sonarqube.org/display/SONAR/Analyzing+with+Gradle).
+Compiling script '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/jacoco.gradle' using SubsetScriptTransformer.
+Compiling script '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/jacoco.gradle' using BuildScriptTransformer.
+Parsing the SDK, no caching allowed
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/add-ons/addon-google_apis-google-19/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/add-ons/addon-google_apis-google-22/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/add-ons/addon-google_apis-google-23/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/17.0.0/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/19.1.0/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/20.0.0/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/21.1.2/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/22.0.1/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.1/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.3/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/docs/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/android/m2repository/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/google/auto/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/google/m2repository/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/google/simulators/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/intel/Hardware_Accelerated_Execution_Manager/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platform-tools/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-15/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-16/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-17/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-18/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-19/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-20/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-21/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-22/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-23/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-15/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-16/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-17/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-18/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-19/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-21/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-22/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-23/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-15/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-16/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-17/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-18/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-19/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-21/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-22/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-23/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-18/default/armeabi-v7a/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-18/default/x86/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-19/default/x86/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-22/default/x86/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-23/android-tv/armeabi-v7a/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-23/google_apis/x86/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/tools/package.xml
+Creating configuration prodDebugCompile
+Creating configuration prodDebugApk
+Creating configuration prodDebugProvided
+Creating configuration prodDebugWearApp
+Creating configuration testProdDebugCompile
+Creating configuration testProdDebugApk
+Creating configuration testProdDebugProvided
+Creating configuration testProdDebugWearApp
+Creating configuration prodReleaseCompile
+Creating configuration prodReleaseApk
+Creating configuration prodReleaseProvided
+Creating configuration prodReleaseWearApp
+Creating configuration testProdReleaseCompile
+Creating configuration testProdReleaseApk
+Creating configuration testProdReleaseProvided
+Creating configuration testProdReleaseWearApp
+Creating configuration mockDebugCompile
+Creating configuration mockDebugApk
+Creating configuration mockDebugProvided
+Creating configuration mockDebugWearApp
+Creating configuration testMockDebugCompile
+Creating configuration testMockDebugApk
+Creating configuration testMockDebugProvided
+Creating configuration testMockDebugWearApp
+Incremental Java compilation disabled in variant prodDebug as you are using 2 source folders : /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/java,/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/prod/java
+Not using incremental javac compilation.
+Incremental java compilation is an incubating feature.
+Removed 'com.google.guava:guava:jar:19.0' from packaging of prodDebugUnitTest: Already in tested package.
+Using incremental javac compilation.
+Incremental Java compilation disabled in variant prodRelease as you are using 2 source folders : /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/java,/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/prod/java
+Not using incremental javac compilation.
+Removed 'com.google.guava:guava:jar:19.0' from packaging of prodReleaseUnitTest: Already in tested package.
+Using incremental javac compilation.
+Resource missing. [HTTP GET: http://repo1.maven.org/maven2/com/android/support/test/runner/0.4.1/runner-0.4.1.pom]
+Resource missing. [HTTP GET: http://repo1.maven.org/maven2/com/android/support/test/rules/0.4.1/rules-0.4.1.pom]
+Resource missing. [HTTP HEAD: http://repo1.maven.org/maven2/com/android/support/test/rules/0.4.1/rules-0.4.1.jar]
+Found locally available resource with matching checksum: [http://repo1.maven.org/maven2/com/google/dexmaker/dexmaker/1.2/dexmaker-1.2.pom, /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/files-2.1/com.google.dexmaker/dexmaker/1.2/a0c5ef0770753820046e10f0ed00c32979a2f217/dexmaker-1.2.pom]
+Found locally available resource with matching checksum: [http://repo1.maven.org/maven2/com/google/dexmaker/dexmaker-parent/1.2/dexmaker-parent-1.2.pom, /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/files-2.1/com.google.dexmaker/dexmaker-parent/1.2/fce77798c02731a9da637a32cf8f4e2e3b0038d2/dexmaker-parent-1.2.pom]
+Cached resource Sat Dec 06 09:03:39 CST 2014 is up-to-date (lastModified: http://repo1.maven.org/maven2/com/google/dexmaker/dexmaker-mockito/1.2/dexmaker-mockito-1.2.pom).
+Resource missing. [HTTP GET: http://repo1.maven.org/maven2/com/android/support/test/espresso/espresso-core/2.2.1/espresso-core-2.2.1.pom]
+Resource missing. [HTTP HEAD: http://repo1.maven.org/maven2/com/android/support/test/espresso/espresso-core/2.2.1/espresso-core-2.2.1.jar]
+Resource missing. [HTTP GET: http://repo1.maven.org/maven2/com/android/support/test/runner/0.4.1/runner-0.4.1.pom]
+Resource missing. [HTTP HEAD: http://repo1.maven.org/maven2/com/android/support/test/runner/0.4.1/runner-0.4.1.jar]
+Found locally available resource with matching checksum: [http://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.jar, /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar]
+Found locally available resource with matching checksum: [http://repo1.maven.org/maven2/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar, /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar]
+Found locally available resource with matching checksum: [http://repo1.maven.org/maven2/com/google/dexmaker/dexmaker/1.2/dexmaker-1.2.jar, /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/files-2.1/com.google.dexmaker/dexmaker/1.2/4d5045fefa6d286c5ddf733e321fe6e5e632efb6/dexmaker-1.2.jar]
+Found locally available resource with matching checksum: [http://repo1.maven.org/maven2/com/google/dexmaker/dexmaker-mockito/1.2/dexmaker-mockito-1.2.jar, /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/files-2.1/com.google.dexmaker/dexmaker-mockito/1.2/b99884a4c6ef6335ba376f79aa79632b2421c17c/dexmaker-mockito-1.2.jar]
+Found locally available resource with matching checksum: [http://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.jar, /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar]
+Found locally available resource with matching checksum: [http://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar, /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar]
+Found locally available resource with matching checksum: [http://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar, /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar]
+Found locally available resource with matching checksum: [http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar, /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar]
+Found locally available resource with matching checksum: [http://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar, /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar]
+Found locally available resource with matching checksum: [http://repo1.maven.org/maven2/com/google/android/apps/common/testing/accessibility/framework/accessibility-test-framework/2.0/accessibility-test-framework-2.0.jar, /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/files-2.1/com.google.android.apps.common.testing.accessibility.framework/accessibility-test-framework/2.0/7837f95bdff9f797003454247fef02b78d49ae75/accessibility-test-framework-2.0.jar]
+Removed 'com.android.support:support-annotations:jar:23.0.1' from packaging of prodDebugAndroidTest: Already in tested package.
+Removed 'com.android.support.test.espresso:espresso-idling-resource:aar:2.2.1' from packaging of prodDebugAndroidTest: Already in tested package.
+Removed 'com.android.support:support-v4:aar:23.0.1' from packaging of prodDebugAndroidTest: Already in tested package.
+Removed 'com.android.support:recyclerview-v7:aar:23.0.1' from packaging of prodDebugAndroidTest: Already in tested package.
+Using incremental javac compilation.
+Incremental Java compilation disabled in variant mockDebug as you are using 2 source folders : /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/java,/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/mock/java
+Not using incremental javac compilation.
+Removed 'com.google.guava:guava:jar:19.0' from packaging of mockDebugUnitTest: Already in tested package.
+Using incremental javac compilation.
+Removed 'com.android.support:support-annotations:jar:23.0.1' from packaging of mockDebugAndroidTest: Already in tested package.
+Removed 'com.android.support:recyclerview-v7:aar:23.0.1' from packaging of mockDebugAndroidTest: Already in tested package.
+Removed 'com.android.support.test.espresso:espresso-idling-resource:aar:2.2.1' from packaging of mockDebugAndroidTest: Already in tested package.
+Removed 'com.android.support:support-v4:aar:23.0.1' from packaging of mockDebugAndroidTest: Already in tested package.
+Incremental Java compilation disabled in variant mockDebugAndroidTest as you are using 2 source folders : /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/androidTest/java,/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/androidTestMock/java
+Not using incremental javac compilation.
+All projects evaluated.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Problem configuring task :app:test from command line.
+> Unknown command-line option '--tests'.
+
+* Try:
+Run gradle help --task :app:test to get task usage details. Run with --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.commandline.TaskConfigurationException: Problem configuring task :app:test from command line.
+	at org.gradle.execution.commandline.CommandLineTaskConfigurer.configureTasksNow(CommandLineTaskConfigurer.java:64)
+	at org.gradle.execution.commandline.CommandLineTaskConfigurer.configureTasks(CommandLineTaskConfigurer.java:44)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:44)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:143)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:52)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.health.DaemonHealthTracker.execute(DaemonHealthTracker.java:40)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:66)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.health.HintGCAfterBuild.execute(HintGCAfterBuild.java:41)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:246)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+Caused by: org.gradle.cli.CommandLineArgumentException: Unknown command-line option '--tests'.
+	at org.gradle.cli.CommandLineParser$BeforeFirstSubCommand.onStartOption(CommandLineParser.java:329)
+	at org.gradle.cli.CommandLineParser.parse(CommandLineParser.java:102)
+	at org.gradle.execution.commandline.CommandLineTaskConfigurer.configureTasksNow(CommandLineTaskConfigurer.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 13.923 secs
+20:03:24.984 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_settings class cache for settings file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/settings.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/settings_bb79ubhtg05ptjgo3rcadxpze/cp_settings).
+20:03:24.984 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on settings class cache for settings file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/settings.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/settings_bb79ubhtg05ptjgo3rcadxpze/settings).
+20:03:24.985 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/build.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/build_aucj1haju137emwpfkjo1h74q/cp_proj).
+20:03:24.985 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/build.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/build_aucj1haju137emwpfkjo1h74q/proj).
+20:03:24.985 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/build_1iz9tm755llg2kb6u36oyecni/cp_proj).
+20:03:24.985 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/build_1iz9tm755llg2kb6u36oyecni/proj).
+20:03:24.986 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_dsl class cache for script '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/jacoco.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/jacoco_1iueoqxoyhwdn557zrghd604a/cp_dsl).
+20:03:24.986 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on dsl class cache for script '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/jacoco.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/jacoco_1iueoqxoyhwdn557zrghd604a/dsl).
+20:03:24.994 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 51, cache instances: 6, modules served from cache: 447, artifacts: 139
+20:03:24.994 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/metadata-2.16/module-versions.bin)
+20:03:24.994 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/metadata-2.16/artifact-at-repository.bin)
+20:03:24.995 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-url.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/metadata-2.16/artifact-at-url.bin)
+20:03:24.995 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/metadata-2.16/module-metadata.bin)
+20:03:24.995 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2).
+20:03:24.996 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+20:03:24.996 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 16 (avg: 0.0 secs, total: 0.014 secs)
+20:03:24.996 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.001 secs
+20:03:24.996 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/plugin-resolution) was closed 0 times.
+20:03:24.996 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+20:03:24.996 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+20:03:24.997 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+20:03:25.154 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon stop has been requested. Sleeping until state changes.
+20:03:25.155 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = BuildAndStop{id=45b22f76-4d36-4930-8b2a-de0e8c6f7c77.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7f738a20]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@2fab302b with state StopRequested
+20:03:25.155 [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection manager is shutting down
+20:03:25.155 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = BuildAndStop{id=45b22f76-4d36-4930-8b2a-de0e8c6f7c77.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7f738a20]
+20:03:25.155 [DEBUG] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-1: Close connection
+20:03:25.155 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1472385805155
+20:03:25.156 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to command completed and stop requested. The daemon is running a build: false
+20:03:25.156 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon has stopped.
+20:03:25.156 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+20:03:25.156 [DEBUG] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-1: Close connection
+20:03:25.156 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+20:03:25.156 [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection manager shut down
+20:03:25.156 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Failure[value=org.gradle.initialization.ReportedException: org.gradle.internal.exceptions.LocationAwareException: Problem configuring task :app:test from command line.]
+20:03:25.156 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [e0269450-f14a-4635-95a8-16f7ea7353ca port:52879, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+20:03:25.157 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Failure
+20:03:25.158 [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection manager is shutting down
+20:03:25.158 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [e0269450-f14a-4635-95a8-16f7ea7353ca port:52879, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+20:03:25.158 [DEBUG] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-2: Close connection
+20:03:25.158 [DEBUG] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-2: Close connection
+20:03:25.159 [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection manager shut down
+20:03:25.159 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+20:03:25.159 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+20:03:25.162 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+20:03:25.162 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Address removed from registry.
+20:03:25.170 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: BuildAndStop{id=45b22f76-4d36-4930-8b2a-de0e8c6f7c77.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}
+20:03:25.194 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.Finished
+20:03:25.194 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@53ed2964
+20:03:25.194 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@53ed2964
+20:03:25.195 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+20:03:25.196 [DEBUG] [org.gradle.messaging.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+20:03:25.196 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received null
+20:03:25.196 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+20:03:25.197 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+20:03:25.197 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [e0269450-f14a-4635-95a8-16f7ea7353ca port:52879, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+20:03:25.198 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+20:03:25.198 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+20:03:25.199 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.

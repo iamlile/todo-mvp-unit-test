@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/merged/mock/debug/menu/filter_tasks.xml",
+        "source": "/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/menu/filter_tasks.xml"
+    },
+    {
+        "merged": "/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/merged/mock/debug/menu/taskdetail_fragment_menu.xml",
+        "source": "/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/menu/taskdetail_fragment_menu.xml"
+    },
+    {
+        "merged": "/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/merged/mock/debug/menu/drawer_actions.xml",
+        "source": "/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/menu/drawer_actions.xml"
+    },
+    {
+        "merged": "/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/merged/mock/debug/menu/tasks_fragment_menu.xml",
+        "source": "/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/menu/tasks_fragment_menu.xml"
+    }
+]

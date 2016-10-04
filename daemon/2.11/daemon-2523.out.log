@@ -1,0 +1,1415 @@
+21:17:40.974 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=c39a5f38-b212-4a44-acd8-e187feff7372,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home,daemonRegistryDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon,pid=2523,idleTimeout=120000,daemonOpts=-Xmx5120M,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+21:17:40.976 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1472390260976
+21:17:40.989 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface awdl0
+21:17:40.989 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+21:17:40.989 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+21:17:40.990 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:5880:69ff:fe82:7883%awdl0
+21:17:40.990 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface awdl0
+21:17:40.991 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface ppp0
+21:17:40.991 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+21:17:40.991 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+21:17:40.992 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /10.0.0.14
+21:17:40.992 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface ppp0
+21:17:40.992 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface vboxnet0
+21:17:40.992 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+21:17:40.993 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+21:17:40.993 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.56.1
+21:17:40.993 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface vboxnet0
+21:17:40.993 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface en0
+21:17:40.994 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+21:17:40.994 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+21:17:40.994 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:a65e:60ff:feed:4cad%en0
+21:17:40.994 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.0.7
+21:17:40.994 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface en0
+21:17:40.995 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface lo0
+21:17:40.995 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+21:17:40.995 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+21:17:40.995 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Ignoring remote address on loopback interface /fe80:0:0:0:0:0:0:1%lo0
+21:17:40.995 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1
+21:17:40.996 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+21:17:40.996 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface lo0
+21:17:41.006 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Listening on [7863f1f7-2ebb-425a-9e6b-9e665d6076e2 port:63373, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]].
+21:17:41.009 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Sun Aug 28 21:17:41 CST 2016, with address: [7863f1f7-2ebb-425a-9e6b-9e665d6076e2 port:63373, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+21:17:41.009 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertising the daemon address to the clients: [7863f1f7-2ebb-425a-9e6b-9e665d6076e2 port:63373, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+21:17:41.010 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=c39a5f38-b212-4a44-acd8-e187feff7372,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home,daemonRegistryDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon,pid=2523,idleTimeout=120000,daemonOpts=-Xmx5120M,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+21:17:41.010 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [7863f1f7-2ebb-425a-9e6b-9e665d6076e2 port:63373, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], context: DefaultDaemonContext[uid=c39a5f38-b212-4a44-acd8-e187feff7372,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home,daemonRegistryDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon,pid=2523,idleTimeout=120000,daemonOpts=-Xmx5120M,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+21:17:41.016 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+21:17:41.018 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+21:17:41.036 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+21:17:41.036 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+21:17:41.037 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+21:17:41.038 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] requestStopOnIdleTimeout(120000 MILLISECONDS) called on daemon
+21:17:41.038 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: waiting for daemon to stop or be idle for 120000ms
+21:17:41.039 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Sun Aug 28 21:19:40 CST 2016
+21:17:41.081 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:63374 to /0:0:0:0:0:0:0:1:63373.
+21:17:41.120 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.BuildAndStop
+21:17:41.121 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: BuildAndStop{id=0637c996-49f2-407c-a3e6-9f06f0f5120c.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}
+21:17:41.121 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: BuildAndStop{id=0637c996-49f2-407c-a3e6-9f06f0f5120c.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}.
+21:17:41.122 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: BuildAndStop{id=0637c996-49f2-407c-a3e6-9f06f0f5120c.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app} with connection: socket connection from /0:0:0:0:0:0:0:1:63373 to /0:0:0:0:0:0:0:1:63374.
+21:17:41.128 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = BuildAndStop{id=0637c996-49f2-407c-a3e6-9f06f0f5120c.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@69520f1b] after 0.0 minutes of idle
+21:17:41.128 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [7863f1f7-2ebb-425a-9e6b-9e665d6076e2 port:63373, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+21:17:41.129 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [7863f1f7-2ebb-425a-9e6b-9e665d6076e2 port:63373, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+21:17:41.129 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+21:17:41.129 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+21:17:41.132 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+21:17:41.132 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1472390261132
+21:17:41.132 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+21:17:41.132 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building BuildAndStop{id=0637c996-49f2-407c-a3e6-9f06f0f5120c.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}. Dispatching build started information...
+21:17:41.133 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+21:17:41.136 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Users/lee/Documents/soft/android-sdk-macosx/build-tools:/Users/lee/Documents/soft/android-sdk-macosx/tools:/Users/lee/Documents/soft/android-sdk-macosx/platform-tools:/usr/local/mysql:/bin:/Users/lee/Documents/soft/gradle-2.11/bin:/Users/lee/Documents/soft/apache-maven-3.3.9/bin:/Users/lee/Documents/soft/oclint-0.10.3/bin:/Users/lee/.rvm/bin, HUDSON_HOME=/Users/lee/Documents/soft/jenkins, JOB_URL=http://localhost:8080/job/todo-mvp-unit-test/, HUDSON_COOKIE=250429b7-e148-41d7-b157-ef8138cec088, ANDROID_HOME=/Users/lee/Documents/soft/android-sdk-macosx, JAVA_MAIN_CLASS_2517=org.gradle.launcher.GradleMain, rvm_loaded_flag=1, MAVEN_HOME=/Users/lee/Documents/soft/apache-maven-3.3.9, JENKINS_SERVER_COOKIE=b0cca8869dd4cd49, LOGNAME=lee, rvm_version=1.26.11 (latest), PWD=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app, TERM_PROGRAM_VERSION=343.7, APP_ICON_2517=/Users/lee/Documents/soft/gradle-2.11/media/gradle.icns, JENKINS_URL=http://localhost:8080/, rvm_user_install_flag=1, BUILD_TAG=jenkins-todo-mvp-unit-test-14, SHELL=/bin/bash, SECURITYSESSIONID=186a7, OLDPWD=/Users/lee/Documents/soft/gradle-2.11, JENKINS_HOME=/Users/lee/Documents/soft/jenkins, rvm_path=/Users/lee/.rvm, TMPDIR=/var/folders/pg/4jbnwcrn5k7_6dth03nswwp00000gn/T/, NODE_NAME=master, XPC_FLAGS=0x0, BUILD_DISPLAY_NAME=#14, TERM_SESSION_ID=3C6966EA-E928-4094-8F26-6B283C666161, _system_name=OSX, M2_HOME=/Users/lee/Documents/soft/apache-maven-3.3.9, __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34, Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.0OQpxSPpFG/Render, SHLVL=2, _system_arch=x86_64, rvm_bin_path=/Users/lee/.rvm/bin, APP_NAME_2517=Gradle, JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home, JAVA_MAIN_CLASS_819=org.apache.catalina.startup.Bootstrap, TERM=xterm-256color, BUILD_ID=14, rvm_prefix=/Users/lee, LANG=zh_CN.UTF-8, JOB_NAME=todo-mvp-unit-test, GRADLE_HOME=/Users/lee/Documents/soft/gradle-2.11, GRADLE_USER_HOME=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test, NODE_LABELS=master, HUDSON_URL=http://localhost:8080/, WORKSPACE=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test, XPC_SERVICE_NAME=0, ANDROID_SDK_HOME=/Users/lee/Documents/soft/android-sdk-macosx, TERM_PROGRAM=Apple_Terminal, EXECUTOR_NUMBER=0, _system_type=Darwin, HUDSON_SERVER_COOKIE=b0cca8869dd4cd49, JOB_BASE_NAME=todo-mvp-unit-test, _system_version=10.10, OCLINT_HOME=/Users/lee/Documents/soft/oclint-0.10.3, USER=lee, rvm_stored_umask=0022, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.BsO0QkSdG8/Listeners, BUILD_NUMBER=14, BUILD_URL=http://localhost:8080/job/todo-mvp-unit-test/14/, HOME=/Users/lee, ANDROID_AVD_HOME=/Users/lee/.android/avd}
+21:17:41.140 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.CloseInput
+21:17:41.141 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@30b055ef
+21:17:41.144 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+21:17:41.144 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 2523). The daemon log file: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon/2.11/daemon-2523.out.log
+21:17:41.146 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+21:17:41.147 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+21:17:41.147 [DEBUG] [org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon] Requesting daemon stop after processing BuildAndStop{id=0637c996-49f2-407c-a3e6-9f06f0f5120c.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}
+21:17:41.147 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop as soon as idle requested. The daemon is busy: true
+21:17:41.148 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon stop has been requested. Sleeping until state changes.
+21:17:41.149 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+21:17:41.149 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=c39a5f38-b212-4a44-acd8-e187feff7372,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home,daemonRegistryDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/daemon,pid=2523,idleTimeout=120000,daemonOpts=-Xmx5120M,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+Starting Build
+Settings evaluated using settings file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/settings.gradle'.
+Projects loaded. Root project using build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/build.gradle'.
+Included projects: [root project 'todo-mvp-unit-test', project ':app']
+Evaluating root project 'todo-mvp-unit-test' using build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/build.gradle'.
+Evaluating project ':app' using build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle'.
+Compiling build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle' using SubsetScriptTransformer.
+Compiling build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle' using BuildScriptTransformer.
+Creating configuration compile
+Creating configuration apk
+Creating configuration provided
+Creating configuration wearApp
+Creating configuration androidTestCompile
+Creating configuration androidTestApk
+Creating configuration androidTestProvided
+Creating configuration androidTestWearApp
+Creating configuration testCompile
+Creating configuration testApk
+Creating configuration testProvided
+Creating configuration testWearApp
+Creating configuration debugCompile
+Creating configuration debugApk
+Creating configuration debugProvided
+Creating configuration debugWearApp
+Creating configuration testDebugCompile
+Creating configuration testDebugApk
+Creating configuration testDebugProvided
+Creating configuration testDebugWearApp
+Creating configuration releaseCompile
+Creating configuration releaseApk
+Creating configuration releaseProvided
+Creating configuration releaseWearApp
+Creating configuration testReleaseCompile
+Creating configuration testReleaseApk
+Creating configuration testReleaseProvided
+Creating configuration testReleaseWearApp
+Creating configuration mockCompile
+Creating configuration mockApk
+Creating configuration mockProvided
+Creating configuration mockWearApp
+Creating configuration androidTestMockCompile
+Creating configuration androidTestMockApk
+Creating configuration androidTestMockProvided
+Creating configuration androidTestMockWearApp
+Creating configuration testMockCompile
+Creating configuration testMockApk
+Creating configuration testMockProvided
+Creating configuration testMockWearApp
+Creating configuration prodCompile
+Creating configuration prodApk
+Creating configuration prodProvided
+Creating configuration prodWearApp
+Creating configuration androidTestProdCompile
+Creating configuration androidTestProdApk
+Creating configuration androidTestProdProvided
+Creating configuration androidTestProdWearApp
+Creating configuration testProdCompile
+Creating configuration testProdApk
+Creating configuration testProdProvided
+Creating configuration testProdWearApp
+The 'sonar-runner' plugin has been deprecated and is scheduled to be removed in Gradle 3.0. please use the official plugin from SonarQube (http://docs.sonarqube.org/display/SONAR/Analyzing+with+Gradle).
+Parsing the SDK, no caching allowed
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/add-ons/addon-google_apis-google-19/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/add-ons/addon-google_apis-google-22/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/add-ons/addon-google_apis-google-23/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/17.0.0/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/19.1.0/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/20.0.0/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/21.1.2/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/22.0.1/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.1/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.3/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/docs/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/android/m2repository/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/google/auto/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/google/m2repository/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/google/simulators/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/extras/intel/Hardware_Accelerated_Execution_Manager/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platform-tools/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-15/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-16/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-17/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-18/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-19/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-20/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-21/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-22/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-23/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-15/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-16/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-17/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-18/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-19/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-21/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-22/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/samples/android-23/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-15/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-16/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-17/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-18/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-19/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-21/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-22/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/sources/android-23/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-18/default/armeabi-v7a/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-18/default/x86/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-19/default/x86/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-22/default/x86/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-23/android-tv/armeabi-v7a/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/system-images/android-23/google_apis/x86/package.xml
+Parsing /Users/lee/Documents/soft/android-sdk-macosx/tools/package.xml
+Creating configuration prodDebugCompile
+Creating configuration prodDebugApk
+Creating configuration prodDebugProvided
+Creating configuration prodDebugWearApp
+Creating configuration testProdDebugCompile
+Creating configuration testProdDebugApk
+Creating configuration testProdDebugProvided
+Creating configuration testProdDebugWearApp
+Creating configuration prodReleaseCompile
+Creating configuration prodReleaseApk
+Creating configuration prodReleaseProvided
+Creating configuration prodReleaseWearApp
+Creating configuration testProdReleaseCompile
+Creating configuration testProdReleaseApk
+Creating configuration testProdReleaseProvided
+Creating configuration testProdReleaseWearApp
+Creating configuration mockDebugCompile
+Creating configuration mockDebugApk
+Creating configuration mockDebugProvided
+Creating configuration mockDebugWearApp
+Creating configuration testMockDebugCompile
+Creating configuration testMockDebugApk
+Creating configuration testMockDebugProvided
+Creating configuration testMockDebugWearApp
+Incremental Java compilation disabled in variant prodDebug as you are using 2 source folders : /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/java,/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/prod/java
+Not using incremental javac compilation.
+Incremental java compilation is an incubating feature.
+Removed 'com.google.guava:guava:jar:19.0' from packaging of prodDebugUnitTest: Already in tested package.
+Using incremental javac compilation.
+Incremental Java compilation disabled in variant prodRelease as you are using 2 source folders : /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/java,/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/prod/java
+Not using incremental javac compilation.
+Removed 'com.google.guava:guava:jar:19.0' from packaging of prodReleaseUnitTest: Already in tested package.
+Using incremental javac compilation.
+Removed 'com.android.support:support-annotations:jar:23.0.1' from packaging of prodDebugAndroidTest: Already in tested package.
+Removed 'com.android.support:recyclerview-v7:aar:23.0.1' from packaging of prodDebugAndroidTest: Already in tested package.
+Removed 'com.android.support.test.espresso:espresso-idling-resource:aar:2.2.1' from packaging of prodDebugAndroidTest: Already in tested package.
+Removed 'com.android.support:support-v4:aar:23.0.1' from packaging of prodDebugAndroidTest: Already in tested package.
+Using incremental javac compilation.
+Incremental Java compilation disabled in variant mockDebug as you are using 2 source folders : /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/java,/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/mock/java
+Not using incremental javac compilation.
+Removed 'com.google.guava:guava:jar:19.0' from packaging of mockDebugUnitTest: Already in tested package.
+Using incremental javac compilation.
+Removed 'com.android.support:support-annotations:jar:23.0.1' from packaging of mockDebugAndroidTest: Already in tested package.
+Removed 'com.android.support:recyclerview-v7:aar:23.0.1' from packaging of mockDebugAndroidTest: Already in tested package.
+Removed 'com.android.support:support-v4:aar:23.0.1' from packaging of mockDebugAndroidTest: Already in tested package.
+Removed 'com.android.support.test.espresso:espresso-idling-resource:aar:2.2.1' from packaging of mockDebugAndroidTest: Already in tested package.
+Incremental Java compilation disabled in variant mockDebugAndroidTest as you are using 2 source folders : /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/androidTest/java,/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/androidTestMock/java
+Not using incremental javac compilation.
+All projects evaluated.
+Selected primary task 'build' from project :app
+Selected primary task 'unitTest' from project :app
+Selected primary task 'test' from project :app
+Selected primary task 'jacocoTestReport' from project :app
+Selected primary task 'sonarRunner' from project :app
+Tasks to be executed: [task ':app:preBuild', task ':app:preMockDebugBuild', task ':app:checkMockDebugManifest', task ':app:preProdDebugBuild', task ':app:preProdReleaseBuild', task ':app:prepareComAndroidSupportAppcompatV72301Library', task ':app:prepareComAndroidSupportCardviewV72301Library', task ':app:prepareComAndroidSupportDesign2301Library', task ':app:prepareComAndroidSupportMultidex100Library', task ':app:prepareComAndroidSupportRecyclerviewV72301Library', task ':app:prepareComAndroidSupportSupportV42301Library', task ':app:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library', task ':app:prepareMockDebugDependencies', task ':app:compileMockDebugAidl', task ':app:compileMockDebugRenderscript', task ':app:generateMockDebugBuildConfig', task ':app:mergeMockDebugShaders', task ':app:compileMockDebugShaders', task ':app:generateMockDebugAssets', task ':app:mergeMockDebugAssets', task ':app:generateMockDebugResValues', task ':app:generateMockDebugResources', task ':app:mergeMockDebugResources', task ':app:processMockDebugManifest', task ':app:processMockDebugResources', task ':app:generateMockDebugSources', task ':app:incrementalMockDebugJavaCompilationSafeguard', task ':app:compileMockDebugJavaWithJavac', task ':app:compileMockDebugNdk', task ':app:compileMockDebugSources', task ':app:prePackageMarkerForMockDebug', task ':app:transformClassesWithDexForMockDebug', task ':app:mergeMockDebugJniLibFolders', task ':app:transformNative_libsWithMergeJniLibsForMockDebug', task ':app:processMockDebugJavaRes', task ':app:transformResourcesWithMergeJavaResForMockDebug', task ':app:validateDebugSigning', task ':app:packageMockDebug', task ':app:zipalignMockDebug', task ':app:assembleMockDebug', task ':app:checkProdDebugManifest', task ':app:prepareProdDebugDependencies', task ':app:compileProdDebugAidl', task ':app:compileProdDebugRenderscript', task ':app:generateProdDebugBuildConfig', task ':app:mergeProdDebugShaders', task ':app:compileProdDebugShaders', task ':app:generateProdDebugAssets', task ':app:mergeProdDebugAssets', task ':app:generateProdDebugResValues', task ':app:generateProdDebugResources', task ':app:mergeProdDebugResources', task ':app:processProdDebugManifest', task ':app:processProdDebugResources', task ':app:generateProdDebugSources', task ':app:incrementalProdDebugJavaCompilationSafeguard', task ':app:compileProdDebugJavaWithJavac', task ':app:compileProdDebugNdk', task ':app:compileProdDebugSources', task ':app:prePackageMarkerForProdDebug', task ':app:transformClassesWithDexForProdDebug', task ':app:mergeProdDebugJniLibFolders', task ':app:transformNative_libsWithMergeJniLibsForProdDebug', task ':app:processProdDebugJavaRes', task ':app:transformResourcesWithMergeJavaResForProdDebug', task ':app:packageProdDebug', task ':app:zipalignProdDebug', task ':app:assembleProdDebug', task ':app:assembleDebug', task ':app:checkProdReleaseManifest', task ':app:prepareProdReleaseDependencies', task ':app:compileProdReleaseAidl', task ':app:compileProdReleaseRenderscript', task ':app:generateProdReleaseBuildConfig', task ':app:mergeProdReleaseShaders', task ':app:compileProdReleaseShaders', task ':app:generateProdReleaseAssets', task ':app:mergeProdReleaseAssets', task ':app:generateProdReleaseResValues', task ':app:generateProdReleaseResources', task ':app:mergeProdReleaseResources', task ':app:processProdReleaseManifest', task ':app:processProdReleaseResources', task ':app:generateProdReleaseSources', task ':app:incrementalProdReleaseJavaCompilationSafeguard', task ':app:compileProdReleaseJavaWithJavac', task ':app:compileProdReleaseNdk', task ':app:compileProdReleaseSources', task ':app:prePackageMarkerForProdRelease', task ':app:unzipJacocoAgent', task ':app:transformClassesWithJacocoForProdRelease', task ':app:processProdReleaseJavaRes', task ':app:transformResourcesWithMergeJavaResForProdRelease', task ':app:transformClassesAndResourcesWithProguardForProdRelease', task ':app:transformClassesWithDexForProdRelease', task ':app:mergeProdReleaseJniLibFolders', task ':app:transformNative_libsWithMergeJniLibsForProdRelease', task ':app:packageProdRelease', task ':app:assembleProdRelease', task ':app:assembleRelease', task ':app:assemble', task ':app:compileLint', task ':app:lint', task ':app:incrementalMockDebugUnitTestJavaCompilationSafeguard', task ':app:preMockDebugUnitTestBuild', task ':app:prepareMockDebugUnitTestDependencies', task ':app:compileMockDebugUnitTestJavaWithJavac', task ':app:processMockDebugUnitTestJavaRes', task ':app:compileMockDebugUnitTestSources', task ':app:mockableAndroidJar', task ':app:assembleMockDebugUnitTest', task ':app:testMockDebugUnitTest', task ':app:incrementalProdDebugUnitTestJavaCompilationSafeguard', task ':app:preProdDebugUnitTestBuild', task ':app:prepareProdDebugUnitTestDependencies', task ':app:compileProdDebugUnitTestJavaWithJavac', task ':app:processProdDebugUnitTestJavaRes', task ':app:compileProdDebugUnitTestSources', task ':app:assembleProdDebugUnitTest', task ':app:testProdDebugUnitTest', task ':app:incrementalProdReleaseUnitTestJavaCompilationSafeguard', task ':app:preProdReleaseUnitTestBuild', task ':app:prepareProdReleaseUnitTestDependencies', task ':app:compileProdReleaseUnitTestJavaWithJavac', task ':app:processProdReleaseUnitTestJavaRes', task ':app:compileProdReleaseUnitTestSources', task ':app:assembleProdReleaseUnitTest', task ':app:testProdReleaseUnitTest', task ':app:test', task ':app:check', task ':app:build', task ':app:compileUnitTestJava', task ':app:processUnitTestResources', task ':app:unitTestClasses', task ':app:unitTest', task ':app:jacocoTestReport', task ':app:sonarRunner']
+Creating In-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/fileHashes.bin: MaxSize{2316300}
+Creating In-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/outputFileStates.bin: MaxSize{17300}
+Creating In-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/fileSnapshots.bin: MaxSize{57900}
+Creating In-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/taskArtifacts.bin: MaxSize{11500}
+:app:preBuild (Thread[Daemon worker,5,main]) started.
+:app:preBuild
+Skipping task ':app:preBuild' as it has no actions.
+:app:preBuild UP-TO-DATE
+:app:preBuild (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:preMockDebugBuild (Thread[Daemon worker,5,main]) started.
+:app:preMockDebugBuild
+Skipping task ':app:preMockDebugBuild' as it has no actions.
+:app:preMockDebugBuild UP-TO-DATE
+:app:preMockDebugBuild (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:checkMockDebugManifest (Thread[Daemon worker,5,main]) started.
+:app:checkMockDebugManifest
+Executing task ':app:checkMockDebugManifest' (up-to-date check took 0.001 secs) due to:
+  Task has not declared any outputs.
+:app:checkMockDebugManifest (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:preProdDebugBuild (Thread[Daemon worker,5,main]) started.
+:app:preProdDebugBuild
+Skipping task ':app:preProdDebugBuild' as it has no actions.
+:app:preProdDebugBuild UP-TO-DATE
+:app:preProdDebugBuild (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:preProdReleaseBuild (Thread[Daemon worker,5,main]) started.
+:app:preProdReleaseBuild
+Skipping task ':app:preProdReleaseBuild' as it has no actions.
+:app:preProdReleaseBuild UP-TO-DATE
+:app:preProdReleaseBuild (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:prepareComAndroidSupportAppcompatV72301Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportAppcompatV72301Library
+Invalidating in-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/outputFileStates.bin
+Invalidating in-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/fileSnapshots.bin
+Invalidating in-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/fileHashes.bin
+Invalidating in-memory cache of /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/taskArtifacts.bin
+Skipping task ':app:prepareComAndroidSupportAppcompatV72301Library' as it is up-to-date (took 0.101 secs).
+:app:prepareComAndroidSupportAppcompatV72301Library UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72301Library (Thread[Daemon worker,5,main]) completed. Took 0.102 secs.
+:app:prepareComAndroidSupportCardviewV72301Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportCardviewV72301Library
+Skipping task ':app:prepareComAndroidSupportCardviewV72301Library' as it is up-to-date (took 0.002 secs).
+:app:prepareComAndroidSupportCardviewV72301Library UP-TO-DATE
+:app:prepareComAndroidSupportCardviewV72301Library (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:prepareComAndroidSupportDesign2301Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportDesign2301Library
+Skipping task ':app:prepareComAndroidSupportDesign2301Library' as it is up-to-date (took 0.003 secs).
+:app:prepareComAndroidSupportDesign2301Library UP-TO-DATE
+:app:prepareComAndroidSupportDesign2301Library (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:prepareComAndroidSupportMultidex100Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportMultidex100Library
+Skipping task ':app:prepareComAndroidSupportMultidex100Library' as it is up-to-date (took 0.001 secs).
+:app:prepareComAndroidSupportMultidex100Library UP-TO-DATE
+:app:prepareComAndroidSupportMultidex100Library (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:prepareComAndroidSupportRecyclerviewV72301Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportRecyclerviewV72301Library
+Skipping task ':app:prepareComAndroidSupportRecyclerviewV72301Library' as it is up-to-date (took 0.002 secs).
+:app:prepareComAndroidSupportRecyclerviewV72301Library UP-TO-DATE
+:app:prepareComAndroidSupportRecyclerviewV72301Library (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:prepareComAndroidSupportSupportV42301Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportSupportV42301Library
+Skipping task ':app:prepareComAndroidSupportSupportV42301Library' as it is up-to-date (took 0.002 secs).
+:app:prepareComAndroidSupportSupportV42301Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42301Library (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library (Thread[Daemon worker,5,main]) started.
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library
+Skipping task ':app:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library' as it is up-to-date (took 0.002 secs).
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library UP-TO-DATE
+:app:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:prepareMockDebugDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareMockDebugDependencies
+Executing task ':app:prepareMockDebugDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareMockDebugDependencies (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:compileMockDebugAidl (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugAidl
+Skipping task ':app:compileMockDebugAidl' as it is up-to-date (took 0.003 secs).
+:app:compileMockDebugAidl UP-TO-DATE
+:app:compileMockDebugAidl (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:compileMockDebugRenderscript (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugRenderscript
+Skipping task ':app:compileMockDebugRenderscript' as it is up-to-date (took 0.005 secs).
+:app:compileMockDebugRenderscript UP-TO-DATE
+:app:compileMockDebugRenderscript (Thread[Daemon worker,5,main]) completed. Took 0.012 secs.
+:app:generateMockDebugBuildConfig (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugBuildConfig
+Skipping task ':app:generateMockDebugBuildConfig' as it is up-to-date (took 0.003 secs).
+:app:generateMockDebugBuildConfig UP-TO-DATE
+:app:generateMockDebugBuildConfig (Thread[Daemon worker,5,main]) completed. Took 0.032 secs.
+:app:mergeMockDebugShaders (Thread[Daemon worker,5,main]) started.
+:app:mergeMockDebugShaders
+Skipping task ':app:mergeMockDebugShaders' as it is up-to-date (took 0.002 secs).
+:app:mergeMockDebugShaders UP-TO-DATE
+:app:mergeMockDebugShaders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:compileMockDebugShaders (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugShaders
+Skipping task ':app:compileMockDebugShaders' as it is up-to-date (took 0.004 secs).
+:app:compileMockDebugShaders UP-TO-DATE
+:app:compileMockDebugShaders (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:generateMockDebugAssets (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugAssets
+Skipping task ':app:generateMockDebugAssets' as it has no actions.
+:app:generateMockDebugAssets UP-TO-DATE
+:app:generateMockDebugAssets (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:mergeMockDebugAssets (Thread[Daemon worker,5,main]) started.
+:app:mergeMockDebugAssets
+Skipping task ':app:mergeMockDebugAssets' as it is up-to-date (took 0.004 secs).
+:app:mergeMockDebugAssets UP-TO-DATE
+:app:mergeMockDebugAssets (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:generateMockDebugResValues (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugResValues
+Skipping task ':app:generateMockDebugResValues' as it is up-to-date (took 0.001 secs).
+:app:generateMockDebugResValues UP-TO-DATE
+:app:generateMockDebugResValues (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:generateMockDebugResources (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugResources
+Skipping task ':app:generateMockDebugResources' as it has no actions.
+:app:generateMockDebugResources UP-TO-DATE
+:app:generateMockDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:mergeMockDebugResources (Thread[Daemon worker,5,main]) started.
+:app:mergeMockDebugResources
+Executing task ':app:mergeMockDebugResources' (up-to-date check took 0.116 secs) due to:
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/blame/res/mock/debug/single/drawable-xxxhdpi-v4.json has changed.
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/blame/res/mock/debug/single/drawable.json has changed.
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/blame/res/mock/debug/single/drawable-xhdpi-v4.json has changed.
+All input files are considered out-of-date for incremental task ':app:mergeMockDebugResources'.
+Unable do incremental execution: full task run
+QueuedCruncher is using /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/aapt
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xhdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xhdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxxhdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xhdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxhdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xhdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-mdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-hdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxhdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-ldpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-mdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-hdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxxhdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-mdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxhdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxxhdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxxhdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxhdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-mdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-ldpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxxhdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xhdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-ldpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-ldpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-hdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxhdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxhdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-ldpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxxhdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxxhdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xhdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxhdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxxhdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xhdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xhdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-mdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xhdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-hdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-mdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-mdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-hdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-hdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-hdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-ldpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-hdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxhdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-ldpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-mdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-ldpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxxhdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-mdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-hdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-hdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xhdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxhdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-ldpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxhdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xhdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-mdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxxhdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxxhdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-mdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-ldpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxhdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxhdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-mdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-ldpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xxxhdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-xhdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-ldpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-hdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/mock/debug/drawable-hdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+:app:mergeMockDebugResources (Thread[Daemon worker,5,main]) completed. Took 1.555 secs.
+:app:processMockDebugManifest (Thread[Daemon worker,5,main]) started.
+:app:processMockDebugManifest
+Skipping task ':app:processMockDebugManifest' as it is up-to-date (took 0.006 secs).
+:app:processMockDebugManifest UP-TO-DATE
+:app:processMockDebugManifest (Thread[Daemon worker,5,main]) completed. Took 0.009 secs.
+:app:processMockDebugResources (Thread[Daemon worker,5,main]) started.
+:app:processMockDebugResources
+Executing task ':app:processMockDebugResources' (up-to-date check took 0.044 secs) due to:
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/resources-mock-debug.ap_ has changed.
+All input files are considered out-of-date for incremental task ':app:processMockDebugResources'.
+Starting process 'command '/Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/aapt''. Working directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app Command: /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/aapt package -f --no-crunch -I /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-23/android.jar -M /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/manifests/full/mock/debug/AndroidManifest.xml -S /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/merged/mock/debug -A /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/assets/mock/debug -m -J /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/source/r/mock/debug -F /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/resources-mock-debug.ap_ --debug-mode --custom-package com.example.android.architecture.blueprints.todoapp -0 apk --output-text-symbols /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/symbols/mock/debug --no-version-vectors
+Successfully started process 'command '/Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/aapt''
+:app:processMockDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.452 secs.
+:app:generateMockDebugSources (Thread[Daemon worker,5,main]) started.
+:app:generateMockDebugSources
+Skipping task ':app:generateMockDebugSources' as it has no actions.
+:app:generateMockDebugSources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:incrementalMockDebugJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalMockDebugJavaCompilationSafeguard
+Skipping task ':app:incrementalMockDebugJavaCompilationSafeguard' as it is up-to-date (took 0.002 secs).
+:app:incrementalMockDebugJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalMockDebugJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:compileMockDebugJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/debug/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/mockDebug/java', not found
+Skipping task ':app:compileMockDebugJavaWithJavac' as it is up-to-date (took 0.014 secs).
+:app:compileMockDebugJavaWithJavac UP-TO-DATE
+:app:compileMockDebugJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.017 secs.
+:app:compileMockDebugNdk (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugNdk
+Skipping task ':app:compileMockDebugNdk' as it has no source files.
+:app:compileMockDebugNdk UP-TO-DATE
+:app:compileMockDebugNdk (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileMockDebugSources (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugSources
+Skipping task ':app:compileMockDebugSources' as it has no actions.
+:app:compileMockDebugSources UP-TO-DATE
+:app:compileMockDebugSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:prePackageMarkerForMockDebug (Thread[Daemon worker,5,main]) started.
+:app:prePackageMarkerForMockDebug
+Executing task ':app:prePackageMarkerForMockDebug' (up-to-date check took 0.001 secs) due to:
+  Value of input property 'buildId' has changed for task ':app:prePackageMarkerForMockDebug'
+All input files are considered out-of-date for incremental task ':app:prePackageMarkerForMockDebug'.
+:app:prePackageMarkerForMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:transformClassesWithDexForMockDebug (Thread[Daemon worker,5,main]) started.
+:app:transformClassesWithDexForMockDebug
+Skipping task ':app:transformClassesWithDexForMockDebug' as it is up-to-date (took 0.004 secs).
+:app:transformClassesWithDexForMockDebug UP-TO-DATE
+:app:transformClassesWithDexForMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:mergeMockDebugJniLibFolders (Thread[Daemon worker,5,main]) started.
+:app:mergeMockDebugJniLibFolders
+Skipping task ':app:mergeMockDebugJniLibFolders' as it is up-to-date (took 0.001 secs).
+:app:mergeMockDebugJniLibFolders UP-TO-DATE
+:app:mergeMockDebugJniLibFolders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:transformNative_libsWithMergeJniLibsForMockDebug (Thread[Daemon worker,5,main]) started.
+:app:transformNative_libsWithMergeJniLibsForMockDebug
+Skipping task ':app:transformNative_libsWithMergeJniLibsForMockDebug' as it is up-to-date (took 0.001 secs).
+:app:transformNative_libsWithMergeJniLibsForMockDebug UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:processMockDebugJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processMockDebugJavaRes
+Skipping task ':app:processMockDebugJavaRes' as it has no source files.
+:app:processMockDebugJavaRes UP-TO-DATE
+:app:processMockDebugJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:transformResourcesWithMergeJavaResForMockDebug (Thread[Daemon worker,5,main]) started.
+:app:transformResourcesWithMergeJavaResForMockDebug
+Skipping task ':app:transformResourcesWithMergeJavaResForMockDebug' as it is up-to-date (took 0.002 secs).
+:app:transformResourcesWithMergeJavaResForMockDebug UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:validateDebugSigning (Thread[Daemon worker,5,main]) started.
+:app:validateDebugSigning
+Executing task ':app:validateDebugSigning' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:validateDebugSigning (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:packageMockDebug (Thread[Daemon worker,5,main]) started.
+:app:packageMockDebug
+Executing task ':app:packageMockDebug' (up-to-date check took 0.004 secs) due to:
+  Input file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/resources-mock-debug.ap_ has changed.
+:app:packageMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.678 secs.
+:app:zipalignMockDebug (Thread[Daemon worker,5,main]) started.
+:app:zipalignMockDebug
+Executing task ':app:zipalignMockDebug' (up-to-date check took 0.001 secs) due to:
+  Input file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/outputs/apk/app-mock-debug-unaligned.apk has changed.
+Starting process 'command '/Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/zipalign''. Working directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app Command: /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/zipalign -f 4 /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/outputs/apk/app-mock-debug-unaligned.apk /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/outputs/apk/app-mock-debug.apk
+Successfully started process 'command '/Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/zipalign''
+:app:zipalignMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.043 secs.
+:app:assembleMockDebug (Thread[Daemon worker,5,main]) started.
+:app:assembleMockDebug
+Skipping task ':app:assembleMockDebug' as it has no actions.
+:app:assembleMockDebug (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:checkProdDebugManifest (Thread[Daemon worker,5,main]) started.
+:app:checkProdDebugManifest
+Executing task ':app:checkProdDebugManifest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:checkProdDebugManifest (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareProdDebugDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareProdDebugDependencies
+Executing task ':app:prepareProdDebugDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareProdDebugDependencies (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:compileProdDebugAidl (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugAidl
+Skipping task ':app:compileProdDebugAidl' as it is up-to-date (took 0.003 secs).
+:app:compileProdDebugAidl UP-TO-DATE
+:app:compileProdDebugAidl (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:compileProdDebugRenderscript (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugRenderscript
+Skipping task ':app:compileProdDebugRenderscript' as it is up-to-date (took 0.004 secs).
+:app:compileProdDebugRenderscript UP-TO-DATE
+:app:compileProdDebugRenderscript (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:generateProdDebugBuildConfig (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugBuildConfig
+Skipping task ':app:generateProdDebugBuildConfig' as it is up-to-date (took 0.002 secs).
+:app:generateProdDebugBuildConfig UP-TO-DATE
+:app:generateProdDebugBuildConfig (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:mergeProdDebugShaders (Thread[Daemon worker,5,main]) started.
+:app:mergeProdDebugShaders
+Skipping task ':app:mergeProdDebugShaders' as it is up-to-date (took 0.002 secs).
+:app:mergeProdDebugShaders UP-TO-DATE
+:app:mergeProdDebugShaders (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:compileProdDebugShaders (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugShaders
+Skipping task ':app:compileProdDebugShaders' as it is up-to-date (took 0.0 secs).
+:app:compileProdDebugShaders UP-TO-DATE
+:app:compileProdDebugShaders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:generateProdDebugAssets (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugAssets
+Skipping task ':app:generateProdDebugAssets' as it has no actions.
+:app:generateProdDebugAssets UP-TO-DATE
+:app:generateProdDebugAssets (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:mergeProdDebugAssets (Thread[Daemon worker,5,main]) started.
+:app:mergeProdDebugAssets
+Skipping task ':app:mergeProdDebugAssets' as it is up-to-date (took 0.002 secs).
+:app:mergeProdDebugAssets UP-TO-DATE
+:app:mergeProdDebugAssets (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:generateProdDebugResValues (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugResValues
+Skipping task ':app:generateProdDebugResValues' as it is up-to-date (took 0.001 secs).
+:app:generateProdDebugResValues UP-TO-DATE
+:app:generateProdDebugResValues (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:generateProdDebugResources (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugResources
+Skipping task ':app:generateProdDebugResources' as it has no actions.
+:app:generateProdDebugResources UP-TO-DATE
+:app:generateProdDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:mergeProdDebugResources (Thread[Daemon worker,5,main]) started.
+:app:mergeProdDebugResources
+Executing task ':app:mergeProdDebugResources' (up-to-date check took 0.081 secs) due to:
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/blame/res/prod/debug/single/layout.json has changed.
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/blame/res/prod/debug/single/drawable-xhdpi-v4.json has changed.
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/blame/res/prod/debug/single/drawable-mdpi-v4.json has changed.
+All input files are considered out-of-date for incremental task ':app:mergeProdDebugResources'.
+Unable do incremental execution: full task run
+QueuedCruncher is using /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/aapt
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xhdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xhdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xhdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxxhdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxhdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xhdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-mdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-hdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxhdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-ldpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-hdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-mdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxxhdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxhdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-mdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxxhdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxxhdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxhdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-mdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-ldpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxxhdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xhdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-ldpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-ldpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-hdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxhdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxhdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-ldpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxxhdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxxhdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xhdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxhdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxxhdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xhdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xhdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-mdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xhdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-hdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-mdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-mdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-hdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-hdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-hdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-ldpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-hdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxhdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-ldpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-mdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-ldpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxxhdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-mdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-hdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-hdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xhdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxhdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxhdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xhdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-ldpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-mdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxxhdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxxhdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-mdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-ldpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxhdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxhdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-mdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xhdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-ldpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-xxxhdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-hdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-ldpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/debug/drawable-hdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+:app:mergeProdDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.779 secs.
+:app:processProdDebugManifest (Thread[Daemon worker,5,main]) started.
+:app:processProdDebugManifest
+Skipping task ':app:processProdDebugManifest' as it is up-to-date (took 0.002 secs).
+:app:processProdDebugManifest UP-TO-DATE
+:app:processProdDebugManifest (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:processProdDebugResources (Thread[Daemon worker,5,main]) started.
+:app:processProdDebugResources
+Executing task ':app:processProdDebugResources' (up-to-date check took 0.017 secs) due to:
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/resources-prod-debug.ap_ has changed.
+All input files are considered out-of-date for incremental task ':app:processProdDebugResources'.
+Starting process 'command '/Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/aapt''. Working directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app Command: /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/aapt package -f --no-crunch -I /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-23/android.jar -M /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/manifests/full/prod/debug/AndroidManifest.xml -S /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/merged/prod/debug -A /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/assets/prod/debug -m -J /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/source/r/prod/debug -F /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/resources-prod-debug.ap_ --debug-mode --custom-package com.example.android.architecture.blueprints.todoapp -0 apk --output-text-symbols /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/symbols/prod/debug --no-version-vectors
+Successfully started process 'command '/Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/aapt''
+:app:processProdDebugResources (Thread[Daemon worker,5,main]) completed. Took 0.405 secs.
+:app:generateProdDebugSources (Thread[Daemon worker,5,main]) started.
+:app:generateProdDebugSources
+Skipping task ':app:generateProdDebugSources' as it has no actions.
+:app:generateProdDebugSources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:incrementalProdDebugJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalProdDebugJavaCompilationSafeguard
+Skipping task ':app:incrementalProdDebugJavaCompilationSafeguard' as it is up-to-date (took 0.002 secs).
+:app:incrementalProdDebugJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalProdDebugJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:compileProdDebugJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/debug/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/prodDebug/java', not found
+Skipping task ':app:compileProdDebugJavaWithJavac' as it is up-to-date (took 0.027 secs).
+:app:compileProdDebugJavaWithJavac UP-TO-DATE
+:app:compileProdDebugJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.032 secs.
+:app:compileProdDebugNdk (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugNdk
+Skipping task ':app:compileProdDebugNdk' as it has no source files.
+:app:compileProdDebugNdk UP-TO-DATE
+:app:compileProdDebugNdk (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileProdDebugSources (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugSources
+Skipping task ':app:compileProdDebugSources' as it has no actions.
+:app:compileProdDebugSources UP-TO-DATE
+:app:compileProdDebugSources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prePackageMarkerForProdDebug (Thread[Daemon worker,5,main]) started.
+:app:prePackageMarkerForProdDebug
+Executing task ':app:prePackageMarkerForProdDebug' (up-to-date check took 0.001 secs) due to:
+  Value of input property 'buildId' has changed for task ':app:prePackageMarkerForProdDebug'
+All input files are considered out-of-date for incremental task ':app:prePackageMarkerForProdDebug'.
+:app:prePackageMarkerForProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:transformClassesWithDexForProdDebug (Thread[Daemon worker,5,main]) started.
+:app:transformClassesWithDexForProdDebug
+Skipping task ':app:transformClassesWithDexForProdDebug' as it is up-to-date (took 0.008 secs).
+:app:transformClassesWithDexForProdDebug UP-TO-DATE
+:app:transformClassesWithDexForProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.012 secs.
+:app:mergeProdDebugJniLibFolders (Thread[Daemon worker,5,main]) started.
+:app:mergeProdDebugJniLibFolders
+Skipping task ':app:mergeProdDebugJniLibFolders' as it is up-to-date (took 0.001 secs).
+:app:mergeProdDebugJniLibFolders UP-TO-DATE
+:app:mergeProdDebugJniLibFolders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:transformNative_libsWithMergeJniLibsForProdDebug (Thread[Daemon worker,5,main]) started.
+:app:transformNative_libsWithMergeJniLibsForProdDebug
+Skipping task ':app:transformNative_libsWithMergeJniLibsForProdDebug' as it is up-to-date (took 0.002 secs).
+:app:transformNative_libsWithMergeJniLibsForProdDebug UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:processProdDebugJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processProdDebugJavaRes
+Skipping task ':app:processProdDebugJavaRes' as it has no source files.
+:app:processProdDebugJavaRes UP-TO-DATE
+:app:processProdDebugJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:transformResourcesWithMergeJavaResForProdDebug (Thread[Daemon worker,5,main]) started.
+:app:transformResourcesWithMergeJavaResForProdDebug
+Skipping task ':app:transformResourcesWithMergeJavaResForProdDebug' as it is up-to-date (took 0.004 secs).
+:app:transformResourcesWithMergeJavaResForProdDebug UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.007 secs.
+:app:packageProdDebug (Thread[Daemon worker,5,main]) started.
+:app:packageProdDebug
+Executing task ':app:packageProdDebug' (up-to-date check took 0.006 secs) due to:
+  Input file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/resources-prod-debug.ap_ has changed.
+:app:packageProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.811 secs.
+:app:zipalignProdDebug (Thread[Daemon worker,5,main]) started.
+:app:zipalignProdDebug
+Executing task ':app:zipalignProdDebug' (up-to-date check took 0.001 secs) due to:
+  Input file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/outputs/apk/app-prod-debug-unaligned.apk has changed.
+Starting process 'command '/Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/zipalign''. Working directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app Command: /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/zipalign -f 4 /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/outputs/apk/app-prod-debug-unaligned.apk /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/outputs/apk/app-prod-debug.apk
+Successfully started process 'command '/Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/zipalign''
+:app:zipalignProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.024 secs.
+:app:assembleProdDebug (Thread[Daemon worker,5,main]) started.
+:app:assembleProdDebug
+Skipping task ':app:assembleProdDebug' as it has no actions.
+:app:assembleProdDebug (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:assembleDebug (Thread[Daemon worker,5,main]) started.
+:app:assembleDebug
+Skipping task ':app:assembleDebug' as it has no actions.
+:app:assembleDebug (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:checkProdReleaseManifest (Thread[Daemon worker,5,main]) started.
+:app:checkProdReleaseManifest
+Executing task ':app:checkProdReleaseManifest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:checkProdReleaseManifest (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareProdReleaseDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareProdReleaseDependencies
+Executing task ':app:prepareProdReleaseDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareProdReleaseDependencies (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileProdReleaseAidl (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseAidl
+Skipping task ':app:compileProdReleaseAidl' as it is up-to-date (took 0.002 secs).
+:app:compileProdReleaseAidl UP-TO-DATE
+:app:compileProdReleaseAidl (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:compileProdReleaseRenderscript (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseRenderscript
+Skipping task ':app:compileProdReleaseRenderscript' as it is up-to-date (took 0.002 secs).
+:app:compileProdReleaseRenderscript UP-TO-DATE
+:app:compileProdReleaseRenderscript (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:generateProdReleaseBuildConfig (Thread[Daemon worker,5,main]) started.
+:app:generateProdReleaseBuildConfig
+Skipping task ':app:generateProdReleaseBuildConfig' as it is up-to-date (took 0.002 secs).
+:app:generateProdReleaseBuildConfig UP-TO-DATE
+:app:generateProdReleaseBuildConfig (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:mergeProdReleaseShaders (Thread[Daemon worker,5,main]) started.
+:app:mergeProdReleaseShaders
+Skipping task ':app:mergeProdReleaseShaders' as it is up-to-date (took 0.001 secs).
+:app:mergeProdReleaseShaders UP-TO-DATE
+:app:mergeProdReleaseShaders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:compileProdReleaseShaders (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseShaders
+Skipping task ':app:compileProdReleaseShaders' as it is up-to-date (took 0.001 secs).
+:app:compileProdReleaseShaders UP-TO-DATE
+:app:compileProdReleaseShaders (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:generateProdReleaseAssets (Thread[Daemon worker,5,main]) started.
+:app:generateProdReleaseAssets
+Skipping task ':app:generateProdReleaseAssets' as it has no actions.
+:app:generateProdReleaseAssets UP-TO-DATE
+:app:generateProdReleaseAssets (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:mergeProdReleaseAssets (Thread[Daemon worker,5,main]) started.
+:app:mergeProdReleaseAssets
+Skipping task ':app:mergeProdReleaseAssets' as it is up-to-date (took 0.002 secs).
+:app:mergeProdReleaseAssets UP-TO-DATE
+:app:mergeProdReleaseAssets (Thread[Daemon worker,5,main]) completed. Took 0.004 secs.
+:app:generateProdReleaseResValues (Thread[Daemon worker,5,main]) started.
+:app:generateProdReleaseResValues
+Skipping task ':app:generateProdReleaseResValues' as it is up-to-date (took 0.001 secs).
+:app:generateProdReleaseResValues UP-TO-DATE
+:app:generateProdReleaseResValues (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:generateProdReleaseResources (Thread[Daemon worker,5,main]) started.
+:app:generateProdReleaseResources
+Skipping task ':app:generateProdReleaseResources' as it has no actions.
+:app:generateProdReleaseResources UP-TO-DATE
+:app:generateProdReleaseResources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:mergeProdReleaseResources (Thread[Daemon worker,5,main]) started.
+:app:mergeProdReleaseResources
+Executing task ':app:mergeProdReleaseResources' (up-to-date check took 0.086 secs) due to:
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/blame/res/prod/release/single/drawable-xxhdpi-v4.json has changed.
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/blame/res/prod/release/single/layout.json has changed.
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/blame/res/prod/release/single/drawable-xhdpi-v4.json has changed.
+All input files are considered out-of-date for incremental task ':app:mergeProdReleaseResources'.
+Unable do incremental execution: full task run
+QueuedCruncher is using /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/aapt
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xhdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxxhdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xhdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xhdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxhdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xhdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-mdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxhdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-hdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-ldpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-hdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-mdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxxhdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-mdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxhdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxxhdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxxhdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxhdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-mdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-ldpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxxhdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xhdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-ldpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-ldpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-hdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxxhdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxxhdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxhdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-ldpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xhdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxhdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxhdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxxhdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-mdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xhdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xhdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-hdpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xhdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-mdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-mdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-hdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-hdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-ldpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-hdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-hdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxhdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-ldpi/ic_check_circle_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_check_circle_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-mdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxxhdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-ldpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-mdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-hdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-hdpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xhdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxhdpi/ic_statistics_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-ldpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxhdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xhdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-mdpi/ic_verified_user_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_verified_user_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxxhdpi/ic_menu.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_menu.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxxhdpi/ic_assignment_turned_in_24dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-mdpi/ic_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-ldpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxhdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxhdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-mdpi/ic_edit.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_edit.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-ldpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xxxhdpi/ic_statistics.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-xhdpi/ic_statistics_100dp.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_statistics_100dp.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-hdpi/ic_add.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_add.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-ldpi/ic_filter_list.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_filter_list.xml]
+Generating PNG: [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/res/pngs/prod/release/drawable-hdpi/ic_done.png] from [/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/main/res/drawable/ic_done.xml]
+:app:mergeProdReleaseResources (Thread[Daemon worker,5,main]) completed. Took 0.587 secs.
+:app:processProdReleaseManifest (Thread[Daemon worker,5,main]) started.
+:app:processProdReleaseManifest
+Skipping task ':app:processProdReleaseManifest' as it is up-to-date (took 0.002 secs).
+:app:processProdReleaseManifest UP-TO-DATE
+:app:processProdReleaseManifest (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:processProdReleaseResources (Thread[Daemon worker,5,main]) started.
+:app:processProdReleaseResources
+Executing task ':app:processProdReleaseResources' (up-to-date check took 0.013 secs) due to:
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/resources-prod-release.ap_ has changed.
+All input files are considered out-of-date for incremental task ':app:processProdReleaseResources'.
+Starting process 'command '/Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/aapt''. Working directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app Command: /Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/aapt package -f --no-crunch -I /Users/lee/Documents/soft/android-sdk-macosx/platforms/android-23/android.jar -M /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/manifests/full/prod/release/AndroidManifest.xml -S /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/merged/prod/release -A /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/assets/prod/release -m -J /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/generated/source/r/prod/release -F /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/resources-prod-release.ap_ -G /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/proguard-rules/prod/release/aapt_rules.txt --debug-mode --custom-package com.example.android.architecture.blueprints.todoapp -0 apk --output-text-symbols /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/symbols/prod/release --no-version-vectors
+Successfully started process 'command '/Users/lee/Documents/soft/android-sdk-macosx/build-tools/23.0.2/aapt''
+:app:processProdReleaseResources (Thread[Daemon worker,5,main]) completed. Took 0.322 secs.
+:app:generateProdReleaseSources (Thread[Daemon worker,5,main]) started.
+:app:generateProdReleaseSources
+Skipping task ':app:generateProdReleaseSources' as it has no actions.
+:app:generateProdReleaseSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:incrementalProdReleaseJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalProdReleaseJavaCompilationSafeguard
+Skipping task ':app:incrementalProdReleaseJavaCompilationSafeguard' as it is up-to-date (took 0.002 secs).
+:app:incrementalProdReleaseJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalProdReleaseJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:compileProdReleaseJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/release/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/prodRelease/java', not found
+Skipping task ':app:compileProdReleaseJavaWithJavac' as it is up-to-date (took 0.008 secs).
+:app:compileProdReleaseJavaWithJavac UP-TO-DATE
+:app:compileProdReleaseJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.009 secs.
+:app:compileProdReleaseNdk (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseNdk
+Skipping task ':app:compileProdReleaseNdk' as it has no source files.
+:app:compileProdReleaseNdk UP-TO-DATE
+:app:compileProdReleaseNdk (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileProdReleaseSources (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseSources
+Skipping task ':app:compileProdReleaseSources' as it has no actions.
+:app:compileProdReleaseSources UP-TO-DATE
+:app:compileProdReleaseSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:prePackageMarkerForProdRelease (Thread[Daemon worker,5,main]) started.
+:app:prePackageMarkerForProdRelease
+Executing task ':app:prePackageMarkerForProdRelease' (up-to-date check took 0.0 secs) due to:
+  Value of input property 'buildId' has changed for task ':app:prePackageMarkerForProdRelease'
+All input files are considered out-of-date for incremental task ':app:prePackageMarkerForProdRelease'.
+:app:prePackageMarkerForProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:unzipJacocoAgent (Thread[Daemon worker,5,main]) started.
+:app:unzipJacocoAgent
+Skipping task ':app:unzipJacocoAgent' as it is up-to-date (took 0.001 secs).
+:app:unzipJacocoAgent UP-TO-DATE
+:app:unzipJacocoAgent (Thread[Daemon worker,5,main]) completed. Took 0.017 secs.
+:app:transformClassesWithJacocoForProdRelease (Thread[Daemon worker,5,main]) started.
+:app:transformClassesWithJacocoForProdRelease
+Skipping task ':app:transformClassesWithJacocoForProdRelease' as it is up-to-date (took 0.006 secs).
+:app:transformClassesWithJacocoForProdRelease UP-TO-DATE
+:app:transformClassesWithJacocoForProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.007 secs.
+:app:processProdReleaseJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processProdReleaseJavaRes
+Skipping task ':app:processProdReleaseJavaRes' as it has no source files.
+:app:processProdReleaseJavaRes UP-TO-DATE
+:app:processProdReleaseJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:transformResourcesWithMergeJavaResForProdRelease (Thread[Daemon worker,5,main]) started.
+:app:transformResourcesWithMergeJavaResForProdRelease
+Skipping task ':app:transformResourcesWithMergeJavaResForProdRelease' as it is up-to-date (took 0.002 secs).
+:app:transformResourcesWithMergeJavaResForProdRelease UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:transformClassesAndResourcesWithProguardForProdRelease (Thread[Daemon worker,5,main]) started.
+:app:transformClassesAndResourcesWithProguardForProdRelease
+Skipping task ':app:transformClassesAndResourcesWithProguardForProdRelease' as it is up-to-date (took 0.004 secs).
+:app:transformClassesAndResourcesWithProguardForProdRelease UP-TO-DATE
+:app:transformClassesAndResourcesWithProguardForProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.005 secs.
+:app:transformClassesWithDexForProdRelease (Thread[Daemon worker,5,main]) started.
+:app:transformClassesWithDexForProdRelease
+Skipping task ':app:transformClassesWithDexForProdRelease' as it is up-to-date (took 0.002 secs).
+:app:transformClassesWithDexForProdRelease UP-TO-DATE
+:app:transformClassesWithDexForProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:mergeProdReleaseJniLibFolders (Thread[Daemon worker,5,main]) started.
+:app:mergeProdReleaseJniLibFolders
+Skipping task ':app:mergeProdReleaseJniLibFolders' as it is up-to-date (took 0.001 secs).
+:app:mergeProdReleaseJniLibFolders UP-TO-DATE
+:app:mergeProdReleaseJniLibFolders (Thread[Daemon worker,5,main]) completed. Took 0.002 secs.
+:app:transformNative_libsWithMergeJniLibsForProdRelease (Thread[Daemon worker,5,main]) started.
+:app:transformNative_libsWithMergeJniLibsForProdRelease
+Skipping task ':app:transformNative_libsWithMergeJniLibsForProdRelease' as it is up-to-date (took 0.001 secs).
+:app:transformNative_libsWithMergeJniLibsForProdRelease UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:packageProdRelease (Thread[Daemon worker,5,main]) started.
+:app:packageProdRelease
+Executing task ':app:packageProdRelease' (up-to-date check took 0.002 secs) due to:
+  Input file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/intermediates/res/resources-prod-release.ap_ has changed.
+:app:packageProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.289 secs.
+:app:assembleProdRelease (Thread[Daemon worker,5,main]) started.
+:app:assembleProdRelease
+Skipping task ':app:assembleProdRelease' as it has no actions.
+:app:assembleProdRelease (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:assembleRelease (Thread[Daemon worker,5,main]) started.
+:app:assembleRelease
+Skipping task ':app:assembleRelease' as it has no actions.
+:app:assembleRelease (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:assemble (Thread[Daemon worker,5,main]) started.
+:app:assemble
+Skipping task ':app:assemble' as it has no actions.
+:app:assemble (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:compileLint (Thread[Daemon worker,5,main]) started.
+:app:compileLint
+Executing task ':app:compileLint' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:compileLint (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:lint (Thread[Daemon worker,5,main]) started.
+:app:lint
+Executing task ':app:lint' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Ran lint on variant prodDebug: 32 issues found
+Ran lint on variant mockDebug: 32 issues found
+Ran lint on variant prodRelease: 32 issues found
+Wrote HTML report to file:///Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/outputs/lint-results-mockDebug.html
+Wrote XML report to file:///Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/outputs/lint-results-mockDebug.xml
+:app:lint (Thread[Daemon worker,5,main]) completed. Took 5.917 secs.
+:app:incrementalMockDebugUnitTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalMockDebugUnitTestJavaCompilationSafeguard
+Skipping task ':app:incrementalMockDebugUnitTestJavaCompilationSafeguard' as it has no source files.
+:app:incrementalMockDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalMockDebugUnitTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:preMockDebugUnitTestBuild (Thread[Daemon worker,5,main]) started.
+:app:preMockDebugUnitTestBuild
+Skipping task ':app:preMockDebugUnitTestBuild' as it has no actions.
+:app:preMockDebugUnitTestBuild UP-TO-DATE
+:app:preMockDebugUnitTestBuild (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareMockDebugUnitTestDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareMockDebugUnitTestDependencies
+Executing task ':app:prepareMockDebugUnitTestDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareMockDebugUnitTestDependencies (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileMockDebugUnitTestJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugUnitTestJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testMock/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testDebug/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testMockDebug/java', not found
+Skipping task ':app:compileMockDebugUnitTestJavaWithJavac' as it is up-to-date (took 0.011 secs).
+:app:compileMockDebugUnitTestJavaWithJavac UP-TO-DATE
+:app:compileMockDebugUnitTestJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.014 secs.
+:app:processMockDebugUnitTestJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processMockDebugUnitTestJavaRes
+Skipping task ':app:processMockDebugUnitTestJavaRes' as it has no source files.
+:app:processMockDebugUnitTestJavaRes UP-TO-DATE
+:app:processMockDebugUnitTestJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileMockDebugUnitTestSources (Thread[Daemon worker,5,main]) started.
+:app:compileMockDebugUnitTestSources
+Skipping task ':app:compileMockDebugUnitTestSources' as it has no actions.
+:app:compileMockDebugUnitTestSources UP-TO-DATE
+:app:compileMockDebugUnitTestSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:mockableAndroidJar (Thread[Daemon worker,5,main]) started.
+:app:mockableAndroidJar
+Skipping task ':app:mockableAndroidJar' as it is up-to-date (took 0.0 secs).
+:app:mockableAndroidJar UP-TO-DATE
+:app:mockableAndroidJar (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:assembleMockDebugUnitTest (Thread[Daemon worker,5,main]) started.
+:app:assembleMockDebugUnitTest
+Skipping task ':app:assembleMockDebugUnitTest' as it has no actions.
+:app:assembleMockDebugUnitTest UP-TO-DATE
+:app:assembleMockDebugUnitTest (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:testMockDebugUnitTest (Thread[Daemon worker,5,main]) started.
+:app:testMockDebugUnitTest
+Executing task ':app:testMockDebugUnitTest' (up-to-date check took 0.021 secs) due to:
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/test-results/mockDebug/TEST-com.example.android.architecture.blueprints.todoapp.junit.mockito.TaskDetailPresenterMockitoUnitTest.xml has changed.
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/reports/tests/mockDebug/packages/com.example.android.architecture.blueprints.todoapp.statistics.html has changed.
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/test-results/mockDebug/TEST-com.example.android.architecture.blueprints.todoapp.tasks.TasksPresenterTest.xml has changed.
+Starting process 'Gradle Test Executor 1'. Working directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app Command: /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java -Djava.awt.headless=true -Djava.security.manager=jarjar.org.gradle.process.internal.child.BootstrapSecurityManager -javaagent:build/tmp/expandedArchives/org.jacoco.agent-0.7.6.201602180812.jar_20dme2i6vm941kd3f4mjaxvd0/jacocoagent.jar=destfile=build/jacoco/testMockDebugUnitTest.exec,append=true,dumponexit=true,output=file,jmx=false -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -ea -cp /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/workerMain/gradle-worker.jar jarjar.org.gradle.process.internal.launcher.GradleWorkerMain 'Gradle Test Executor 1'
+Successfully started process 'Gradle Test Executor 1'
+objc[2581]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java and /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/libinstrument.dylib. One of the two will be used. Which one is undefined.
+Gradle Test Executor 1 started executing tests.
+
+com.example.android.architecture.blueprints.todoapp.junit.CalculatorJunitUnitTest > testFactorial SKIPPED
+
+com.example.android.architecture.blueprints.todoapp.junit.robolectric.WelcomeActivityUnitTest > clickingLogin_shouldStartLoginActivity STANDARD_OUT
+    start onClick
+    start onClick
+    intent:null
+    expectedIntent:Intent { cmp=com.example.android.architecture.blueprints.todomvpunittest.mock/com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskActivity }
+Gradle Test Executor 1 finished executing tests.
+Finished generating test XML results (0.009 secs) into: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/test-results/mockDebug
+Generating HTML test report...
+Finished generating test html results (0.03 secs) into: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/reports/tests/mockDebug
+:app:testMockDebugUnitTest (Thread[Daemon worker,5,main]) completed. Took 7.62 secs.
+:app:incrementalProdDebugUnitTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalProdDebugUnitTestJavaCompilationSafeguard
+Skipping task ':app:incrementalProdDebugUnitTestJavaCompilationSafeguard' as it has no source files.
+:app:incrementalProdDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalProdDebugUnitTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:preProdDebugUnitTestBuild (Thread[Daemon worker,5,main]) started.
+:app:preProdDebugUnitTestBuild
+Skipping task ':app:preProdDebugUnitTestBuild' as it has no actions.
+:app:preProdDebugUnitTestBuild UP-TO-DATE
+:app:preProdDebugUnitTestBuild (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:prepareProdDebugUnitTestDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareProdDebugUnitTestDependencies
+Executing task ':app:prepareProdDebugUnitTestDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareProdDebugUnitTestDependencies (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileProdDebugUnitTestJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugUnitTestJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testProd/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testDebug/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testProdDebug/java', not found
+Skipping task ':app:compileProdDebugUnitTestJavaWithJavac' as it is up-to-date (took 0.008 secs).
+:app:compileProdDebugUnitTestJavaWithJavac UP-TO-DATE
+:app:compileProdDebugUnitTestJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.01 secs.
+:app:processProdDebugUnitTestJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processProdDebugUnitTestJavaRes
+Skipping task ':app:processProdDebugUnitTestJavaRes' as it has no source files.
+:app:processProdDebugUnitTestJavaRes UP-TO-DATE
+:app:processProdDebugUnitTestJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:compileProdDebugUnitTestSources (Thread[Daemon worker,5,main]) started.
+:app:compileProdDebugUnitTestSources
+Skipping task ':app:compileProdDebugUnitTestSources' as it has no actions.
+:app:compileProdDebugUnitTestSources UP-TO-DATE
+:app:compileProdDebugUnitTestSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:assembleProdDebugUnitTest (Thread[Daemon worker,5,main]) started.
+:app:assembleProdDebugUnitTest
+Skipping task ':app:assembleProdDebugUnitTest' as it has no actions.
+:app:assembleProdDebugUnitTest UP-TO-DATE
+:app:assembleProdDebugUnitTest (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:testProdDebugUnitTest (Thread[Daemon worker,5,main]) started.
+:app:testProdDebugUnitTest
+Executing task ':app:testProdDebugUnitTest' (up-to-date check took 0.016 secs) due to:
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/test-results/prodDebug/TEST-com.example.android.architecture.blueprints.todoapp.data.source.TasksRepositoryTest.xml has changed.
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/reports/tests/prodDebug/classes/com.example.android.architecture.blueprints.todoapp.junit.mockito.StatisticsPresenterMockitoUnitTest.html has changed.
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/reports/tests/prodDebug/packages/com.example.android.architecture.blueprints.todoapp.tasks.html has changed.
+Starting process 'Gradle Test Executor 2'. Working directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app Command: /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java -Djava.awt.headless=true -Djava.security.manager=jarjar.org.gradle.process.internal.child.BootstrapSecurityManager -javaagent:build/tmp/expandedArchives/org.jacoco.agent-0.7.6.201602180812.jar_20dme2i6vm941kd3f4mjaxvd0/jacocoagent.jar=destfile=build/jacoco/testProdDebugUnitTest.exec,append=true,dumponexit=true,output=file,jmx=false -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -ea -cp /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/workerMain/gradle-worker.jar jarjar.org.gradle.process.internal.launcher.GradleWorkerMain 'Gradle Test Executor 2'
+Successfully started process 'Gradle Test Executor 2'
+objc[2583]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java and /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/libinstrument.dylib. One of the two will be used. Which one is undefined.
+Gradle Test Executor 2 started executing tests.
+
+com.example.android.architecture.blueprints.todoapp.junit.CalculatorJunitUnitTest > testFactorial SKIPPED
+
+com.example.android.architecture.blueprints.todoapp.junit.robolectric.WelcomeActivityUnitTest > clickingLogin_shouldStartLoginActivity STANDARD_OUT
+    start onClick
+    start onClick
+    intent:null
+    expectedIntent:Intent { cmp=com.example.android.architecture.blueprints.todomvpunittest.mvp.apk/com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskActivity }
+Gradle Test Executor 2 finished executing tests.
+Finished generating test XML results (0.003 secs) into: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/test-results/prodDebug
+Generating HTML test report...
+Finished generating test html results (0.01 secs) into: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/reports/tests/prodDebug
+:app:testProdDebugUnitTest (Thread[Daemon worker,5,main]) completed. Took 8.186 secs.
+:app:incrementalProdReleaseUnitTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) started.
+:app:incrementalProdReleaseUnitTestJavaCompilationSafeguard
+Skipping task ':app:incrementalProdReleaseUnitTestJavaCompilationSafeguard' as it has no source files.
+:app:incrementalProdReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:app:incrementalProdReleaseUnitTestJavaCompilationSafeguard (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:preProdReleaseUnitTestBuild (Thread[Daemon worker,5,main]) started.
+:app:preProdReleaseUnitTestBuild
+Skipping task ':app:preProdReleaseUnitTestBuild' as it has no actions.
+:app:preProdReleaseUnitTestBuild UP-TO-DATE
+:app:preProdReleaseUnitTestBuild (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:prepareProdReleaseUnitTestDependencies (Thread[Daemon worker,5,main]) started.
+:app:prepareProdReleaseUnitTestDependencies
+Executing task ':app:prepareProdReleaseUnitTestDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareProdReleaseUnitTestDependencies (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileProdReleaseUnitTestJavaWithJavac (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseUnitTestJavaWithJavac
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testProd/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testRelease/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/testProdRelease/java', not found
+Skipping task ':app:compileProdReleaseUnitTestJavaWithJavac' as it is up-to-date (took 0.006 secs).
+:app:compileProdReleaseUnitTestJavaWithJavac UP-TO-DATE
+:app:compileProdReleaseUnitTestJavaWithJavac (Thread[Daemon worker,5,main]) completed. Took 0.008 secs.
+:app:processProdReleaseUnitTestJavaRes (Thread[Daemon worker,5,main]) started.
+:app:processProdReleaseUnitTestJavaRes
+Skipping task ':app:processProdReleaseUnitTestJavaRes' as it has no source files.
+:app:processProdReleaseUnitTestJavaRes UP-TO-DATE
+:app:processProdReleaseUnitTestJavaRes (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileProdReleaseUnitTestSources (Thread[Daemon worker,5,main]) started.
+:app:compileProdReleaseUnitTestSources
+Skipping task ':app:compileProdReleaseUnitTestSources' as it has no actions.
+:app:compileProdReleaseUnitTestSources UP-TO-DATE
+:app:compileProdReleaseUnitTestSources (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:assembleProdReleaseUnitTest (Thread[Daemon worker,5,main]) started.
+:app:assembleProdReleaseUnitTest
+Skipping task ':app:assembleProdReleaseUnitTest' as it has no actions.
+:app:assembleProdReleaseUnitTest UP-TO-DATE
+:app:assembleProdReleaseUnitTest (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:testProdReleaseUnitTest (Thread[Daemon worker,5,main]) started.
+:app:testProdReleaseUnitTest
+Executing task ':app:testProdReleaseUnitTest' (up-to-date check took 0.014 secs) due to:
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/test-results/prodRelease/TEST-com.example.android.architecture.blueprints.todoapp.junit.CalculatorJunitUnitTest.xml has changed.
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/test-results/prodRelease/TEST-com.example.android.architecture.blueprints.todoapp.statistics.StatisticsPresenterTest.xml has changed.
+  Output file /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/test-results/binary/testProdReleaseUnitTest/results.bin has changed.
+Starting process 'Gradle Test Executor 3'. Working directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app Command: /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java -Djava.awt.headless=true -Djava.security.manager=jarjar.org.gradle.process.internal.child.BootstrapSecurityManager -javaagent:build/tmp/expandedArchives/org.jacoco.agent-0.7.6.201602180812.jar_20dme2i6vm941kd3f4mjaxvd0/jacocoagent.jar=destfile=build/jacoco/testProdReleaseUnitTest.exec,append=true,dumponexit=true,output=file,jmx=false -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -ea -cp /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/workerMain/gradle-worker.jar jarjar.org.gradle.process.internal.launcher.GradleWorkerMain 'Gradle Test Executor 3'
+Successfully started process 'Gradle Test Executor 3'
+objc[2590]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java and /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/libinstrument.dylib. One of the two will be used. Which one is undefined.
+Gradle Test Executor 3 started executing tests.
+
+com.example.android.architecture.blueprints.todoapp.junit.CalculatorJunitUnitTest > testFactorial SKIPPED
+
+com.example.android.architecture.blueprints.todoapp.junit.robolectric.WelcomeActivityUnitTest > clickingLogin_shouldStartLoginActivity STANDARD_OUT
+    start onClick
+    start onClick
+    intent:null
+    expectedIntent:Intent { cmp=com.example.android.architecture.blueprints.todomvpunittest.mvp.apk/com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskActivity }
+Gradle Test Executor 3 finished executing tests.
+Finished generating test XML results (0.003 secs) into: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/test-results/prodRelease
+Generating HTML test report...
+Finished generating test html results (0.007 secs) into: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/reports/tests/prodRelease
+:app:testProdReleaseUnitTest (Thread[Daemon worker,5,main]) completed. Took 7.773 secs.
+:app:test (Thread[Daemon worker,5,main]) started.
+:app:test
+Skipping task ':app:test' as it has no actions.
+:app:test (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:check (Thread[Daemon worker,5,main]) started.
+:app:check
+Skipping task ':app:check' as it has no actions.
+:app:check (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:build (Thread[Daemon worker,5,main]) started.
+:app:build
+Skipping task ':app:build' as it has no actions.
+:app:build (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:compileUnitTestJava (Thread[Daemon worker,5,main]) started.
+:app:compileUnitTestJava
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/unitTest/java', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/test', not found
+Skipping task ':app:compileUnitTestJava' as it has no source files.
+:app:compileUnitTestJava UP-TO-DATE
+:app:compileUnitTestJava (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:processUnitTestResources (Thread[Daemon worker,5,main]) started.
+:app:processUnitTestResources
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/src/unitTest/resources', not found
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/test/resources', not found
+Skipping task ':app:processUnitTestResources' as it has no source files.
+:app:processUnitTestResources UP-TO-DATE
+:app:processUnitTestResources (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:unitTestClasses (Thread[Daemon worker,5,main]) started.
+:app:unitTestClasses
+Skipping task ':app:unitTestClasses' as it has no actions.
+:app:unitTestClasses UP-TO-DATE
+:app:unitTestClasses (Thread[Daemon worker,5,main]) completed. Took 0.0 secs.
+:app:unitTest (Thread[Daemon worker,5,main]) started.
+:app:unitTest
+file or directory '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/classes/unitTest', not found
+Skipping task ':app:unitTest' as it has no source files.
+:app:unitTest UP-TO-DATE
+:app:unitTest (Thread[Daemon worker,5,main]) completed. Took 0.001 secs.
+:app:jacocoTestReport (Thread[Daemon worker,5,main]) started.
+:app:jacocoTestReport
+Skipping task ':app:jacocoTestReport' as task onlyIf is false.
+:app:jacocoTestReport SKIPPED
+:app:jacocoTestReport (Thread[Daemon worker,5,main]) completed. Took 0.003 secs.
+:app:sonarRunner (Thread[Daemon worker,5,main]) started.
+:app:sonarRunner
+Executing task ':app:sonarRunner' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Executing SonarQube Runner with properties:
+[sonar.projectName: todomvpunittest, sonar.projectVersion: unspecified, sonar.projectBaseDir: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app, sonar.dynamicAnalysis: reuseReports, sonar.projectKey: todo-mvp-unit-test:app, sonar.environment.information.key: Gradle, sonar.environment.information.version: 2.11, sonar.working.directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/sonar, sonar.java.source: 1.8, sonar.java.target: 1.8, sonar.sources: src/main/java, sonar.host.url: http://localhost:9000/, sonar.jdbc.url: jdbc:mysql://localhost:3306/sonar, sonar.jdbc.driverClassName: com.mysql.jdbc.Driver, sonar.jdbc.username: sonar, sonar.jdbc.password: sonar, sonar.language: java, sonar.tests: src/test/java, sonar.binaries: build, sonar.password: admin, sonar.login: admin]
+Starting process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java''. Working directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app Command: /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java -Dproject.home=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app -Dproject.settings=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/tmp/sonarRunner/sonar-project.properties -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -cp /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-test/caches/modules-2/files-2.1/org.codehaus.sonar.runner/sonar-runner-dist/2.3/48e39e521b2888a5ab775f9220666597850562/sonar-runner-dist-2.3.jar org.sonar.runner.Main
+Successfully started process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java''
+SonarQube Runner 2.3
+Java 1.8.0_71 Oracle Corporation (64-bit)
+Mac OS X 10.10.5 x86_64
+INFO: Runner configuration file: NONE
+INFO: Project configuration file: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/tmp/sonarRunner/sonar-project.properties
+INFO: Default locale: "zh_CN", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Work directory: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/sonar
+INFO: SonarQube Server 5.6
+21:18:22.786 INFO  - Load global repositories
+21:18:22.972 INFO  - Load global repositories (done) | time=193ms
+21:18:22.997 WARN  - Property 'sonar.jdbc.url' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+21:18:22.998 WARN  - Property 'sonar.jdbc.username' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+21:18:22.998 WARN  - Property 'sonar.jdbc.password' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+21:18:22.999 INFO  - User cache: /Users/lee/.sonar/cache
+21:18:23.241 INFO  - Load plugins index
+21:18:23.244 INFO  - Load plugins index (done) | time=3ms
+21:18:23.788 INFO  - Process project properties
+21:18:23.946 INFO  - Load project repositories
+21:18:24.050 INFO  - Load project repositories (done) | time=104ms
+21:18:24.128 INFO  - Load quality profiles
+21:18:24.159 INFO  - Load quality profiles (done) | time=31ms
+21:18:24.165 INFO  - Load active rules
+21:18:24.626 INFO  - Load active rules (done) | time=461ms
+21:18:24.636 WARN  - 'sonar.dynamicAnalysis' is deprecated since version 4.3 and should no longer be used.
+21:18:24.672 WARN  - SCM provider autodetection failed. No SCM provider claims to support this project. Please use sonar.scm.provider to define SCM of your project.
+21:18:24.672 INFO  - Publish mode
+21:18:24.674 INFO  - -------------  Scan todomvpunittest
+21:18:24.811 INFO  - Language is forced to java
+21:18:24.820 INFO  - Load server rules
+21:18:24.932 INFO  - Load server rules (done) | time=112ms
+21:18:25.051 INFO  - Base dir: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app
+21:18:25.051 INFO  - Working dir: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/sonar
+21:18:25.053 INFO  - Source paths: src/main/java
+21:18:25.053 INFO  - Test paths: src/test/java
+21:18:25.053 INFO  - Binary dirs: build
+21:18:25.054 INFO  - Source encoding: UTF-8, default locale: zh_CN
+21:18:25.054 INFO  - Index files
+21:18:25.127 INFO  - 41 files indexed
+21:18:25.138 INFO  - Quality profile for java: Sonar way
+21:18:25.958 INFO  - Sensor Lines Sensor
+21:18:25.974 INFO  - Sensor Lines Sensor (done) | time=16ms
+21:18:25.974 INFO  - Sensor JavaSquidSensor
+21:18:26.251 INFO  - Configured Java source version (sonar.java.source): 8
+21:18:26.260 INFO  - JavaClasspath initialization
+21:18:26.261 WARN  - Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+21:18:26.261 INFO  - JavaClasspath initialization (done) | time=1ms
+21:18:26.262 INFO  - JavaTestClasspath initialization
+21:18:26.262 WARN  - Bytecode of dependencies was not provided for analysis of test files, you might end up with less precise results. Bytecode can be provided using sonar.java.test.libraries property
+21:18:26.262 INFO  - JavaTestClasspath initialization (done) | time=0ms
+21:18:26.479 INFO  - Java Main Files AST scan
+21:18:26.481 INFO  - 31 source files to be analyzed
+21:18:28.093 INFO  - Java Main Files AST scan (done) | time=1614ms
+21:18:28.093 INFO  - 31/31 source files have been analyzed
+21:18:28.093 WARN  - Java bytecode has not been made available to the analyzer. The  are disabled.
+21:18:28.093 INFO  - Java Test Files AST scan
+21:18:28.093 INFO  - 10 source files to be analyzed
+21:18:28.252 INFO  - Java Test Files AST scan (done) | time=159ms
+21:18:28.252 INFO  - 10/10 source files have been analyzed
+21:18:28.252 INFO  - Sensor JavaSquidSensor (done) | time=2278ms
+21:18:28.253 INFO  - Sensor Sonar-Sonargraph-Plugin [3.5]
+21:18:28.255 INFO  - ----------------------------------------------------------------
+21:18:28.255 INFO  - Sonargraph: Skipping project todomvpunittest [todo-mvp-unit-test:app], since no Sonargraph rules are activated in current SonarQube quality profile.
+21:18:28.255 INFO  - ----------------------------------------------------------------
+21:18:28.255 INFO  - Sensor Sonar-Sonargraph-Plugin [3.5] (done) | time=2ms
+21:18:28.255 INFO  - Sensor Objective-C OCLint Sensor
+21:18:28.255 WARN  - OCLint report not found at /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/sonar-reports/oclint.xml
+21:18:28.255 INFO  - Sensor Objective-C OCLint Sensor (done) | time=0ms
+21:18:28.255 INFO  - Sensor SCM Sensor
+21:18:28.255 INFO  - No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+21:18:28.255 INFO  - Sensor SCM Sensor (done) | time=0ms
+21:18:28.256 INFO  - Sensor SurefireSensor
+21:18:28.256 INFO  - parsing /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/target/surefire-reports
+21:18:28.256 INFO  - Sensor SurefireSensor (done) | time=0ms
+21:18:28.256 INFO  - Sensor JaCoCoSensor
+21:18:28.266 INFO  - No JaCoCo analysis of project coverage can be done since there is no class files.
+21:18:28.266 INFO  - Sensor JaCoCoSensor (done) | time=10ms
+21:18:28.266 INFO  - Sensor JaCoCoItSensor
+21:18:28.267 INFO  - JaCoCoItSensor: JaCoCo IT report not found: /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/jacoco/*-it*.exec
+21:18:28.267 INFO  - No JaCoCo analysis of project coverage can be done since there is no class files.
+21:18:28.267 INFO  - Sensor JaCoCoItSensor (done) | time=1ms
+21:18:28.267 INFO  - Sensor JaCoCoOverallSensor
+21:18:28.271 INFO  - Analysing /Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build/jacoco/testProdReleaseUnitTest.exec
+21:18:28.304 INFO  - No JaCoCo analysis of project coverage can be done since there is no class files.
+21:18:28.304 INFO  - Sensor JaCoCoOverallSensor (done) | time=37ms
+21:18:28.304 INFO  - Sensor XmlFileSensor
+21:18:28.305 INFO  - Sensor XmlFileSensor (done) | time=1ms
+21:18:28.305 INFO  - Sensor Zero Coverage Sensor
+21:18:28.341 INFO  - Sensor Zero Coverage Sensor (done) | time=36ms
+21:18:28.341 INFO  - Sensor Code Colorizer Sensor
+21:18:28.343 INFO  - Sensor Code Colorizer Sensor (done) | time=2ms
+21:18:28.343 INFO  - Sensor CPD Block Indexer
+21:18:28.343 INFO  - JavaCpdBlockIndexer is used for java
+21:18:28.428 INFO  - Sensor CPD Block Indexer (done) | time=85ms
+21:18:28.433 INFO  - Calculating CPD for 24 files
+21:18:28.455 INFO  - CPD calculation finished
+21:18:28.629 INFO  - Analysis report generated in 158ms, dir size=302 KB
+21:18:28.718 INFO  - Analysis reports compressed in 88ms, zip size=152 KB
+21:18:28.743 INFO  - Analysis report uploaded in 25ms
+21:18:28.743 INFO  - ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/todo-mvp-unit-test:app
+21:18:28.744 INFO  - Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+21:18:28.744 INFO  - More about the report processing at http://localhost:9000/api/ce/task?id=AVbRTSN_R4_4qwCFVNJV
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 6.706s
+Final Memory: 23M/540M
+INFO: ------------------------------------------------------------------------
+:app:sonarRunner (Thread[Daemon worker,5,main]) completed. Took 7.064 secs.
+
+BUILD SUCCESSFUL
+
+Total time: 48.909 secs
+21:18:28.968 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_settings class cache for settings file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/settings.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/settings_bb79ubhtg05ptjgo3rcadxpze/cp_settings).
+21:18:28.968 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on settings class cache for settings file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/settings.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/settings_bb79ubhtg05ptjgo3rcadxpze/settings).
+21:18:28.968 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/build.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/build_aucj1haju137emwpfkjo1h74q/cp_proj).
+21:18:28.968 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/build.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/build_aucj1haju137emwpfkjo1h74q/proj).
+21:18:28.968 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/build_1iz9tm755llg2kb6u36oyecni/cp_proj).
+21:18:28.968 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app/build.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/build_1iz9tm755llg2kb6u36oyecni/proj).
+21:18:28.968 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_dsl class cache for script '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/jacoco_robolectric.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/jacoco_robolectric_931z6ltmevga0ve6na0xozfy1/cp_dsl).
+21:18:28.968 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on dsl class cache for script '/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/jacoco_robolectric.gradle' (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/scripts/jacoco_robolectric_931z6ltmevga0ve6na0xozfy1/dsl).
+21:18:28.975 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache outputFileStates.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/outputFileStates.bin)
+21:18:28.976 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/fileSnapshots.bin)
+21:18:28.976 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/fileHashes.bin)
+21:18:28.976 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts/taskArtifacts.bin)
+21:18:28.976 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/.gradle/2.11/taskArtifacts).
+21:18:28.976 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 60, cache instances: 5, modules served from cache: 451, artifacts: 147
+21:18:28.976 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/metadata-2.16/artifact-at-repository.bin)
+21:18:28.976 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/metadata-2.16/module-metadata.bin)
+21:18:28.976 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2/metadata-2.16/module-versions.bin)
+21:18:28.977 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/modules-2).
+21:18:28.977 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+21:18:28.977 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 16 (avg: 0.0 secs, total: 0.011 secs)
+21:18:28.977 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.0 secs
+21:18:28.977 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/plugin-resolution) was closed 0 times.
+21:18:28.978 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+21:18:28.978 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+21:18:28.978 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cache directory workerMain (/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/caches/2.11/workerMain).
+21:18:28.978 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+21:18:29.266 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon stop has been requested. Sleeping until state changes.
+21:18:29.267 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = BuildAndStop{id=0637c996-49f2-407c-a3e6-9f06f0f5120c.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@69520f1b]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@2eb7aad7 with state StopRequested
+21:18:29.267 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = BuildAndStop{id=0637c996-49f2-407c-a3e6-9f06f0f5120c.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@69520f1b]
+21:18:29.267 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1472390309267
+21:18:29.267 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to command completed and stop requested. The daemon is running a build: false
+21:18:29.267 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon has stopped.
+21:18:29.267 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+21:18:29.267 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+21:18:29.267 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=null]
+21:18:29.267 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [7863f1f7-2ebb-425a-9e6b-9e665d6076e2 port:63373, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+21:18:29.268 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Success
+21:18:29.268 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [7863f1f7-2ebb-425a-9e6b-9e665d6076e2 port:63373, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+21:18:29.268 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+21:18:29.269 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: BuildAndStop{id=0637c996-49f2-407c-a3e6-9f06f0f5120c.1, currentDir=/Users/lee/Documents/soft/jenkins/workspace/todo-mvp-unit-test/app}
+21:18:29.270 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+21:18:29.271 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+21:18:29.272 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Address removed from registry.
+21:18:29.273 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.Finished
+21:18:29.274 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@57c46f19
+21:18:29.274 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@57c46f19
+21:18:29.274 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+21:18:29.275 [DEBUG] [org.gradle.messaging.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+21:18:29.275 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received null
+21:18:29.275 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+21:18:29.275 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+21:18:29.276 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [7863f1f7-2ebb-425a-9e6b-9e665d6076e2 port:63373, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+21:18:29.276 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+21:18:29.276 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+21:18:29.276 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
